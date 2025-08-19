@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../IMAGENES/ico.png" type="image/x-icon">
+  <meta name="robots" content="noindex, nofollow">
+  <title>SPORTSPLAY ® | Ligas y Competiciones</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <link rel="stylesheet" href="../CSS/esctiloslyc.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <video autoplay muted loop id="video-fondo">
+        <source src="../VIDEOS/SOCCER INTRO - IRIXEX COMMERCIAL (1080p, h264) (online-video-cutter.com).mp4" type="video/mp4">
+    </video>
+
+    <header>
+      <div class="container">
+
+        <!-- Logo o título -->
+        <h1>
+          <a href="../index.html" style="text-decoration: none; color: inherit;">SportsPLAY</a>
+        </h1>
+        <p class="text-white mb-3">Tu portal de canales y partidos en vivo</p>
+
+        <!-- NAVBAR completa -->
+        <nav class="navbar navbar-expand-lg custom-navbar px-0">
+          <div class="container-fluid px-0">
+
+            <!-- Hamburguesa + "Menú" + lupa (solo en móviles) -->
+            <div class="d-flex d-lg-none justify-content-between align-items-center w-100 px-3 py-2">
+              <div class="d-flex align-items-center">
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                  aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <span class="text-white fw-bold fs-6">Menú</span>
+              </div>
+              <button class="btn text-white p-0">
+                <i class="fas fa-search fs-5"></i>
+              </button>
+            </div>
+
+            <!-- Menú principal -->
+            <div class="collapse navbar-collapse justify-content-center" id="menuPrincipal">
+              <ul class="navbar-nav text-center flex-wrap">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../index.html#canales">CANALES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../HTML/repeticiones.html">REPETICIONES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../HTML/programacion.html">PROGRAMACIÓN</a>
+                </li>
+                <li class="nav-item dropdown position-relative">
+                  <a class="nav-link dropdown-toggle fw-bold text-white px-4" href="#" data-bs-toggle="dropdown">DEPORTES</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../HTML/ligascompeticiones.html">Fútbol</a></li>
+                    <li><a class="dropdown-item" href="../HTML/lucha-libre.html">Lucha Libre</a></li>
+                    <li><a class="dropdown-item" href="../HTML/programacion.html">Otros</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-frame" style="padding: 20px;">
+        <!-- Imagen arriba de Competiciones Populares -->
+        <div class="image-container">
+            <img src="../IMAGENES/logo.png" alt="Imagen" class="imagen-competiciones">
+        </div>
+
+        <h1 class="titulo-evento">COMPETICIONES PUPULARES</h1>
+        <div class="button-container">
+            <!-- Botones como antes -->
+            <button id="champions" onclick="window.open('https://es.uefa.com/uefachampionsleague/fixtures-results/#/d/2023-10-04', '_blank');">
+                <img alt="Champions League Icon" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Logo_UEFA_Champions_League.png">
+                Champions League
+            </button>
+            <button id="europa" onclick="window.open('https://es.uefa.com/uefaeuropaleague/', '_blank');">
+                <img alt="Europa League Icon" src="https://cdn.resfu.com/img_data/competiciones/logo/117.png?size=120x&lossy=1">
+                Europa League
+            </button>
+            <button id="premier" onclick="window.open('https://www.premierleague.com/', '_blank');">
+                <img alt="Premier League Icon" src="https://cdn.resfu.com/img_data/competiciones/logo/10.png?size=120x&lossy=1">
+                Premier League
+            </button>
+            <button id="libertadores" onclick="window.open('https://conmebollibertadores.com/', '_blank');">
+                <img alt="Copa Libertadores Icon" src="https://cdn.resfu.com/img_data/competiciones/logo/204.png?size=120x&lossy=1">
+                Copa Libertadores
+            </button>
+            <button id="mls" onclick="window.open('https://www.mlssoccer.com/', '_blank');">
+                <img alt="MLS - Liga USA Icon" src="https://cdn.resfu.com/img_data/competiciones/logo/69.png?size=120x&lossy=1">
+                MLS - Liga USA
+            </button>
+            <button id="betplay" onclick="window.open('https://www.winsports.co/categoria/liga-betplay-dimayor', '_blank');">
+                <img alt="Liga Betplay Icon" src="https://i.postimg.cc/YqpdQTy6/liga-betplay-2020-logo-png-seeklogo-428216-1.png">
+                Liga Betplay
+            </button>
+            <button id="saudi" onclick="window.open('https://spl.com.sa/en', '_blank');">
+                <img alt="Liga Saudí Icon" src="https://cdn.resfu.com/img_data/competiciones/logo/61.png?size=120x&lossy=1">
+                Liga Saudí
+            </button>
+            <button id="ligue1" onclick="window.open('https://www.ligue1.com/', '_blank');">
+                <img alt="Ligue 1 Icon" src="https://cdn.resfu.com/img_data/competiciones/logo/16.png?size=120x&lossy=1">
+                Ligue 1
+            </button>
+            <button id="laliga" onclick="window.open('https://www.laliga.com/en-CO', '_blank');">
+                <img alt="LaLiga Icon" src="https://assets.laliga.com/assets/logos/LL_RGB_h_color/LL_RGB_h_color.png">
+                LaLiga
+            </button>
+        </div>
+    </main>
+
+    <footer>
+        © 2025 SportsPlay. Todos los derechos reservados.
+    </footer>
+</body>
+</html>

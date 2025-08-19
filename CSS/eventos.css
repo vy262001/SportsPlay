@@ -1,0 +1,445 @@
+/* === Estilos para FutbolPlay === */
+
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* VIDEO DE FONDO */
+#video-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  filter: blur(10px) brightness(0.7);
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* ENCABEZADO */
+
+header {
+  position: relative;
+  background-color: #000;
+  padding: 25px 0 10px;
+  text-align: center;
+  border-bottom: 2px solid #1f6feb;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #eb1f1f;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1rem;
+  color: #c9d1d9;
+  margin-bottom: 5px;
+}
+
+/* LOGO POSICIONADO ARRIBA A LA IZQUIERDA */
+.logo {
+  width: 150px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* NAVBAR GENÉRICO */
+nav ul,
+.navbar-nav,
+.nav-destacada,
+header nav ul.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-left: 0;
+  margin: 10px 0;
+}
+
+
+nav ul li a:hover,
+.nav-item .nav-link:hover,
+.nav-destacada li a:hover,
+header nav ul.nav li a:hover {
+  color: #ffffff !important;
+}
+
+.custom-navbar .navbar-nav {
+  margin: auto;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.custom-navbar .nav-link {
+  color: #ffffff !important;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #eb1f1f !important;
+  background-color: rgba(255, 255, 255, 0.05);
+  transform: scale(1.05);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* MAIN */
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+/* SECCIONES GENERALES */
+section h1 {
+  color: #f0f6fc;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 4px #000;
+}
+
+/* CARDS GENERALES */
+.card {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.card-title {
+  color: #ffffff;
+}
+
+.card-text {
+  color: #c9d1d9;
+}
+
+/* CARD UNIFORME */
+.card-uniforme {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-uniforme .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-uniforme .card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* CARD DESTACADA */
+.card-destacada {
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  height: 400px;
+}
+
+.card-destacada img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 12px;
+}
+
+.card-destacada .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 20px;
+  transition: background 0.3s ease;
+}
+
+.card-destacada .overlay h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+
+.card-destacada .overlay p {
+  margin: 5px 0 0;
+  color: #dddddd;
+  font-size: 1rem;
+}
+
+.card-destacada:hover .overlay {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* TRANSMISIÓN */
+.card-transmision {
+  height: auto;
+}
+
+.card-transmision .preframe {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  background-color: #000;
+  border-radius: 12px;
+}
+
+.card-transmision iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.paypal-donacion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.paypal-enlace {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.paypal-logo {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.paypal-boton {
+    background-color: #0070ba;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.paypal-boton:hover {
+    transform: scale(1.05);
+    background-color: #005c9c;
+}
+
+#sidebar-scroll {
+  overflow-y: auto;
+  max-height: 360px; /* Asegura que nunca sobrepase la altura del video */
+}
+
+/* Estilo opcional para scrollbar bonito */
+#sidebar-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+#sidebar-scroll::-webkit-scrollbar-thumb {
+  background-color: #666;
+  border-radius: 3px;
+}
+
+#contenedor-eventos {
+  scroll-snap-type: x mandatory;
+  padding-bottom: 1rem;
+}
+
+#contenedor-eventos .card {
+  width: 270px;
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  border-radius: 12px;
+}
+
+.temporizador {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff !important;
+}
+
+/* Caja para el evento próximo */
+#proximo-evento {
+  background: #242834;
+  padding: 12px 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+/* Cada evento en vivo en línea */
+.evento-en-vivo {
+  background: linear-gradient(to right, #0d2c36, #2a5063);
+  padding: 12px 20px;
+  border-radius: 10px;
+  width: 90%;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+}
+
+.evento-en-vivo .btn {
+  font-size: 0.9rem;
+}
+
+/* === RESPONSIVE SOLO PARA MÓVIL === */
+@media (max-width: 576px) {
+  #contenedor-cards > .col-12,
+  #contenedor-cards > .col-sm-6,
+  #contenedor-cards > .col-md-3 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .card-evento {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .card-evento img {
+    height: auto;
+    max-height: none;
+    object-fit: cover;
+  }
+
+  #filtros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .filtro-evento {
+    flex: 1 1 45%;
+    min-width: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  #contenedor-cards .col-12,
+  #contenedor-cards .col-sm-6,
+  #contenedor-cards .col-md-3 {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .card.card-evento {
+    width: 100% !important;
+    margin: 0 auto;
+  }
+
+  .card.card-evento img {
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.navbar-nav .dropdown {
+  position: relative;
+}
+
+.dropdown-item {
+  color: white;
+  padding: 12px 20px;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #eb1f1f;
+  color: white;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+    z-index: 1000;
+    border-radius: 0.5rem;
+    background-color: #000;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+    padding: 0.3rem 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    transform: translateY(10px);
+  }
+
+  .navbar-nav .dropdown:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu {
+    display: none;
+    position: static;
+    float: none;
+    transform: none;
+    box-shadow: none;
+    background-color: #000;
+    opacity: 1;
+    visibility: visible;
+    padding: 0.3rem 0;
+    border-radius: 0.5rem;
+  }
+
+  .dropdown.show .dropdown-menu {
+    display: block;
+  }
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>SPORTSPLAY ® | Repeticiones</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="../IMAGENES/ico.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <link rel="stylesheet" href="../CSS/rep.css">
+</head>
+<body class="bg-dark text-white d-flex flex-column min-vh-100">
+
+  <!-- HEADER CON NAVBAR RESPONSIVE -->
+    <header>
+      <div class="container">
+
+        <!-- Logo o título -->
+        <h1>
+          <a href="../index.html" style="text-decoration: none; color: inherit;">SportsPLAY</a>
+        </h1>
+        <p class="text-white mb-3">Tu portal de canales y partidos en vivo</p>
+
+        <!-- NAVBAR completa -->
+        <nav class="navbar navbar-expand-lg custom-navbar px-0">
+          <div class="container-fluid px-0">
+
+            <!-- Hamburguesa + "Menú" + lupa (solo en móviles) -->
+            <div class="d-flex d-lg-none justify-content-between align-items-center w-100 px-3 py-2">
+              <div class="d-flex align-items-center">
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                  aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <span class="text-white fw-bold fs-6">Menú</span>
+              </div>
+              <button class="btn text-white p-0">
+                <i class="fas fa-search fs-5"></i>
+              </button>
+            </div>
+
+            <!-- Menú principal -->
+            <div class="collapse navbar-collapse justify-content-center" id="menuPrincipal">
+              <ul class="navbar-nav text-center flex-wrap">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../index.html#canales">CANALES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../HTML/repeticiones.html">REPETICIONES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../HTML/programacion.html">PROGRAMACIÓN</a>
+                </li>
+                <li class="nav-item dropdown position-relative">
+                  <a class="nav-link dropdown-toggle fw-bold text-white px-4" href="#" data-bs-toggle="dropdown">DEPORTES</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../HTML/ligascompeticiones.html">Fútbol</a></li>
+                    <li><a class="dropdown-item" href="../HTML/lucha-libre.html">Lucha Libre</a></li>
+                    <li><a class="dropdown-item" href="../HTML/programacion.html">Otros</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      </div>
+    </header>
+
+  <!-- Temporizador del próximo evento -->
+  <div id="proximo-evento" class="evento-box text-center text-white fw-bold my-3 fs-6">
+  <!-- Se insertará desde JS -->
+  </div>
+
+  <!-- Eventos actualmente en vivo -->
+  <div id="eventos-en-vivo" class="evento-boxes mb-3 d-flex flex-column gap-2 align-items-center">
+  <!-- Se insertan desde JS -->
+  </div>
+
+
+  <div class="text-center mb-4">
+  <a href="../HTML/programacion.html" class="btn-programacion">
+  <img src="../IMAGENES/ico.png" alt="Ícono" class="icono-btn me-2">
+    VER PROGRAMACIÓN
+    </a>
+  </div>
+
+  <!-- Filtros por evento -->
+  <div class="text-center mb-4 px-2" id="filtros">
+    <!-- Botones de filtro dinámicos -->
+  </div>
+
+  <!-- Galería de eventos -->
+<main class="container py-3">
+  <h2 class="text-white mb-4 text-center">REPETICIONES DE EVENTOS</h2>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 justify-content-center" id="contenedor-cards">
+    <!-- Cards dinámicas -->
+  </div>
+
+  <!-- Paginación -->
+  <div class="d-flex justify-content-center mt-4" id="paginacion"></div>
+</main>
+
+  <!-- Modal de Reproductor -->
+  <div class="modal fade" id="modalReproductor" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+      <div class="modal-content bg-dark border border-primary">
+        <div class="modal-header border-0">
+          <h5 class="modal-title text-white" id="modalLabel">🎥 Repetición en Vivo</h5>
+          <button type="button" class="btn-close bg-white" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body">
+          <div class="ratio ratio-16x9">
+            <iframe id="iframeModal" src="" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-light bg-black py-3 mt-auto">
+    © 2025 SportsPlay. Todos los derechos reservados.
+  </footer>
+
+<!-- Primero el de eventos -->
+<script src="../JS/eventos.js"></script>
+
+<!-- Luego el de repeticiones -->
+<script src="../JS/repeticiones.js"></script>
+
+</body>
+</html>

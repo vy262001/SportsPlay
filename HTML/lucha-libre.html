@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="1X9NUY7yeDawwlujvEhHcsPs19ESJfERjPJ3AV_HtUY" />
+  <title>SPORTSPLAY ® | Lucha Libre</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="icon" href="../IMAGENES/ico.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../CSS/luchalibre.css" />
+</head>
+<body>
+
+  <video autoplay muted loop id="video-fondo">
+    <source src="../VIDEOS/Wrestling Ring Virtual Background.mp4" type="video/mp4">
+  </video>
+
+    <header>
+      <div class="container">
+
+        <!-- Logo o título -->
+        <h1>
+          <a href="../index.html" style="text-decoration: none; color: inherit;">SportsPLAY</a>
+        </h1>
+        <p class="text-white mb-3">Tu portal de canales y partidos en vivo</p>
+
+        <!-- NAVBAR completa -->
+        <nav class="navbar navbar-expand-lg custom-navbar px-0">
+          <div class="container-fluid px-0">
+
+            <!-- Hamburguesa + "Menú" + lupa (solo en móviles) -->
+            <div class="d-flex d-lg-none justify-content-between align-items-center w-100 px-3 py-2">
+              <div class="d-flex align-items-center">
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                  aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <span class="text-white fw-bold fs-6">Menú</span>
+              </div>
+              <button class="btn text-white p-0">
+                <i class="fas fa-search fs-5"></i>
+              </button>
+            </div>
+
+            <!-- Menú principal -->
+            <div class="collapse navbar-collapse justify-content-center" id="menuPrincipal">
+              <ul class="navbar-nav text-center flex-wrap">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../index.html#canales">CANALES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../HTML/repeticiones.html">REPETICIONES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="../HTML/programacion.html">PROGRAMACIÓN</a>
+                </li>
+                <li class="nav-item dropdown position-relative">
+                  <a class="nav-link dropdown-toggle fw-bold text-white px-4" href="#" data-bs-toggle="dropdown">DEPORTES</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="../HTML/ligascompeticiones.html">Fútbol</a></li>
+                    <li><a class="dropdown-item" href="../HTML/lucha-libre.html">Lucha Libre</a></li>
+                    <li><a class="dropdown-item" href="../HTML/programacion.html">Otros</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      </div>
+    </header>
+
+
+  <!-- Temporizador del próximo evento -->
+  <div id="proximo-evento" class="evento-box text-center text-white fw-bold my-3 fs-6">
+    <!-- Se insertará desde JS -->
+  </div>
+
+  <!-- Eventos actualmente en vivo -->
+  <div id="eventos-en-vivo" class="evento-boxes mb-3 d-flex flex-column gap-2 align-items-center">
+    <!-- Se insertan desde JS -->
+  </div>
+
+  <!-- Botón de programación -->
+  <div class="text-center mb-4">
+    <a href="../HTML/programacion.html" class="btn-programacion">
+      <img src="../IMAGENES/ico.png" alt="Ícono" class="icono-btn me-2">
+      VER PROGRAMACIÓN
+    </a>
+  </div>
+
+<!-- EMPRESAS DESTACADAS -->
+  <section class="container mt-5">
+    <h1 class="text-center mb-4">Empresas de Lucha Libre</h1>
+    <div class="row gy-4 justify-content-center">
+
+      <!-- Repetimos una por una -->
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://www.wwe.com/" target="_blank" class="text-decoration-none">
+          <div class="card card-uniforme h-100 shadow-sm">
+            <img src="https://files.datathistle.com/images/2023/11/07/wwe-live-LST379051.jpg" class="card-img-top" alt="WWE" />
+            <div class="card-body">
+              <h5 class="card-title">WWE</h5>
+              <p class="card-text">Raw, SmackDown, NXT y PPVs como WrestleMania, SummerSlam, MITB…</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://www.allelitewrestling.com/" target="_blank" class="text-decoration-none">
+          <div class="card card-uniforme h-100 shadow-sm">
+            <img src="https://cdn.wrestlingheadlines.com/wp-content/uploads/2024/10/01-aew-logo-3.jpg" class="card-img-top" alt="AEW" />
+            <div class="card-body">
+              <h5 class="card-title">AEW</h5>
+              <p class="card-text">Dynamite, Rampage, Collision y PPVs como All In, Double or Nothing…</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://www.ringofhonor.com/" target="_blank" class="text-decoration-none">
+          <div class="card card-uniforme h-100 shadow-sm">
+            <img src="https://img.solowrestling.com/images/140/140726-roh.jpg" class="card-img-top" alt="ROH" />
+            <div class="card-body">
+              <h5 class="card-title">ROH</h5>
+              <p class="card-text">Ring of Honor: lucha técnica, campeonatos históricos y legado independiente.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://tnawrestling.com/" target="_blank" class="text-decoration-none">
+          <div class="card card-uniforme h-100 shadow-sm">
+            <img src="https://cultaholic.com/_next/image?url=%2Fmedia%2FTNA%20logo%20from%20July%202024.jpg&w=3840&q=75" class="card-img-top" alt="TNA" />
+            <div class="card-body">
+              <h5 class="card-title">TNA</h5>
+              <p class="card-text">Impact Wrestling (TNA): legado con AJ Styles, Samoa Joe, Kurt Angle.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://www.ufcespanol.com/" target="_blank" class="text-decoration-none">
+          <div class="card card-uniforme h-100 shadow-sm">
+            <img src="https://arena-tour.co.uk/wp-content/uploads/2025/01/UFC-concert-London.webp" class="card-img-top" alt="UFC" />
+            <div class="card-body">
+              <h5 class="card-title">UFC</h5>
+              <p class="card-text">Eventos numerados, Fight Nights, UFC 300, títulos mundiales y más acción de MMA.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://www.njpw1972.com/" target="_blank" class="text-decoration-none">
+          <div class="card card-uniforme h-100 shadow-sm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWZAO-bV2MTiJzlIgyofHt5vzFL3EFBM98Ww&s" class="card-img-top" alt="NJPW" />
+            <div class="card-body">
+              <h5 class="card-title">NJPW</h5>
+              <p class="card-text">New Japan Pro-Wrestling: lucha fuerte, Wrestle Kingdom y leyendas japonesas.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://luchalibreaaa.com/" target="_blank" class="text-decoration-none">
+          <div class="card card-uniforme h-100 shadow-sm">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8dua-OJrh1JFD-aZjAZMfHZ_UL7lHJfMmlQ&s" class="card-img-top" alt="AAA" />
+            <div class="card-body">
+              <h5 class="card-title">AAA</h5>
+              <p class="card-text">Lucha Libre AAA: tradición mexicana, máscaras, sangre y espectáculo.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="https://cmll.com/" target="_blank" class="text-decoration-none">
+          <div class="card card-uniforme h-100 shadow-sm">
+            <img src="https://i.namu.wiki/i/GnThKPkxWrE38z2cF6qnP6PRGna80qqDhKFIUvQ3xKPSk_Myo5jR-WwkoTKGSndUVuuWVwV6jmkRJ1eVzZ5p6w.webp" class="card-img-top" alt="CMLL" />
+            <div class="card-body">
+              <h5 class="card-title">CMLL</h5>
+              <p class="card-text">Consejo Mundial de Lucha Libre: la empresa más antigua del mundo en acción.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="mt-5 text-center">
+    <p>© 2025 SportsPLAY. Todos los derechos reservados.</p>
+    <div class="paypal-donacion">
+      <a href="https://www.paypal.com/donate/?hosted_button_id=CAQWXQQWKSNKU" target="_blank" class="paypal-enlace">
+        <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" alt="PayPal" class="paypal-logo">
+        <button class="paypal-boton">Donar con PayPal</button>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../JS/eventos.js"></script>
+</body>
+</html>

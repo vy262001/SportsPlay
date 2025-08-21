@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" href="./IMAGENES/ico.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="1X9NUY7yeDawwlujvEhHcsPs19ESJfERjPJ3AV_HtUY" />
+    <title>SPORTSPLAY ® | Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./CSS/estilosfp.css">
+</head>
+
+
+<body>
+
+    <video autoplay muted loop id="video-fondo">
+        <source src="./VIDEOS/UEFA champions league starball loop - 4VAR 4MAN2 (720p, h264).mp4" type="video/mp4">
+    </video>
+
+    <header>
+      <div class="container">
+        <img class="logo img-fluid mb-2" src="./IMAGENES/logo.png" alt="Logo" style="max-width: 150px;" />
+        <p class="text-white mb-3">Tu portal de canales y partidos en vivo</p>
+
+        <!-- NAVBAR completa -->
+        <nav class="navbar navbar-expand-lg custom-navbar px-0">
+          <div class="container-fluid px-0">
+
+            <!-- Hamburguesa + "Menú" + lupa (solo visible en móviles) -->
+            <div class="d-flex d-lg-none justify-content-between align-items-center w-100 px-3 py-2">
+              <div class="d-flex align-items-center">
+                <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+                  aria-controls="menuPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <span class="text-white fw-bold fs-6">Menú</span>
+              </div>
+              <button class="btn text-white p-0">
+                <i class="fas fa-search fs-5"></i>
+              </button>
+            </div>
+
+            <!-- Menú principal (visible siempre en PC y colapsable en móvil) -->
+            <div class="collapse navbar-collapse justify-content-center" id="menuPrincipal">
+              <ul class="navbar-nav text-center flex-wrap">
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="#canales">CANALES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="./HTML/repeticiones.html">REPETICIONES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold text-white px-4" href="./HTML/programacion.html">PROGRAMACIÓN</a>
+                </li>
+                <li class="nav-item dropdown position-relative">
+                  <a class="nav-link dropdown-toggle fw-bold text-white px-4" href="#" data-bs-toggle="dropdown">DEPORTES</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./HTML/ligascompeticiones.html">Fútbol</a></li>
+                    <li><a class="dropdown-item" href="./HTML/lucha-libre.html">Lucha Libre</a></li>
+                    <li><a class="dropdown-item" href="./HTML/programacion.html">Otros</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    
+    <!-- Temporizador del próximo evento -->
+    <div id="proximo-evento" class="evento-box text-center text-white fw-bold my-3 fs-6">
+    <!-- Se insertará desde JS -->
+    </div>
+
+    <!-- Eventos actualmente en vivo -->
+    <div id="eventos-en-vivo" class="evento-boxes mb-3 d-flex flex-column gap-2 align-items-center">
+    <!-- Se insertan desde JS -->
+    </div>
+
+
+        <div class="text-center mb-4">
+        <a href="./HTML/programacion.html" class="btn-programacion">
+            <img src="./IMAGENES/ico.png" alt="Ícono" class="icono-btn me-2">
+            VER PROGRAMACIÓN
+        </a>
+        </div>
+
+        <!-- Contenido principal -->
+        <main class="container mt-5 flex-grow-1">
+            <!-- Entrada destacada -->
+        <div class="card-destacada mb-5"></div>
+            </a>
+        </div>
+
+        <!-- Contenedor de Eventos Hoy -->
+        <section class="contenedor-eventos-hoy mt-4 mb-4">
+          <div class="cuadro-eventos-hoy">
+            <h2 id="eventos-hoy-titulo"></h2>
+            
+            <div id="eventos-hoy" class="lista-eventos-hoy">
+              <!-- JS insertará los eventos aquí -->
+            </div>
+
+            <!-- Botón de Ver Programación -->
+            <div class="text-center mt-4">
+              <a href="./HTML/programacion.html" class="btn-programacion">
+                VER PROGRAMACIÓN
+              </a>
+            </div>
+
+          </div>
+        </section>
+        
+        <main class="container mt-5 flex-grow-1">
+        <div id="contenedor-canales"></div>
+        </main>
+
+    </main>    
+
+        <section class="container my-5">
+        <div class="row justify-content-center">
+            <!-- Reproductor principal -->
+            <div class="col-lg-8 mb-4">
+            <div class="ratio ratio-16x9">
+                <iframe id="main-video" src="https://www.youtube.com/embed/EvRC9NWRJUw" allowfullscreen></iframe>
+            </div>
+            </div>
+
+            <!-- Lista de videos -->
+            <div class="col-lg-4">
+            <div id="sidebar-scroll" class="list-group"></div>
+            </div>
+        </div>
+        </section>
+
+    <footer>
+        © 2025 SportsPlay. Todos los derechos reservados.
+        <div class="paypal-donacion">
+            <a href="https://www.paypal.com/donate/?hosted_button_id=CAQWXQQWKSNKU" target="_blank" class="paypal-enlace">
+                <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" alt="PayPal" class="paypal-logo">
+                <button class="paypal-boton">Donar con PayPal</button>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./JS/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+<script src="./JS/eventos.js"></script>
+<script src="./JS/opcionesEventos.js"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+      const contenedorDestacado = document.querySelector(".card-destacada");
+
+      function actualizarEventoDestacado() {
+        if (typeof eventos !== "undefined" && eventos.length > 0 && contenedorDestacado) {
+          const ahora = new Date();
+
+          const eventosVigentes = eventos.filter(evento =>
+            evento.destacado &&
+            evento.fijarComoDestacado &&
+            new Date(evento.fin) > ahora
+          );
+
+          if (eventosVigentes.length > 0) {
+            const másPróximo = eventosVigentes.reduce((prev, actual) => {
+              const tiempoPrev = Math.abs(new Date(prev.inicio) - ahora);
+              const tiempoAct = Math.abs(new Date(actual.inicio) - ahora);
+              return tiempoAct < tiempoPrev ? actual : prev;
+            });
+
+            if (contenedorDestacado.getAttribute("data-evento") !== másPróximo.titulo) {
+              contenedorDestacado.setAttribute("data-evento", másPróximo.titulo);
+              contenedorDestacado.innerHTML = `
+                <a href="${másPróximo.enlace}">
+                  <img src="${másPróximo.imagenDestacada}" alt="Evento destacado" class="img-fluid">
+                  <div class="overlay" style="color: white;">
+                    <h2>${másPróximo.tituloDestacado}</h2>
+                    <p>${másPróximo.descripcion}</p>
+                  </div>
+                </a>`;
+            }
+          } else {
+            contenedorDestacado.innerHTML = `<div class="p-4 text-white">No hay eventos destacados en este momento.</div>`;
+          }
+        }
+      }
+
+      actualizarEventoDestacado();
+      setInterval(actualizarEventoDestacado, 60000);
+    }, 300); // Espera 300ms para que eventos.js esté cargado
+  });
+</script>
+
+
+<!-- Botón flotante elegante de volver arriba -->
+<button id="btnVolverArriba" title="Volver arriba">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+</body>
+</html>

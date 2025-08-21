@@ -1,0 +1,22 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/HTML/index.html" },
+    { "source": "/programacion/", "destination": "/HTML/programacion.html" },
+    { "source": "/ligascompeticiones/", "destination": "/HTML/ligascompeticiones.html" },
+    { "source": "/lucha-libre/", "destination": "/HTML/lucha-libre.html" },
+    { "source": "/dsports/", "destination": "/HTML/Dsports.html" },
+    { "source": "/espn/", "destination": "/HTML/ESPN.html" },
+    { "source": "/espn2/", "destination": "/HTML/ESPN2.html" },
+    { "source": "/espndeportesusa/", "destination": "/HTML/espndeportesusa.html" },
+    { "source": "/foxmx/", "destination": "/HTML/FoxMX.html" },
+    { "source": "/generador_eventos/", "destination": "/HTML/generador_eventos.html" },
+    { "source": "/tntsportsa/", "destination": "/HTML/tntsportsa.html" },
+    { "source": "/tudnmx/", "destination": "/HTML/TUDNMX.html" },
+    { "source": "/tycsports/", "destination": "/HTML/tycsports.html" },
+    { "source": "/winplus/", "destination": "/HTML/Winplus.html" },
+    { "source": "/destacada1/", "destination": "/HTML/destacada.html" },
+    { "source": "/destacada2/", "destination": "/HTML/destacada2.html" },
+    { "source": "/destacada3/", "destination": "/HTML/destacada3.html" },
+    { "source": "/destacada4/", "destination": "/HTML/destacada4.html" }
+  ]
+}

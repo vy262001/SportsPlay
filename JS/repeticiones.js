@@ -1,5 +1,23 @@
 const eventosRepeticiones = [
   {
+    titulo: "TNA iMPACT! 21 de Agosto 2025 Repeticion",
+    evento: "TNA",
+    imagen: "https://img.solowrestling.com/images/143/143562-tna.jpg",
+    url: "//ok.ru/videoembed/9657158863460?nochat=1"
+  },
+  {
+    titulo: "AEW Dynamite 20 de Agosto 2025 Repetición",
+    evento: "DYNAMITE",
+    imagen: "https://i0.wp.com/aiptcomics.com/wp-content/uploads/2025/08/Gyy3_pKWQAAK6Fp.jpeg?resize=740%2C416&ssl=1",
+    url: "//ok.ru/videoembed/9370525305499?nochat=1"
+  },
+  {
+    titulo: "WWE NXT 19 de Agosto 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://img.solowrestling.com/images/143/mobile143506-wwe-nxt.jpg",
+    url: "//ok.ru/videoembed/9356994415259?nochat=1"
+  },
+  {
     titulo: "WWE RAW 18 de Agosto 2025 Repetición",
     evento: "RAW",
     imagen: "https://i0.wp.com/www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/08/20250815_RAW_Netflix_Match_JeyBron_16x9_tonight.jpg?resize=740%2C416&ssl=1",

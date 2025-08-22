@@ -46,35 +46,23 @@ showsSemanales.forEach(show => {
 // ================================
 // Eventos de Fútbol
 Object.assign(opcionesEventos, {
-  "Godoy Cruz Vs Mineiro - Copa Sudamericana": [
-    { enlace: "/HTML/Dsports.html" }
-  ],
-  "LDU Quito Vs Botafogo - Copa Libertadores 2025": [
-    { enlace: "/HTML/beinespañol.htmll" }
-  ],
-  "Lanús Vs Central - Copa Sudamericana": [
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "River Plate Vs Libertad - Copa Libertadores 2025": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Palmeiras Vs Universitario - Copa Libertadores 2025": [
+  "Bayern Munich Vs RB Leipzig - Bundesliga": [
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/espndeportesusa.html" },
     { enlace: "/HTML/Disneyplus.html" }
   ],
-  "Bayern Munich Vs RB Leipzig - Bundesliga": [
-    { enlace: "/HTML/DAZN1.html" }
-  ],
   "Barracas Vs Defensa y Justicia - Liga Argentina": [
-    { enlace: "/HTML/tycsports2.html" }
+    { enlace: "/HTML/tntsportsa.html" }
   ],
   "West Ham Vs Chelsea - Premier League": [
-    { enlace: "/HTML/DAZN2.html" }
+    { enlace: "/HTML/Disneyplus3.html" }
   ],
   "Real Betis Vs Alavés - La Liga": [
-    { enlace: "/HTML/DAZNLALIGA.html" }
+    { enlace: "/HTML/MovistarLaLiga.html" },
+    { enlace: "/HTML/ESPN4.html" }
   ],
   "Tigre Vs Independiente Rivadavia - Liga Argentina": [
-    { enlace: "/HTML/tycsports2.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Boyacá Chicó Vs Deportivo Cali - Liga BetPlay": [
     { enlace: "/HTML/Winplus.html" }
@@ -329,16 +317,18 @@ function mostrarEventosHoy() {
 
         const nombreBonito = {
           "espndeportesusa.html": "ESPN Deportes USA",
-          "beinespañol.html": "Bein Sports",
+          "beinesp.html": "Bein Sports",
           "Winplus.html": "Win Sports+",
           "ESPNPremium.html": "ESPN Premium",
           "FoxSportsPremium.html": "Fox Sports Premium",
           "tycsports2.html": "TyC Sports 2",
           "tycsports.html": "TyC Sports",
           "TUDNMX.html": "TUDN MX",
+          "TUDNUSA.html": "TUDN USA",
           "FoxMX.html": "Fox Sports MX",
           "FoxMX2.html": "Fox Sports MX 2",
           "Fox1Arg.html": "Fox Sports 1 Argentina",
+          "Fox2Arg.html": "Fox Sports 2 Argentina",
           "ESPN.html": "ESPN",
           "ESPN2.html": "ESPN 2",
           "ESPN3.html": "ESPN 3",
@@ -347,6 +337,8 @@ function mostrarEventosHoy() {
           "Caracoltv.html": "Caracol",
           "RCN.html": "RCN",
           "Disneyplus.html": "Disney +",
+          "Disneyplus2.html": "Disney +",
+          "Disneyplus3.html": "Disney +",
           "Dsports.html": "DSports",
           "Dsports2.html": "DSports 2",
           "Dsportsplus.html": "DSports+",
@@ -358,6 +350,7 @@ function mostrarEventosHoy() {
           "DAZN1.html": "DAZN 1",
           "DAZN2.html": "DAZN 2",
           "DAZN3.html": "DAZN 3",
+          "DAZN4.html": "DAZN 4",
           "MovistarLaLiga.html": "Movistar LaLiga",
           "TNTUSA.html": "TNT USA",
           "TelemundoUSA.html": "Telemundo USA",

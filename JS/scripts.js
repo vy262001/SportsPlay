@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
+  titulo: "WWE SmackDown 22 de agosto de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/9HSTwb9ljFY/maxresdefault.jpg",
+  videoId: "ERN6uglbQLc",
+  categoria: "WWE"
+},
+{
   titulo: "WWE Monday Night Raw 18 de agosto de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/fXqsN5X-NeM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBl2MDCcCziMhrbs5t3M3hRhA1svQ",
   videoId: "ZTtwpb5bK8o",

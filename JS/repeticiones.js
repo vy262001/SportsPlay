@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE SmackDown 22 de Agosto 2025 Repetición",
+    evento: "SMACKDOWN",
+    imagen: "https://i0.wp.com/www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/08/20250815_SD_Match_MCMGMeloMiz_16x9_Friday.jpg?resize=740%2C416&ssl=1",
+    url: "//ok.ru/videoembed/9376020368027?nochat=1"
+  },
+  {
     titulo: "TNA iMPACT! 21 de Agosto 2025 Repeticion",
     evento: "TNA",
     imagen: "https://img.solowrestling.com/images/143/143562-tna.jpg",
@@ -44,7 +50,7 @@ const eventosRepeticiones = [
   {
     titulo: "TNA Emergence 2025 Repeticion",
     evento: "TNA",
-    imagen: "https://tnawrestling.com/wp-content/uploads/2025/08/TNA-Emergence-Trick-Williams-vs-Moose-2-1024x576.jpg",
+    imagen: "https://img.solowrestling.com/images/143/143412-tna-emergence.jpg",
     url: "//ok.ru/videoembed/9340178008731?nochat=1"
   },
   {

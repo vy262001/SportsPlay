@@ -46,145 +46,49 @@ showsSemanales.forEach(show => {
 // ================================
 // Eventos de Fútbol
 Object.assign(opcionesEventos, {
-  "Bayer Leverkusen Vs Hoffenheim - Bundesliga": [
-    { enlace: "/HTML/ESPN5.html" }
-  ],
-  "Bournemouth Vs Wolves - Premier League": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Burnley Vs Sunderland - Premier League": [
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "Brentford Vs Aston Villa - Premier League": [
-    { enlace: "/HTML/DAZN2.html" }
-  ],
-  "Mallorca Vs Celta de Vigo - La Liga": [
-    { enlace: "/HTML/destacada5.html" }
-  ],
-  "St. Pauli Vs Borussia Dortmund - Bundesliga": [
-    { enlace: "/HTML/Disneyplus3.html" }
-  ],
-  "Arsenal Vs Leeds - Premier League": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "San Lorenzo Vs Instituto - Liga Argentina": [
-    { enlace: "/HTML/tntsportsa.html" }
-  ],
-  "Atlético Madrid Vs Elche - La Liga": [
-    { enlace: "/HTML/Dsports.html" }
-  ],
-  "Medellín Vs La Equidad - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Levante Vs Barcelona - La Liga": [
-    { enlace: "/HTML/Dsports.html" }
-  ],
-  "Rosario Central Vs Newell's Old Boys - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Envigado Vs Deportivo Pereira - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Atlético Tucumán Vs Talleres - Liga Argentina": [
-    { enlace: "/HTML/tntsportsa.html" }
-  ],
-  "San Martín Vs Gimnasia La Plata - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Fortaleza Vs Santa Fe - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "DC United Vs Inter Miami - MLS": [
-    { enlace: "/HTML/destacada3.html" }
-  ],
-  "Millonarios Vs Junior - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Crystal Palace Vs Forest - Premier League": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Everton Vs Brighton - Premier League": [
-    { enlace: "/HTML/DAZN3.html" }
-  ],
-  "Osasuna Vs Valencia - La Liga": [
-    { enlace: "/HTML/DAZNLALIGA.html" }
-  ],
-  "Fulham Vs Manchester United - Premier League": [
-    { enlace: "/HTML/DAZN2.html" }
-  ],
-  "Unión (Santa Fe) Vs Huracán - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Real Sociedad Vs Espanyol - La Liga": [
-    { enlace: "/HTML/ESPN4.html" }
-  ],
-  "Villarreal Vs Girona FC - La Liga": [
-    { enlace: "/HTML/Dsports.html" }
-  ],
-  "Once Caldas Vs Tolima - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Argentinos Juniors Vs Racing - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Real Oviedo Vs Real Madrid - La Liga": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Boca Juniors Vs Banfield - Liga Argentina": [
-    { enlace: "/HTML/tntsportsa.html" }
-  ],
-  "Unión Magdalena Vs Alianza - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "América Vs Atlético Nacional - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Independiente Vs Platense - Liga Argentina": [
-    { enlace: "/HTML/tntsportsa.html" }
-  ],
-  "Bucaramanga Vs Águilas Doradas - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  // Eventos 2025-08-25
-  "Deportivo Riestra Vs Sarmiento - Liga Argentina": [
-    { enlace: "/HTML/tycsports2.html" }
-  ],
-  "Athletic Vs Rayo Vallecano - La Liga": [
-    { enlace: "/HTML/DAZNLALIGA.html" }
-  ],
-  "Godoy Cruz Vs Vélez Sarsfield - Liga Argentina": [
-    { enlace: "/HTML/tycsports2.html" }
-  ],
-  "Newcastle Vs Liverpool - Premier League": [
-    { enlace: "/HTML/DAZN2.html" }
-  ],
-  "Sevilla Vs Getafe CF - La Liga": [
-    { enlace: "/HTML/DAZNLALIGA.html" }
-  ],
-  "Belgrano Vs Central Córdoba - Liga Argentina": [
-    { enlace: "/HTML/tycsports2.html" }
-  ],
-  "Estudiantes de La Plata Vs Aldosivi - Liga Argentina": [
-    { enlace: "/HTML/tycsports2.html" }
-  ],
-  "Deportivo Cali Vs Boyacá Chicó - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Lanús Vs River Plate - Liga Argentina": [
-    { enlace: "/HTML/tycsports2.html" }
-  ],
-  // Eventos 2025-08-26
-  "Real Cartagena Vs Millonarios - Copa BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  // Eventos 2025-08-27
-  "Inter Miami Vs Orlando City - Leagues Cup": [
-    { enlace: "/HTML/DAZN1.html" }
-  ],
-  // Eventos 2025-08-30
-  "Inter Miami Vs Chicago Fire - MLS": [
-    { enlace: "/HTML/DAZN1.html" }
-  ]
+// Eventos 2025-08-25
+"Deportivo Riestra Vs Sarmiento - Liga Argentina": [
+  { enlace: "/HTML/tntsportsa.html" }
+],
+"Athletic Vs Rayo Vallecano - La Liga": [
+  { enlace: "/HTML/espndeportesusa.html" }
+],
+"Godoy Cruz Vs Vélez Sarsfield - Liga Argentina": [
+  { enlace: "/HTML/ESPNPremium.html" }
+],
+"Newcastle Vs Liverpool - Premier League": [
+  { enlace: "/HTML/DAZN1.html" }
+],
+"Sevilla Vs Getafe CF - La Liga": [
+  { enlace: "/HTML/ESPN4.html" }
+],
+"Belgrano Vs Central Córdoba - Liga Argentina": [
+  { enlace: "/HTML/ESPNPremium.html" }
+],
+"Estudiantes de La Plata Vs Aldosivi - Liga Argentina": [
+  { enlace: "/HTML/tycsports2.html" }
+],
+"Deportivo Cali Vs Boyacá Chicó - Liga BetPlay": [
+  { enlace: "/HTML/Winplus.html" }
+],
+"Lanús Vs River Plate - Liga Argentina": [
+  { enlace: "/HTML/ESPNPremium.html" }
+],
+
+// Eventos 2025-08-26
+"Real Cartagena Vs Millonarios - Copa BetPlay": [
+  { enlace: "/HTML/Winplus.html" }
+],
+
+// Eventos 2025-08-27
+"Inter Miami Vs Orlando City - Leagues Cup": [
+  { enlace: "/HTML/DAZN1.html" }
+],
+
+// Eventos 2025-08-30
+"Inter Miami Vs Chicago Fire - MLS": [
+  { enlace: "/HTML/DAZN1.html" }
+]
 });
 
 // Eventos de Lucha Libre

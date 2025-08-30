@@ -18,727 +18,888 @@ const eventos = [
   inicio: "2025-07-12T20:30:00",
   fin: "2025-07-12T22:30:00",
   orden: 9
-},
+  },
 
-// Eventos 2025-08-19
+// Eventos
+
 {
-  titulo: "Real Madrid Vs Osasuna - La Liga",
-  tituloDestacado: "Ver Real Madrid Vs Osasuna - La Liga En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.postimg.cc/Gmr6zz8S/Real-Osasuna-Sports-Play.png",
-  imagenDestacada: "https://image.discovery.indazn.com/ca/v2/ca/image?id=mf9wv79xenluewn0pc8b7nq6_image-header_pDach_1729518896000",
+  titulo: "Alavés Vs Atlético Madrid - LaLiga EA Sports",
+  tituloDestacado: "Ver Alavés Vs Atlético Madrid - LaLiga EA Sports En Vivo",
+  descripcion: "Jornada de LaLiga",
+  imagen: "https://i.postimg.cc/zvsFtKZp/La-Liga-Banner-Sportsplay.png",
+  imagenDestacada: "https://statics-maker.llt-services.com/gir/images/2023/07/04/xlarge/ef962943-cd1e-4843-a19a-8c1b5b9e9abb.jpg",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/07/LaLiga-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_nacional_de_Espa%C3%B1a.png",
+  enlace: "HTML/Disneyplus.html",
+  enlaceProgramacion: "Disneyplus.html",
+  inicio: "2025-08-30T10:00:00",
+  fin: "2025-08-30T12:06:00",
+  orden: 1
+},
+{
+  titulo: "Real Oviedo Vs Real Sociedad - LaLiga EA Sports",
+  tituloDestacado: "Ver Real Oviedo Vs Real Sociedad - LaLiga EA Sports En Vivo",
+  descripcion: "Jornada de LaLiga",
+  imagen: "https://i.postimg.cc/zvsFtKZp/La-Liga-Banner-Sportsplay.png",
+  imagenDestacada: "https://statics-maker.llt-services.com/gir/images/2023/07/04/xlarge/ef962943-cd1e-4843-a19a-8c1b5b9e9abb.jpg",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/07/LaLiga-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_nacional_de_Espa%C3%B1a.png",
+  enlace: "HTML/Dsports.html",
+  enlaceProgramacion: "Dsports.html",
+  inicio: "2025-08-30T12:00:00",
+  fin: "2025-08-30T14:00:00",
+  orden: 2
+},
+{
+  titulo: "Girona Vs Sevilla - LaLiga EA Sports",
+  tituloDestacado: "Ver Girona Vs Sevilla - LaLiga EA Sports En Vivo",
+  descripcion: "Jornada de LaLiga",
+  imagen: "https://i.postimg.cc/zvsFtKZp/La-Liga-Banner-Sportsplay.png",
+  imagenDestacada: "https://statics-maker.llt-services.com/gir/images/2023/07/04/xlarge/ef962943-cd1e-4843-a19a-8c1b5b9e9abb.jpg",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/07/LaLiga-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_nacional_de_Espa%C3%B1a.png",
+  enlace: "HTML/Disneyplus3.html",
+  enlaceProgramacion: "Disneyplus3.html",
+  inicio: "2025-08-30T12:30:00",
+  fin: "2025-08-30T14:36:00",
+  orden: 3
+},
+{
+  titulo: "Real Madrid Vs R.C.D. Mallorca - LaLiga EA Sports",
+  tituloDestacado: "Ver Real Madrid Vs R.C.D. Mallorca - LaLiga EA Sports En Vivo",
+  descripcion: "Jornada de LaLiga",
+  imagen: "https://i.postimg.cc/zvsFtKZp/La-Liga-Banner-Sportsplay.png",
+  imagenDestacada: "https://artwork.espncdn.com/events/401680031/16x9/1280x720_20250422224237.jpg",
   logoMini: "https://logos-world.net/wp-content/uploads/2023/07/LaLiga-Logo.png",
   icono: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_nacional_de_Espa%C3%B1a.png",
   enlace: "HTML/Dsports.html",
   enlaceProgramacion: "Dsports.html",
   destacado: true,
   fijarComoDestacado: true,
-  inicio: "2025-08-19T14:00:00",
-  fin: "2025-08-19T16:30:00",
-  orden: 1
-},
-{
-  titulo: "Vélez Vs Fortaleza - Copa Libertadores",
-  tituloDestacado: "Ver Vélez Vs Fortaleza - Copa Libertadores En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.postimg.cc/9Mp2gX7q/VeFort.png",
-  imagenDestacada: "hhttps://statics.eleconomista.com.ar/2025/08/68a3208d29582.png",
-  logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
-  enlace: "HTML/Fox1Arg.html",
-  enlaceProgramacion: "Fox1Arg.html",
-  inicio: "2025-08-19T17:00:00",
-  fin: "2025-08-19T19:30:00",
-  orden: 2
-},
-{
-  titulo: "Huracán Vs Once Caldas - Copa Sudamericana",
-  tituloDestacado: "Ver Huracán Vs Once Caldas - Copa Sudamericana En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://depor.com/resizer/v2/54KG7NWDUZAZPGZINIMVJEPMXI.jpg?auth=856a4a8749a1d94a84a6bff4b8716136298469444d5e6b0db45ba5e72bd1fbe0&width=1000&height=569&quality=90&smart=true",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2025/02/16_9.png",
-  logoMini: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  icono: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
-  inicio: "2025-08-19T17:00:00",
-  fin: "2025-08-19T19:30:00",
-  orden: 3
-},
-{
-  titulo: "Racing Vs Peñarol - Copa Libertadores",
-  tituloDestacado: "Ver Racing Vs Peñarol - Copa Libertadores En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.postimg.cc/2SsCVKY3/RacingPe.png",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2022/04/banner-libertadores.jpg",
-  logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
-  enlace: "HTML/Fox1Arg.html",
-  enlaceProgramacion: "Fox1Arg.html",
-  inicio: "2025-08-19T19:30:00",
-  fin: "2025-08-19T22:00:00",
+  inicio: "2025-08-30T14:30:00",
+  fin: "2025-08-30T16:36:00",
   orden: 4
 },
 {
-  titulo: "Sao Paulo Vs Nacional - Copa Libertadores",
-  tituloDestacado: "Ver Sao Paulo Vs Nacional - Copa Libertadores En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.postimg.cc/2SbzjfPP/Sao-Pablo-NAC.png",
-  imagenDestacada: "https://depor.com/resizer/v2/JKHWQYFLS5DV3BVQLKHOVAQR6E.jpg?auth=ad577d414f4750af4e9765f049a748878b6da0254356ca9b46980f8ff8214d46&width=1000&height=569&quality=90&smart=true",
-  logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
+  titulo: "Celta de Vigo Vs Villarreal - LaLiga EA Sports",
+  tituloDestacado: "Ver Celta de Vigo Vs Villarreal - LaLiga EA Sports En Vivo",
+  descripcion: "Jornada de LaLiga",
+  imagen: "https://i.postimg.cc/zvsFtKZp/La-Liga-Banner-Sportsplay.png",
+  imagenDestacada: "https://statics-maker.llt-services.com/gir/images/2023/07/04/xlarge/ef962943-cd1e-4843-a19a-8c1b5b9e9abb.jpg",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/07/LaLiga-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_nacional_de_Espa%C3%B1a.png",
+  enlace: "HTML/DAZNLALIGA.html",
+  enlaceProgramacion: "DAZNLALIGA.html",
+  inicio: "2025-08-31T10:00:00",
+  fin: "2025-08-31T12:00:00",
+  orden: 5
+},
+{
+  titulo: "Betis Vs Athletic - LaLiga EA Sports",
+  tituloDestacado: "Ver Betis Vs Athletic - LaLiga EA Sports En Vivo",
+  descripcion: "Jornada de LaLiga",
+  imagen: "https://i.postimg.cc/zvsFtKZp/La-Liga-Banner-Sportsplay.png",
+  imagenDestacada: "https://statics-maker.llt-services.com/gir/images/2023/07/04/xlarge/ef962943-cd1e-4843-a19a-8c1b5b9e9abb.jpg",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/07/LaLiga-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_nacional_de_Espa%C3%B1a.png",
+  enlace: "HTML/DAZNLALIGA.html",
+  enlaceProgramacion: "DAZNLALIGA.html",
+  inicio: "2025-08-31T12:00:00",
+  fin: "2025-08-31T14:06:00",
+  orden: 6
+},
+{
+  titulo: "RCD Espanyol Vs Osasuna - LaLiga EA Sports",
+  tituloDestacado: "Ver RCD Espanyol Vs Osasuna - LaLiga EA Sports En Vivo",
+  descripcion: "Jornada de LaLiga",
+  imagen: "https://i.postimg.cc/zvsFtKZp/La-Liga-Banner-Sportsplay.png",
+  imagenDestacada: "https://statics-maker.llt-services.com/gir/images/2023/07/04/xlarge/ef962943-cd1e-4843-a19a-8c1b5b9e9abb.jpg",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/07/LaLiga-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_nacional_de_Espa%C3%B1a.png",
+  enlace: "HTML/DAZNLALIGA.html",
+  enlaceProgramacion: "DAZNLALIGA.html",
+  inicio: "2025-08-31T12:30:00",
+  fin: "2025-08-31T14:36:00",
+  orden: 7
+},
+{
+  titulo: "Rayo Vallecano Vs Barcelona - LaLiga EA Sports",
+  tituloDestacado: "Ver Rayo Vallecano Vs Barcelona - LaLiga EA Sports En Vivo",
+  descripcion: "Jornada de LaLiga",
+  imagen: "https://i.postimg.cc/zvsFtKZp/La-Liga-Banner-Sportsplay.png",
+  imagenDestacada: "https://statics-maker.llt-services.com/gir/images/2023/07/04/xlarge/ef962943-cd1e-4843-a19a-8c1b5b9e9abb.jpg",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/07/LaLiga-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_nacional_de_Espa%C3%B1a.png",
   enlace: "HTML/ESPN.html",
   enlaceProgramacion: "ESPN.html",
   destacado: true,
   fijarComoDestacado: true,
-  inicio: "2025-08-19T19:30:00",
-  fin: "2025-08-19T22:00:00",
-  orden: 5
+  inicio: "2025-08-31T14:30:00",
+  fin: "2025-08-31T16:36:00",
+  orden: 8
 },
 {
-  titulo: "Runa Vs Independiente del Valle - Copa Sudamericana",
-  tituloDestacado: "Ver Mushuc Runa Vs Independiente del Valle - Copa Sudamericana En Vivo",
+  titulo: "Seattle Sounders Vs Inter Miami - Leagues Cup Final",
+  tituloDestacado: "Ver Seattle Sounders Vs Inter Miami - Leagues Cup · Final En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://depor.com/resizer/v2/Q7PEKFQUVJENBCBPHDWQER7DCI.jpg?auth=5e75451369aacbd693ed0556fa5bae1e4cfb4dc62907dfbbd0c3bd50c9a7a109&width=1920&height=1080&quality=90&smart=true",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2025/02/16_9.png",
-  logoMini: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  icono: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  enlace: "HTML/Dsports.html",
-  enlaceProgramacion: "Dsports.html",
-  inicio: "2025-08-19T19:30:00",
-  fin: "2025-08-19T22:00:00",
-  orden: 6
+  imagen: "https://images.mlssoccer.com/image/private/t_editorial_landscape_8_desktop_mobile/mls/grzpbxmiayqgcni8rltu.png",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RCRQXNEZKZDD5JXH2VCBO7IEEU.jpg",
+  logoMini: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
+  icono: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
+  enlace: "HTML/DAZN1.html", 
+  enlaceProgramacion: "DAZN1.html",
+  inicio: "2025-08-31T19:00:00",
+  fin: "2025-08-31T21:00:00",
+  orden: 4
 },
+
+// Partidos Liga BetPlay
+
 {
-  titulo: "Fluminense Vs América de Cali - Copa Sudamericana",
-  tituloDestacado: "Ver Fluminense Vs América de Cali - Copa Sudamericana En Vivo",
+  titulo: "Boyacá Chicó Vs Unión Magdalena - Liga BetPlay",
+  tituloDestacado: "Ver Boyacá Chicó Vs Unión Magdalena - Liga BetPlay En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://depor.com/resizer/v2/RMG4C2C235B4ZJOPSYAV6E44ZI.jpg?auth=98e740596602a2ab16148b8fc4006031a3a786ff9add65715bb6e4b316db8ade&width=1000&height=569&quality=90&smart=true",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2025/02/16_9.png",
-  logoMini: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  icono: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  enlace: "HTML/Disneyplus.html",
-  enlaceProgramacion: "Disneyplus.html",
-  inicio: "2025-08-19T19:30:00",
-  fin: "2025-08-19T22:00:00",
-  orden: 7
-},
-{
-  titulo: "Santa Fe Vs Envigado - Liga BetPlay 2025",
-  tituloDestacado: "Ver Santa Fe Vs Envigado - Liga BetPlay 2025 En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://cdn.amxinfra.com/clarosports/images/2025/08/posibles-santa-fe-vs-envigado-081109.jpg",
+  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
   imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
   logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
   icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
   enlace: "HTML/Winplus.html",
   enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-19T19:30:00",
-  fin: "2025-08-19T22:00:00",
+  inicio: "2025-08-30T14:00:00",
+  fin: "2025-08-30T16:00:00",
+  orden: 1
+},
+{
+  titulo: "Deportivo Pereira Vs Bucaramanga - Liga BetPlay",
+  tituloDestacado: "Ver Deportivo Pereira Vs Bucaramanga - Liga BetPlay En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
+  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
+  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
+  enlace: "HTML/Winplus.html",
+  enlaceProgramacion: "Winplus.html",
+  inicio: "2025-08-30T18:20:00",
+  fin: "2025-08-30T20:20:00",
+  orden: 2
+},
+{
+  titulo: "Deportivo Cali Vs Medellín - Liga BetPlay",
+  tituloDestacado: "Ver Deportivo Cali Vs Medellín - Liga BetPlay En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
+  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
+  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
+  enlace: "HTML/Winplus.html",
+  enlaceProgramacion: "Winplus.html",
+  inicio: "2025-08-30T20:30:00",
+  fin: "2025-08-30T22:30:00",
+  orden: 3
+},
+{
+  titulo: "Atlético Nacional Vs Envigado - Liga BetPlay",
+  tituloDestacado: "Ver Atlético Nacional Vs Envigado - Liga BetPlay En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
+  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
+  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
+  enlace: "HTML/Winplus.html",
+  enlaceProgramacion: "Winplus.html",
+  inicio: "2025-08-31T14:00:00",
+  fin: "2025-08-31T16:00:00",
+  orden: 4
+},
+{
+  titulo: "Alianza Vs América - Liga BetPlay",
+  tituloDestacado: "Ver Alianza Vs América - Liga BetPlay En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
+  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
+  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
+  enlace: "HTML/Winplus.html",
+  enlaceProgramacion: "Winplus.html",
+  inicio: "2025-08-31T16:10:00",
+  fin: "2025-08-31T17:10:00",
+  orden: 5
+},
+{
+  titulo: "La Equidad Vs Pasto - Liga BetPlay",
+  tituloDestacado: "Ver La Equidad Vs Pasto - Liga BetPlay En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
+  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
+  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
+  enlace: "HTML/Winplus.html",
+  enlaceProgramacion: "Winplus.html",
+  inicio: "2025-08-31T18:20:00",
+  fin: "2025-08-31T20:20:00",
+  orden: 6
+},
+{
+  titulo: "Tolima Vs Fortaleza - Liga BetPlay",
+  tituloDestacado: "Ver Tolima Vs Fortaleza - Liga BetPlay En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
+  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
+  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
+  enlace: "HTML/Winplus.html",
+  enlaceProgramacion: "Winplus.html",
+  inicio: "2025-08-31T18:20:00",
+  fin: "2025-08-31T18:47:00",
+  orden: 7
+},
+{
+  titulo: "Santa Fe Vs Once Caldas - Liga BetPlay",
+  tituloDestacado: "Ver Santa Fe Vs Once Caldas - Liga BetPlay En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
+  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
+  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
+  enlace: "HTML/Winplus.html",
+  enlaceProgramacion: "Winplus.html",
+  inicio: "2025-09-01T19:30:00",
+  fin: "2025-09-01T21:30:00",
   orden: 8
 },
 
-// Eventos 2025-08-20
+// Partidos Liga Argentina
+
 {
-  titulo: "Estudiantes Vs Cerro Porteño - Copa Libertadores",
-  tituloDestacado: "Ver Estudiantes Vs Cerro Porteño - Copa Libertadores En Vivo",
+  titulo: "San Lorenzo Vs Huracán - Liga Argentina",
+  tituloDestacado: "Ver San Lorenzo Vs Huracán - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://i.postimg.cc/9MVVBwrh/EstCerro.png",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2022/04/banner-libertadores.jpg",
-  logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
-  inicio: "2025-08-20T17:00:00",
-  fin: "2025-08-20T19:30:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-08-30T12:45:00",
+  fin: "2025-08-30T15:12:00",
   orden: 1
 },
 {
-  titulo: "Cienciano Vs Bolívar - Copa Sudamericana",
-  tituloDestacado: "Ver Cienciano Vs Bolívar - Copa Sudamericana En Vivo",
+  titulo: "Central Córdoba Vs Estudiantes - Liga Argentina",
+  tituloDestacado: "Ver Central Córdoba Vs Estudiantes - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://elperiodicodeportivo.com.co/wp-content/uploads/2025/05/sudamericana-1.jpg",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2025/02/16_9.png",
-  logoMini: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  icono: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  enlace: "HTML/Dsports.html",
-  enlaceProgramacion: "Dsports.html",
-  inicio: "2025-08-20T17:00:00",
-  fin: "2025-08-20T19:30:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/tntsportsa.html",
+  enlaceProgramacion: "tntsportsa.html",
+  inicio: "2025-08-30T15:00:00",
+  fin: "2025-08-30T17:27:00",
   orden: 2
 },
 {
-  titulo: "Inter Miami Vs Tigres - Leagues Cup 2025",
-  tituloDestacado: "Ver Inter Miami Vs Tigres - Leagues Cup 2025 En Vivo",
+  titulo: "Independiente Rivadavia Vs Argentinos Jrs. - Liga Argentina",
+  tituloDestacado: "Ver Independiente Vs Argentinos Jrs. - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://www.tudn.com/api/image/x/us/futbol/leagues-cup/asi-podras-ver-el-juego-entre-inter-miami-y-tigres-de-leagues-cup-video",
-  imagenDestacada: "https://khelnow.com/_next/image?url=https%3A%2F%2Fassets.khelnow.com%2Fnews%2Fuploads%2F2025%2F08%2FInter-Miami-vs-Tigres-UANL.jpg&w=1920&q=75",
-  logoMini: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
-  icono: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
-  enlace: "HTML/DAZN1.html",
-  enlaceProgramacion: "DAZN1.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-20T19:00:00",
-  fin: "2025-08-20T21:00:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-08-30T15:00:00",
+  fin: "2025-08-30T17:27:00",
   orden: 3
 },
 {
-  titulo: "Internacional Vs Flamengo - Copa Libertadores",
-  tituloDestacado: "Ver Internacional Vs Flamengo - Copa Libertadores En Vivo",
+  titulo: "Sarmiento Vs Rosario Central - Liga Argentina",
+  tituloDestacado: "Ver Sarmiento Vs Rosario Central - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://i.postimg.cc/nLqp7GV2/InterFla.png",
-  imagenDestacada: "https://blog.micasino.com/wp-content/uploads/2025/08/Copa-Libertadores-Internacional-vs-Flamengo-Pronostico-deportivo-MiCasino.com_.webp",
-  logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-20T19:30:00",
-  fin: "2025-08-20T22:00:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/tntsportsa.html",
+  enlaceProgramacion: "tntsportsa.html",
+  inicio: "2025-08-30T17:15:00",
+  fin: "2025-08-30T19:42:00",
   orden: 4
 },
 {
-  titulo: "U Católica Vs Alianza Lima - Copa Sudamericana",
-  tituloDestacado: "Ver Universidad Católica (Ecuador) Vs Alianza Lima - Copa Sudamericana En Vivo",
+  titulo: "Vélez Vs Lanús - Liga Argentina",
+  tituloDestacado: "Ver Vélez Vs Lanús - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://elperiodicodeportivo.com.co/wp-content/uploads/2025/05/sudamericana-1.jpg",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2025/02/16_9.png",
-  logoMini: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  icono: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  enlace: "HTML/Dsports.html",
-  enlaceProgramacion: "Dsports.html",
-  inicio: "2025-08-20T19:30:00",
-  fin: "2025-08-20T22:00:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-08-30T19:30:00",
+  fin: "2025-08-30T21:57:00",
   orden: 5
 },
 {
-  titulo: "Independiente Vs U de Chile - Copa Sudamericana",
-  tituloDestacado: "Ver Independiente Vs Universidad de Chile - Copa Sudamericana En Vivo",
+  titulo: "Aldosivi Vs Boca Juniors - Liga Argentina",
+  tituloDestacado: "Ver Aldosivi Vs Boca Juniors - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://elperiodicodeportivo.com.co/wp-content/uploads/2025/05/sudamericana-1.jpg",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2025/02/16_9.png",
-  logoMini: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  icono: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  enlace: "HTML/Dsports.html",
-  enlaceProgramacion: "Dsports.html",
-  inicio: "2025-08-20T19:30:00",
-  fin: "2025-08-20T22:00:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-08-31T12:30:00",
+  fin: "2025-08-31T14:57:00",
   orden: 6
 },
 {
-  titulo: "Millonarios Vs Unión Magdalena - Liga BetPlay",
-  tituloDestacado: "Ver Millonarios Vs Unión Magdalena - Liga BetPlay 2025 En Vivo",
+  titulo: "Talleres Vs Deportivo Riestra - Liga Argentina",
+  tituloDestacado: "Ver Talleres Vs Deportivo Riestra - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp?VersionId=1pdX_sn61JUvfOKBsP0GiOZVQIv7GevZ&itok=0tb2FqQh",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  inicio: "2025-08-20T19:30:00",
-  fin: "2025-08-20T22:00:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-08-31T14:45:00",
+  fin: "2025-08-31T17:12:00",
   orden: 7
 },
 {
-  titulo: "Toluca Vs Orlando - Leagues Cup 2025",
-  tituloDestacado: "Ver Toluca Vs Orlando - Leagues Cup 2025 En Vivo",
+  titulo: "Defensa y Justicia Vs Belgrano - Liga Argentina",
+  tituloDestacado: "Ver Defensa y Justicia Vs Belgrano - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop/mls/ugd4vvfqauglog5vbf04.png",
-  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RCRQXNEZKZDD5JXH2VCBO7IEEU.jpg",
-  logoMini: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
-  icono: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
-  enlace: "HTML/DAZN1.html",
-  enlaceProgramacion: "DAZN1.html",
-  inicio: "2025-08-20T20:00:00",
-  fin: "2025-08-20T22:00:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-08-31T14:45:00",
+  fin: "2025-08-31T17:12:00",
   orden: 8
 },
 {
-  titulo: "Seattle Sounders Vs Puebla - Leagues Cup 2025",
-  tituloDestacado: "Ver Seattle Sounders Vs Puebla - Leagues Cup 2025 En Vivo",
+  titulo: "River Plate Vs San Martín - Liga Argentina",
+  tituloDestacado: "Ver River Plate Vs San Martín - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop/mls/ugd4vvfqauglog5vbf04.png",
-  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RCRQXNEZKZDD5JXH2VCBO7IEEU.jpg",
-  logoMini: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
-  icono: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
-  enlace: "HTML/DAZN1.html",
-  enlaceProgramacion: "DAZN1.html",
-  inicio: "2025-08-20T22:00:00",
-  fin: "2025-08-20T23:59:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-08-31T17:15:00",
+  fin: "2025-08-31T19:42:00",
   orden: 9
 },
 {
-  titulo: "LA Galaxy Vs Pachuca - Leagues Cup 2025",
-  tituloDestacado: "Ver LA Galaxy Vs Pachuca - Leagues Cup 2025 En Vivo",
+  titulo: "Racing Vs Unión - Liga Argentina",
+  tituloDestacado: "Ver Racing Vs Unión - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://images.mlssoccer.com/image/private/t_editorial_landscape_12_desktop/mls/ugd4vvfqauglog5vbf04.png",
-  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/RCRQXNEZKZDD5JXH2VCBO7IEEU.jpg",
-  logoMini: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
-  icono: "https://crystalpng.com/wp-content/uploads/2025/04/leagues-cup-logo-2025.png",
-  enlace: "HTML/DAZN1.html",
-  enlaceProgramacion: "DAZN1.html",
-  inicio: "2025-08-20T22:45:00",
-  fin: "2025-08-21T00:30:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-08-31T19:15:00",
+  fin: "2025-08-31T21:42:00",
   orden: 10
 },
-
-// Eventos 2025-08-21
 {
-  titulo: "LDU Quito Vs Botafogo - Copa Libertadores 2025",
-  tituloDestacado: "Ver LDU Quito Vs Botafogo - Copa Libertadores 2025 En Vivo",
+  titulo: "Gimnasia Vs Atlético Tucumán - Liga Argentina",
+  tituloDestacado: "Ver Gimnasia Vs Atlético Tucumán - Liga Profesional Argentina AFA En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/sYnVJ1D/LIBERTADORES-jpg.webp",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2022/04/banner-libertadores.jpg",
-  logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
-  inicio: "2025-08-21T17:00:00",
-  fin: "2025-08-21T19:00:00",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-09-01T15:00:00",
+  fin: "2025-09-01T17:27:00",
+  orden: 11
+},
+{
+  titulo: "Platense Vs Godoy Cruz - Liga Argentina",
+  tituloDestacado: "Ver Platense Vs Godoy Cruz - Liga Profesional Argentina AFA En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
+  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
+  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
+  enlace: "HTML/ESPNPremium.html",
+  enlaceProgramacion: "ESPNPremium.html",
+  inicio: "2025-09-01T17:15:00",
+  fin: "2025-09-01T19:42:00",
+  orden: 12
+},
+
+// Partidos Premier League
+
+{
+  titulo: "Leeds Vs Newcastle - Premier League",
+  tituloDestacado: "Ver Leeds Vs Newcastle - Premier League En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://www.apuestadeldia.com/wp-content/uploads/2024/07/IMG_5682.jpeg",
+  imagenDestacada: "https://cdn.punchng.com/wp-content/uploads/2023/10/18201131/Premier-League.png",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/08/Premier-League-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/2560px-Flag_of_England.svg.png",
+  enlace: "HTML/Disneyplus2.html",
+  enlaceProgramacion: "Disneyplus2.html",
+  inicio: "2025-08-30T11:30:00",
+  fin: "2025-08-30T13:30:00",
   orden: 1
 },
 {
-  titulo: "River Plate Vs Libertad - Copa Libertadores 2025",
-  tituloDestacado: "Ver River Plate Vs Libertad - Copa Libertadores 2025 En Vivo",
+  titulo: "Brighton Vs Manchester City - Premier League",
+  tituloDestacado: "Ver Brighton Vs Manchester City - Premier League En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/60hKyQst/Miniatura-de-Youtube-Versus-VS-Azul-Moderno-1.png",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2022/04/banner-libertadores.jpg",
-  logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-21T19:30:00",
-  fin: "2025-08-21T21:30:00",
+  imagen: "https://www.apuestadeldia.com/wp-content/uploads/2024/07/IMG_5682.jpeg",
+  imagenDestacada: "https://cdn.punchng.com/wp-content/uploads/2023/10/18201131/Premier-League.png",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/08/Premier-League-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/2560px-Flag_of_England.svg.png",
+  enlace: "HTML/DAZN2.html",
+  enlaceProgramacion: "DAZN2.html",
+  inicio: "2025-08-31T08:00:00",
+  fin: "2025-08-31T10:00:00",
   orden: 2
 },
 {
-  titulo: "Palmeiras Vs Universitario - Copa Libertadores 2025",
-  tituloDestacado: "Ver Palmeiras Vs Universitario - Copa Libertadores 2025 En Vivo",
+  titulo: "Nottingham Forest Vs West Ham - Premier League",
+  tituloDestacado: "Ver Nottingham Forest Vs West Ham - Premier League En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/sYnVJ1D/LIBERTADORES-jpg.webp",
-  imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2022/04/banner-libertadores.jpg",
-  logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
-  inicio: "2025-08-21T19:30:00",
-  fin: "2025-08-21T21:30:00",
+  imagen: "https://www.apuestadeldia.com/wp-content/uploads/2024/07/IMG_5682.jpeg",
+  imagenDestacada: "https://cdn.punchng.com/wp-content/uploads/2023/10/18201131/Premier-League.png",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/08/Premier-League-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/2560px-Flag_of_England.svg.png",
+  enlace: "HTML/DAZN2.html",
+  enlaceProgramacion: "DAZN2.html",
+  inicio: "2025-08-31T08:00:00",
+  fin: "2025-08-31T10:25:00",
   orden: 3
 },
-
-// Eventos 2025-08-22
 {
-  titulo: "Bayern Munich Vs RB Leipzig - Bundesliga 2025",
-  tituloDestacado: "Ver Bayern Munich Vs RB Leipzig - Bundesliga 2025 En Vivo",
+  titulo: "Liverpool Vs Arsenal - Premier League",
+  tituloDestacado: "Ver Liverpool Vs Arsenal - Premier League En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://blog.micasino.com/wp-content/uploads/2023/07/Bundesliga_-%C2%BFAcabara-mas-arriba-Bayern-Munich-o-Leipzig_-MiCasino.jpg",
-  imagenDestacada: "https://assets.bundesliga.com/video/jw/QV0iINed.jpg",
+  imagen: "https://www.apuestadeldia.com/wp-content/uploads/2024/07/IMG_5682.jpeg",
+  imagenDestacada: "https://cdn.punchng.com/wp-content/uploads/2023/10/18201131/Premier-League.png",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/08/Premier-League-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/2560px-Flag_of_England.svg.png",
+  enlace: "HTML/DAZN2.html",
+  enlaceProgramacion: "DAZN2.html",
+  inicio: "2025-08-31T10:30:00",
+  fin: "2025-08-31T12:30:00",
+  orden: 4
+},
+{
+  titulo: "Aston Villa Vs Crystal Palace - Premier League",
+  tituloDestacado: "Ver Aston Villa Vs Crystal Palace - Premier League En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://www.apuestadeldia.com/wp-content/uploads/2024/07/IMG_5682.jpeg",
+  imagenDestacada: "https://cdn.punchng.com/wp-content/uploads/2023/10/18201131/Premier-League.png",
+  logoMini: "https://logos-world.net/wp-content/uploads/2023/08/Premier-League-Logo.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/2560px-Flag_of_England.svg.png",
+  enlace: "HTML/DAZN2.html",
+  enlaceProgramacion: "DAZN2.html",
+  inicio: "2025-08-31T13:00:00",
+  fin: "2025-08-31T15:00:00",
+  orden: 5
+},
+
+// Partidos Serie A
+{
+  titulo: "Napoli Vs Cagliari - Serie A",
+  tituloDestacado: "Ver Napoli Vs Cagliari - Serie A En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://i.ibb.co/p626RLCR/Serie-ABanner.png",
+  imagenDestacada: "https://bubinoblog.altervista.org/wp-content/uploads/2024/08/epg_0dabbe01c1785e1187811e376c988cee.jpeg",
+  logoMini: "https://i.ibb.co/HDkzM2Xv/SerieA.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/2560px-Flag_of_Italy.svg.png",
+  enlace: "HTML/destacada.html",
+  enlaceProgramacion: "destacada.html",
+  inicio: "2025-08-30T13:45:00",
+  fin: "2025-08-30T15:45:00",
+  orden: 1
+},
+
+// Partidos Ligue 1
+{
+  titulo: "Toulouse Vs PSG - Ligue 1",
+  tituloDestacado: "Ver Toulouse Vs PSG - Ligue 1 En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://i.ibb.co/S4Zffw8f/Ligue1.png",
+  imagenDestacada: "https://images.fasttv.prod.yospace.ai/images/1_FastTV/Leagues_Visual/Ligue_1/liga_1_banner.webp",
+  logoMini: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu12AwR6MfHy54nNO3BK_dHCx_hyphenhyphenVBI1k-UZJF1s2Ydm1y2KZiOOnl7eeDbF6qt4N55mkGQHPjp4huawQw3YTv6-X8dD4tulyubV4l-eQJYqFm_RblFpjUWmGpn0Q-rYFifE8eT1xzsgnxjHqlcO5ZZUdVetrilcf3sPifE1pUqdW1YbFpi-K2F7blh_k/s512/Ligue%201%20McDonald's%20.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1280px-Flag_of_France.svg.png",
+  enlace: "HTML/destacada4.html",
+  enlaceProgramacion: "destacada4.html",
+  inicio: "2025-08-30T14:05:00",
+  fin: "2025-08-30T16:05:00",
+  orden: 1
+},
+
+
+// Partidos Bundesliga
+
+{
+  titulo: "Augsburgo Vs Bayern Munich - Bundesliga",
+  tituloDestacado: "Ver Augsburgo Vs Bayern Munich - Bundesliga En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://www.dslweb.de/public/resources/images/anbieter/sky/sky-bundesliga-highlights.jpg",
+  imagenDestacada: "https://image.discovery.indazn.com/ca/v2/ca/image?id=1918zliu2jfye1b6xoxb6o506l_image-header_pDach_1752835068000&quality=70",
   logoMini: "https://upload.wikimedia.org/wikinews/en/thumb/1/15/Bundesliga_logo.svg/2321px-Bundesliga_logo.svg.png",
   icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png",
-  enlace: "HTML/DAZN1.html",
-  enlaceProgramacion: "DAZN1.html",
+  enlace: "HTML/ESPN.html",
+  enlaceProgramacion: "ESPN.html",
   destacado: true,
   fijarComoDestacado: true,
-  inicio: "2025-08-22T13:30:00",
-  fin: "2025-08-22T15:30:00",
+  inicio: "2025-08-30T11:30:00",
+  fin: "2025-08-30T13:30:00",
   orden: 1
 },
 {
-  titulo: "Boyacá Chicó Vs Deportivo Cali - Liga BetPlay",
-  tituloDestacado: "Ver Boyacá Chicó Vs Deportivo Cali - Liga BetPlay En Vivo",
+  titulo: "Wolfsburg Vs Mainz 05 - Bundesliga",
+  tituloDestacado: "Ver Wolfsburg Vs Mainz 05 - Bundesliga En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-22T18:00:00",
-  fin: "2025-08-22T20:00:00",
+  imagen: "https://www.dslweb.de/public/resources/images/anbieter/sky/sky-bundesliga-highlights.jpg",
+  imagenDestacada: "https://media.dfl.de/sites/3/2018/02/BL_Teaser_BL-Logo_Pitch_HD.jpg",
+  logoMini: "https://upload.wikimedia.org/wikinews/en/thumb/1/15/Bundesliga_logo.svg/2321px-Bundesliga_logo.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png",
+  enlace: "HTML/DAZN3.html",
+  enlaceProgramacion: "DAZN3.html",
+  inicio: "2025-08-31T08:30:00",
+  fin: "2025-08-31T10:30:00",
   orden: 2
 },
 {
-  titulo: "Llaneros Vs Pasto - Liga BetPlay",
-  tituloDestacado: "Ver Llaneros Vs Pasto - Liga BetPlay En Vivo",
+  titulo: "Dortmund Vs FC Union Berlin - Bundesliga",
+  tituloDestacado: "Ver Dortmund Vs FC Union Berlin - Bundesliga En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-22T20:10:00",
-  fin: "2025-08-22T22:10:00",
-  orden: 3
-},
-
-// Eventos 2025-08-23
-{
-  titulo: "Medellín Vs La Equidad - Liga BetPlay",
-  tituloDestacado: "Ver Medellín Vs La Equidad - Liga BetPlay En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-23T14:00:00",
-  fin: "2025-08-23T16:00:00",
-  orden: 1
-},
-{
-  titulo: "Envigado Vs Deportivo Pereira - Liga BetPlay",
-  tituloDestacado: "Ver Envigado Vs Deportivo Pereira - Liga BetPlay En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-23T16:10:00",
-  fin: "2025-08-23T18:10:00",
-  orden: 2
-},
-{
-  titulo: "Fortaleza Vs Santa Fe - Liga BetPlay",
-  tituloDestacado: "Ver Fortaleza Vs Santa Fe - Liga BetPlay En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-23T18:20:00",
-  fin: "2025-08-23T20:20:00",
+  imagen: "https://www.dslweb.de/public/resources/images/anbieter/sky/sky-bundesliga-highlights.jpg",
+  imagenDestacada: "https://media.dfl.de/sites/3/2018/02/BL_Teaser_BL-Logo_Pitch_HD.jpg",
+  logoMini: "https://upload.wikimedia.org/wikinews/en/thumb/1/15/Bundesliga_logo.svg/2321px-Bundesliga_logo.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png",
+  enlace: "HTML/DAZN3.html",
+  enlaceProgramacion: "DAZN3.html",
+  inicio: "2025-08-31T10:30:00",
+  fin: "2025-08-31T12:30:00",
   orden: 3
 },
 {
-  titulo: "Millonarios Vs Junior - Liga BetPlay",
-  tituloDestacado: "Ver Millonarios Vs Junior - Liga BetPlay En Vivo",
+  titulo: "Colonia Vs Friburgo - Bundesliga",
+  tituloDestacado: "Ver Colonia Vs Friburgo - Bundesliga En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-23T20:30:00",
-  fin: "2025-08-23T22:30:00",
+  imagen: "https://www.dslweb.de/public/resources/images/anbieter/sky/sky-bundesliga-highlights.jpg",
+  imagenDestacada: "https://media.dfl.de/sites/3/2018/02/BL_Teaser_BL-Logo_Pitch_HD.jpg",
+  logoMini: "https://upload.wikimedia.org/wikinews/en/thumb/1/15/Bundesliga_logo.svg/2321px-Bundesliga_logo.svg.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/2560px-Flag_of_Germany.svg.png",
+  enlace: "HTML/DAZN3.html",
+  enlaceProgramacion: "DAZN3.html",
+  inicio: "2025-08-31T12:30:00",
+  fin: "2025-08-31T14:30:00",
   orden: 4
 },
 
-// Eventos 2025-08-24
 {
-  titulo: "Once Caldas Vs Tolima - Liga BetPlay",
-  tituloDestacado: "Ver Once Caldas Vs Tolima - Liga BetPlay En Vivo",
+  titulo: "Botafogo Vs Bragantino - Brasileirão",
+  tituloDestacado: "Ver Botafogo Vs Bragantino - Brasileirão En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-24T14:00:00",
-  fin: "2025-08-24T16:00:00",
+  imagen: "https://t2.tudocdn.net/725820?w=1920&h=1080",
+  imagenDestacada: "https://www.mktesportivo.com/wp-content/uploads/2025/03/brasileirao2025.jpg",
+  logoMini: "https://www.ceroacero.es/img/logos/competicoes/51_imgbank_d1_20250313102859.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png",
+  enlace: "HTML/PremiereBR.html",
+  enlaceProgramacion: "PremiereBR.html",
+  inicio: "2025-08-30T16:30:00",
+  fin: "2025-08-30T18:57:00",
   orden: 1
 },
 {
-  titulo: "Unión Magdalena Vs Alianza - Liga BetPlay",
-  tituloDestacado: "Ver Unión Magdalena Vs Alianza - Liga BetPlay En Vivo",
+  titulo: "Cruzeiro Vs São Paulo - Brasileirão",
+  tituloDestacado: "Ver Cruzeiro Vs São Paulo - Brasileirão En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-24T16:10:00",
-  fin: "2025-08-24T18:10:00",
+  imagen: "https://t2.tudocdn.net/725820?w=1920&h=1080",
+  imagenDestacada: "https://www.mktesportivo.com/wp-content/uploads/2025/03/brasileirao2025.jpg",
+  logoMini: "https://www.ceroacero.es/img/logos/competicoes/51_imgbank_d1_20250313102859.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png",
+  enlace: "HTML/PremiereBR.html",
+  enlaceProgramacion: "PremiereBR.html",
+  inicio: "2025-08-30T19:00:00",
+  fin: "2025-08-30T21:27:00",
   orden: 2
 },
 {
-  titulo: "América Vs Atlético Nacional - Liga BetPlay",
-  tituloDestacado: "Ver América Vs Atlético Nacional - Liga BetPlay En Vivo",
+  titulo: "Santos Vs Fluminense - Brasileirão",
+  tituloDestacado: "Ver Santos Vs Fluminense - Brasileirão En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-24T18:20:00",
-  fin: "2025-08-24T20:20:00",
+  imagen: "https://t2.tudocdn.net/725820?w=1920&h=1080",
+  imagenDestacada: "https://www.mktesportivo.com/wp-content/uploads/2025/03/brasileirao2025.jpg",
+  logoMini: "https://www.ceroacero.es/img/logos/competicoes/51_imgbank_d1_20250313102859.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png",
+  enlace: "HTML/PremiereBR.html",
+  enlaceProgramacion: "PremiereBR.html",
+  inicio: "2025-08-31T14:00:00",
+  fin: "2025-08-31T16:27:00",
   orden: 3
 },
 {
-  titulo: "Bucaramanga Vs Águilas Doradas - Liga BetPlay",
-  tituloDestacado: "Ver Bucaramanga Vs Águilas Doradas - Liga BetPlay En Vivo",
+  titulo: "Flamengo Vs Grêmio - Brasileirão",
+  tituloDestacado: "Ver Flamengo Vs Grêmio - Brasileirão En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-24T20:30:00",
-  fin: "2025-08-24T22:30:00",
+  imagen: "https://t2.tudocdn.net/725820?w=1920&h=1080",
+  imagenDestacada: "https://www.mktesportivo.com/wp-content/uploads/2025/03/brasileirao2025.jpg",
+  logoMini: "https://www.ceroacero.es/img/logos/competicoes/51_imgbank_d1_20250313102859.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png",
+  enlace: "HTML/PremiereBR.html",
+  enlaceProgramacion: "PremiereBR.html",
+  inicio: "2025-08-31T14:00:00",
+  fin: "2025-08-31T16:27:00",
   orden: 4
 },
-
-// Eventos 2025-08-26
 {
-  titulo: "Real Cartagena Vs Millonarios - Copa BetPlay",
-  tituloDestacado: "Ver Real Cartagena Vs Millonarios - Copa BetPlay 2025 En Vivo",
-  descripcion: "Play-off, Partido 2 de 2",
-  imagen: "https://www.kienyke.com/sites/default/files/styles/interna_contenido_s/public/2025-05/copa-betplay.jpg?itok=iPCoMYZw",
-  imagenDestacada: "https://www.365scores.com/es/news/wp-content/uploads/2023/08/Trofeo-Copa-BetPlay.jpg",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-08-26T20:10:00",
-  fin: "2025-08-26T22:40:00",
-  orden: 1
+  titulo: "Corinthians Vs Palmeiras - Brasileirão",
+  tituloDestacado: "Ver Corinthians Vs Palmeiras - Brasileirão En Vivo",
+  descripcion: "Transmisión en vivo",
+  imagen: "https://t2.tudocdn.net/725820?w=1920&h=1080",
+  imagenDestacada: "https://www.mktesportivo.com/wp-content/uploads/2025/03/brasileirao2025.jpg",
+  logoMini: "https://www.ceroacero.es/img/logos/competicoes/51_imgbank_d1_20250313102859.png",
+  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1024px-Flag_of_Brazil.svg.png",
+  enlace: "HTML/PremiereBR.html",
+  enlaceProgramacion: "PremiereBR.html",
+  inicio: "2025-08-31T16:30:00",
+  fin: "2025-08-31T18:57:00",
+  orden: 5
 },
 
-  // Eventos WWE, AEW, AAA
-  {
-    titulo: "WWE Monday Night Raw 23 de junio de 2025",
-    tituloDestacado: "Ver WWE Monday Night Raw En Vivo",
-    descripcion: "Transmisión en vivo.",
-    imagen: "https://www.wrestleview.com/wp-content/uploads/2025/06/wwe-raw-2025-logo-red.jpg",
-    imagenDestacada: "../IMAGENES/RAWPoster.jpg",
-    logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/WWE_RAW_Logo_2025.svg/1171px-WWE_RAW_Logo_2025.svg.png",  // <-- nuevo campo
-    icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
-    enlace: "HTML/destacada2.html",
-    enlaceProgramacion: "destacada2.html",
-    disponible: true,
-    destacado: true,
-    fijarComoDestacado: true,
-    orden: 7,
-    inicio: "2025-06-16T19:00:00",
-    fin: "2025-06-16T22:00:00"
-  },
-  {
-    titulo: "WWE NXT 17 de junio de 2025",
-    tituloDestacado: "Ver WWE NXT En Vivo",
-    descripcion: "Transmisión en vivo.",
-    imagen: "https://img.solowrestling.com/images/140/140803-wwe-nxt.jpg",
-    imagenDestacada: "https://catch-newz.com/images/2024/12/06/wwe-nxt-10-decembre-2024-quelle-heure-chaine-voir-show-direct.jpg", //https://catch-newz.com/images/2024/12/06/wwe-nxt-10-decembre-2024-quelle-heure-chaine-voir-show-direct.jpg
-    logoMini: "https://www.wwe.com/f/styles/wwe_large/public/all/2024/10/NXT-Rebrand-Logo--4d733c5f59ea0a316e1f6b8877fafd29.png",  // <-- nuevo campo
-    icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
-    enlace: "HTML/destacada2.html",
-    enlaceProgramacion: "destacada2.html",
-    destacado: true,
-    fijarComoDestacado: true,
-    inicio: "2025-06-17T19:00",
-    fin: "2025-06-17T22:00",
-    orden: 8
-  },
-  {
-    titulo: "AEW Dynamite 18 de junio de 2025",
-    tituloDestacado: "Ver AEW Dynamite En Vivo",
-    descripcion: "Transmisión en vivo.",
-    imagen: "https://www.postwrestling.com/wp-content/uploads/2025/02/GjwV-N6XgAAUTTg.jpg",
-    imagenDestacada: "https://i0.wp.com/wrestlenomics.com/wp-content/uploads/2025/03/wrestletix-aew-dynamite-2024.png?fit=1280%2C720&ssl=1", //https://i0.wp.com/wrestlenomics.com/wp-content/uploads/2025/03/wrestletix-aew-dynamite-2024.png?fit=1280%2C720&ssl=1
-    logoMini: "https://i0.wp.com/wrestlenomics.com/wp-content/uploads/2025/03/aew-dynamite-light-background.png?w=1100&ssl=1",  // <-- nuevo campo
-    icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AEW_Logo_%28simplified%29.svg/2560px-AEW_Logo_%28simplified%29.svg.png",
-    enlace: "HTML/FoxMX2.html",
-    enlaceProgramacion: "FoxMX2.html",
-    disponible: false,
-    destacado: true,
-    fijarComoDestacado: true,
-    orden: 9,
-    inicio: "2025-06-18T19:00:00",
-    fin: "2025-06-18T22:00:00"
-  },
-  {
-    titulo: "AEW Collision 21 de junio de 2025",
-    tituloDestacado: "AEW Collision En Vivo",
-    descripcion: "Transmisión en vivo.",
-    imagen: "https://cdn.f4wonline.com/wp-content/uploads/2024/01/aew-collision-logo.png",
-    imagenDestacada: "https://www.wrestlezone.com/wp-content/uploads/sites/8/2025/05/AEW-Collision-2025.jpg?resize=1200,630", //https://www.wrestlezone.com/wp-content/uploads/sites/8/2025/05/AEW-Collision-2025.jpg?resize=1200,630
-    logoMini: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be74b3f4-088f-4981-a2fa-c8b64335dc92/dj8y2rj-eba68c82-14d4-4b67-b505-dc593d98cf7c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JlNzRiM2Y0LTA4OGYtNDk4MS1hMmZhLWM4YjY0MzM1ZGM5MlwvZGo4eTJyai1lYmE2OGM4Mi0xNGQ0LTRiNjctYjUwNS1kYzU5M2Q5OGNmN2MucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QBmr4uaThsH3TIFls57u6JELRXe-rmO4HAGTH9xpO-0",  // <-- nuevo campo
-    icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AEW_Logo_%28simplified%29.svg/2560px-AEW_Logo_%28simplified%29.svg.png",
-    enlace: "HTML/TNTUSA.html",
-    enlaceProgramacion: "TNTUSA.html",
-    orden: 11,
-    inicio: "2025-06-21T19:00:00",
-    fin: "2025-06-21T22:00:00"
-  },
-
-  {
-  titulo: "TNA iMPACT! 10 de julio de 2025",
-  tituloDestacado: "Ver TNA iMPACT! en Vivo",
-  descripcion: "Transmisión en vivo.",
-  imagen: "https://i.ytimg.com/vi/EAjdKhT9GZI/maxresdefault.jpg",
-  imagenDestacada: "https://image.discovery.indazn.com/ca/v2/ca/image?id=001eaf75-0803-49b9-a562-e0b5c4a3decb&quality=70", //https://image.discovery.indazn.com/ca/v2/ca/image?id=001eaf75-0803-49b9-a562-e0b5c4a3decb&quality=70
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/TNA_Wrestling_%282024%29_Logo.svg/1024px-TNA_Wrestling_%282024%29_Logo.svg.png",  // <-- nuevo campo
-  icono: "https://i.ibb.co/67HfKZfn/58a1fac0-3dd3-45f1-94bb-99752959c59c.png",
-  enlace: "https://www.youtube.com/watch?v=t2tgiK1Syhk",
-  enlaceProgramacion: "https://www.youtube.com/watch?v=t2tgiK1Syhk",
-  destacado: true,
-  fijarComoDestacado: true,
-  orden: 10,
-  inicio: "2025-07-10T19:00:00",
-  fin: "2025-07-10T21:00:00"
+// Eventos WWE, AEW, AAA
+{
+titulo: "WWE Monday Night Raw 23 de junio de 2025",
+tituloDestacado: "Ver WWE Monday Night Raw En Vivo",
+descripcion: "Transmisión en vivo.",
+imagen: "https://www.wrestleview.com/wp-content/uploads/2025/06/wwe-raw-2025-logo-red.jpg",
+imagenDestacada: "../IMAGENES/RAWPoster.jpg",
+logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/WWE_RAW_Logo_2025.svg/1171px-WWE_RAW_Logo_2025.svg.png",// <-- nuevo campo
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+enlace: "HTML/destacada2.html",
+enlaceProgramacion: "destacada2.html",
+disponible: true,
+destacado: true,
+fijarComoDestacado: true,
+orden: 7,
+inicio: "2025-06-16T19:00:00",
+fin: "2025-06-16T22:00:00"
+},
+{
+titulo: "WWE NXT 17 de junio de 2025",
+tituloDestacado: "Ver WWE NXT En Vivo",
+descripcion: "Transmisión en vivo.",
+imagen: "https://img.solowrestling.com/images/140/140803-wwe-nxt.jpg",
+imagenDestacada: "https://catch-newz.com/images/2024/12/06/wwe-nxt-10-decembre-2024-quelle-heure-chaine-voir-show-direct.jpg", //https://catch-newz.com/images/2024/12/06/wwe-nxt-10-decembre-2024-quelle-heure-chaine-voir-show-direct.jpg
+logoMini: "https://www.wwe.com/f/styles/wwe_large/public/all/2024/10/NXT-Rebrand-Logo--4d733c5f59ea0a316e1f6b8877fafd29.png",// <-- nuevo campo
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+enlace: "HTML/destacada2.html",
+enlaceProgramacion: "destacada2.html",
+destacado: true,
+fijarComoDestacado: true,
+inicio: "2025-06-17T19:00",
+fin: "2025-06-17T22:00",
+orden: 8
+},
+{
+titulo: "AEW Dynamite 18 de junio de 2025",
+tituloDestacado: "Ver AEW Dynamite En Vivo",
+descripcion: "Transmisión en vivo.",
+imagen: "https://www.postwrestling.com/wp-content/uploads/2025/02/GjwV-N6XgAAUTTg.jpg",
+imagenDestacada: "https://i0.wp.com/wrestlenomics.com/wp-content/uploads/2025/03/wrestletix-aew-dynamite-2024.png?fit=1280%2C720&ssl=1", //https://i0.wp.com/wrestlenomics.com/wp-content/uploads/2025/03/wrestletix-aew-dynamite-2024.png?fit=1280%2C720&ssl=1
+logoMini: "https://i0.wp.com/wrestlenomics.com/wp-content/uploads/2025/03/aew-dynamite-light-background.png?w=1100&ssl=1",// <-- nuevo campo
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AEW_Logo_%28simplified%29.svg/2560px-AEW_Logo_%28simplified%29.svg.png",
+enlace: "HTML/FoxMX2.html",
+enlaceProgramacion: "FoxMX2.html",
+disponible: false,
+destacado: true,
+fijarComoDestacado: true,
+orden: 9,
+inicio: "2025-06-18T19:00:00",
+fin: "2025-06-18T22:00:00"
+},
+{
+titulo: "AEW Collision 21 de junio de 2025",
+tituloDestacado: "AEW Collision En Vivo",
+descripcion: "Transmisión en vivo.",
+imagen: "https://cdn.f4wonline.com/wp-content/uploads/2024/01/aew-collision-logo.png",
+imagenDestacada: "https://d1fcaprh3kb5t7.cloudfront.net/wp-content/uploads/2025/08/22154249/Isla-Dawn-Set-To-Make-AEW-Debut-On-823-AEW-Collision.jpg", //https://www.wrestlezone.com/wp-content/uploads/sites/8/2025/05/AEW-Collision-2025.jpg?resize=1200,630
+logoMini: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/be74b3f4-088f-4981-a2fa-c8b64335dc92/dj8y2rj-eba68c82-14d4-4b67-b505-dc593d98cf7c.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JlNzRiM2Y0LTA4OGYtNDk4MS1hMmZhLWM4YjY0MzM1ZGM5MlwvZGo4eTJyai1lYmE2OGM4Mi0xNGQ0LTRiNjctYjUwNS1kYzU5M2Q5OGNmN2MucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.QBmr4uaThsH3TIFls57u6JELRXe-rmO4HAGTH9xpO-0",// <-- nuevo campo
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AEW_Logo_%28simplified%29.svg/2560px-AEW_Logo_%28simplified%29.svg.png",
+enlace: "HTML/TNTUSA.html",
+enlaceProgramacion: "TNTUSA.html",
+orden: 11,
+inicio: "2025-06-21T19:00:00",
+fin: "2025-06-21T22:00:00"
 },
 
 {
-  titulo: "WWE SmackDown 20 de junio de 2025",
-  tituloDestacado: "Ver WWE SmackDown En Vivo",
-  descripcion: "Transmisión en vivo.",
-  imagen: "https://media.zenfs.com/en/wrestle_zone_910/a8f5b75fb750215d2a8d5b458583b3f9",
-  imagenDestacada: "https://www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/08/20250811_SD_Match_DrewMcIntyre_16x9_Tonight.jpg", //../IMAGENES/SDPoster.jpg
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/WWE_SmackDown_%282024%29_Logo.svg/1088px-WWE_SmackDown_%282024%29_Logo.svg.png",  // <-- nuevo campo
-  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
-  enlace: "HTML/destacada2.html",
-  enlaceProgramacion: "destacada2.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  orden: 10,
-  inicio: "2025-06-20T19:00:00",
-  fin: "2025-06-20T21:00:00"
+titulo: "TNA iMPACT! 10 de julio de 2025",
+tituloDestacado: "Ver TNA iMPACT! en Vivo",
+descripcion: "Transmisión en vivo.",
+imagen: "https://i.ytimg.com/vi/EAjdKhT9GZI/maxresdefault.jpg",
+imagenDestacada: "https://image.discovery.indazn.com/ca/v2/ca/image?id=001eaf75-0803-49b9-a562-e0b5c4a3decb&quality=70", //https://image.discovery.indazn.com/ca/v2/ca/image?id=001eaf75-0803-49b9-a562-e0b5c4a3decb&quality=70
+logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/TNA_Wrestling_%282024%29_Logo.svg/1024px-TNA_Wrestling_%282024%29_Logo.svg.png",// <-- nuevo campo
+icono: "https://i.ibb.co/67HfKZfn/58a1fac0-3dd3-45f1-94bb-99752959c59c.png",
+enlace: "https://www.youtube.com/watch?v=rr_4EFkQrww",
+enlaceProgramacion: "https://www.youtube.com/watch?v=rr_4EFkQrww",
+destacado: true,
+fijarComoDestacado: true,
+orden: 10,
+inicio: "2025-07-10T19:00:00",
+fin: "2025-07-10T21:00:00"
+},
+
+{
+titulo: "WWE SmackDown 20 de junio de 2025",
+tituloDestacado: "Ver WWE SmackDown En Vivo",
+descripcion: "Transmisión en vivo.",
+imagen: "https://media.zenfs.com/en/wrestle_zone_910/a8f5b75fb750215d2a8d5b458583b3f9",
+imagenDestacada: "../IMAGENES/SDPoster.jpg", //../IMAGENES/SDPoster.jpg
+logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/WWE_SmackDown_%282024%29_Logo.svg/1088px-WWE_SmackDown_%282024%29_Logo.svg.png",// <-- nuevo campo
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+enlace: "HTML/destacada2.html",
+enlaceProgramacion: "destacada2.html",
+destacado: true,
+fijarComoDestacado: true,
+orden: 10,
+inicio: "2025-06-20T19:00:00",
+fin: "2025-06-20T21:00:00"
 },
 
 
 // WWE Evento - 31 de agosto
 {
-  titulo: "WWE Clash in Paris 31 de agosto 2025",
-  tituloDestacado: "Ver WWE Clash in Paris 2025 En Vivo",
-  descripcion: "Transmisión en vivo.",
-  imagen: "https://dosdossolodos.com/wp-content/uploads/2025/08/20250811_Clash_4way_16x9_date.jpg",
-  imagenDestacada: "https://www.wwe.com/f/styles/wwe_16_9_xl/public/2025/08/20250808_Clash_CenaLogan_16x9_Date.jpg",
-  logoMini: "https://www.wwe.com/f/styles/og_image/public/all/2025/01/Clash_In_Paris_Logo_2025_Stacked_(2)--1ec02699291e9a05e1378e949bb91061.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
-  enlace: "HTML/destacada2.html",
-  enlaceProgramacion: "destacada2.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  orden: 15,
-  inicio: "2025-08-31T19:00:00",
-  fin: "2025-08-31T22:00:00"
+titulo: "WWE Clash in Paris 31 de agosto 2025",
+tituloDestacado: "Ver WWE Clash in Paris 2025 En Vivo",
+descripcion: "Transmisión en vivo.",
+imagen: "https://dosdossolodos.com/wp-content/uploads/2025/08/20250811_Clash_4way_16x9_date.jpg",
+imagenDestacada: "https://www.wwe.com/f/styles/wwe_16_9_xl/public/2025/08/20250808_Clash_CenaLogan_16x9_Date.jpg",
+logoMini: "https://www.wwe.com/f/styles/og_image/public/all/2025/01/Clash_In_Paris_Logo_2025_Stacked_(2)--1ec02699291e9a05e1378e949bb91061.png",
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+enlace: "HTML/destacada2.html",
+enlaceProgramacion: "destacada2.html",
+destacado: true,
+fijarComoDestacado: true,
+orden: 15,
+inicio: "2025-08-31T19:00:00",
+fin: "2025-08-31T22:00:00"
 },
 
 // AEW Evento - 24 de agosto
 {
-  titulo: "AEW x NJPW: Forbidden Door 2025",
-  tituloDestacado: "Ver Forbidden Door 2025 En Vivo",
-  descripcion: "Domingo 24 de agosto",
-  imagen: "https://static.wixstatic.com/media/815952_baf709458d0f4deb8f8b81135e86ba95~mv2.jpg/v1/fill/w_600,h_337,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/815952_baf709458d0f4deb8f8b81135e86ba95~mv2.jpg",
-  imagenDestacada: "https://www.theo2.co.uk/assets/img/AEW-Forbidden-Door-1920x1080-Event-Listing-23af58ac3c.jpg",
-  logoMini: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/60795a96-e724-4a8b-ae18-bc6bd97b96a1/df86gnx-252f6335-b49b-4150-b116-c87cd257e8f1.png/v1/fill/w_1280,h_1815/aew_x_njpw_forbidden_door_logo_render_png_by_santy981_df86gnx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxNSIsInBhdGgiOiJcL2ZcLzYwNzk1YTk2LWU3MjQtNGE4Yi1hZTE4LWJjNmJkOTdiOTZhMVwvZGY4NmdueC0yNTJmNjMzNS1iNDliLTQxNTAtYjExNi1jODdjZDI1N2U4ZjEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.nX3jfORUNDglyFM13E2SHihhVAdTdYN_SXXJIa6Q4sc",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AEW_Logo_%28simplified%29.svg/2560px-AEW_Logo_%28simplified%29.svg.png",
-  enlace: "HTML/FoxSportsPremium.html",
-  enlaceProgramacion: "FoxSportsPremium.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  orden: 2,
-  inicio: "2025-08-24T12:00:00",
-  fin: "2025-08-24T16:00:00"
+titulo: "AEW x NJPW: Forbidden Door 2025",
+tituloDestacado: "Ver Forbidden Door 2025 En Vivo",
+descripcion: "Domingo 24 de agosto",
+imagen: "https://static.wixstatic.com/media/815952_baf709458d0f4deb8f8b81135e86ba95~mv2.jpg/v1/fill/w_600,h_337,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/815952_baf709458d0f4deb8f8b81135e86ba95~mv2.jpg",
+imagenDestacada: "https://www.theo2.co.uk/assets/img/AEW-Forbidden-Door-1920x1080-Event-Listing-23af58ac3c.jpg",
+logoMini: "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/60795a96-e724-4a8b-ae18-bc6bd97b96a1/df86gnx-252f6335-b49b-4150-b116-c87cd257e8f1.png/v1/fill/w_1280,h_1815/aew_x_njpw_forbidden_door_logo_render_png_by_santy981_df86gnx-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxNSIsInBhdGgiOiJcL2ZcLzYwNzk1YTk2LWU3MjQtNGE4Yi1hZTE4LWJjNmJkOTdiOTZhMVwvZGY4NmdueC0yNTJmNjMzNS1iNDliLTQxNTAtYjExNi1jODdjZDI1N2U4ZjEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.nX3jfORUNDglyFM13E2SHihhVAdTdYN_SXXJIa6Q4sc",
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AEW_Logo_%28simplified%29.svg/2560px-AEW_Logo_%28simplified%29.svg.png",
+enlace: "HTML/FoxSportsPremium.html",
+enlaceProgramacion: "FoxSportsPremium.html",
+destacado: true,
+fijarComoDestacado: true,
+orden: 2,
+inicio: "2025-08-24T12:00:00",
+fin: "2025-08-24T16:00:00"
+},
+{
+titulo: "NXT Heatwave 24 de agosto 2025",
+tituloDestacado: "Ver NXT Heatwave 2025 En Vivo",
+descripcion: "Transmisión en vivo.",
+imagen: "https://www.wwe.com/f/styles/wwe_16_9_xl/public/2025/08/20250805_NXTHeatwave_Match_ObaJeVon_16x9_Date.jpg",
+imagenDestacada: "https://i1.wp.com/mundolucha.com/wp-content/uploads/2025/08/donde-ver-wwe-nxt-heatwave-2025-en-vivo-online-mundolucha.jpg",
+logoMini: "https://www.wwe.com/f/styles/wwe_large/public/all/2024/10/NXT-Rebrand-Logo--4d733c5f59ea0a316e1f6b8877fafd29.png",
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+enlace: "HTML/destacada2.html",
+enlaceProgramacion: "destacada2.html",
+destacado: true,
+fijarComoDestacado: true,
+orden: 3,
+inicio: "2025-08-24T18:00:00",
+fin: "2025-08-24T21:00:00"
 },
 
 // WWE Evento 12 de septiembre
 {
-  titulo: "Worlds Collide II - AAA / WWE",
-  tituloDestacado: "Ver Worlds Collide II En Vivo",
-  descripcion: "Transmisión en vivo del evento WWE x AAA Worlds Collide II.",
-  imagen: "https://corporate.wwe.com/f/inline-images/WWE_AAA_Worlds_Collide_Logo.jpeg",
-  imagenDestacada: "hhttps://corporate.wwe.com/f/inline-images/WWE_AAA_Worlds_Collide_Logo.jpeg",
-  logoMini: "https://www.wwe.com/f/styles/wwe_show_logo_med/public/2025/08/WWE_AAA_Worlds_Collide_Logo_2025.png",
-  icono: "https://www.wwe.com/f/styles/wwe_show_logo_med/public/2025/08/WWE_AAA_Worlds_Collide_Logo_2025.png",
-  enlace: "HTML/destacada2.html",
-  enlaceProgramacion: "destacada2.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-09-12T21:00:00",
-  fin: "2025-09-12T23:30:00",
-  orden: 1
+titulo: "Worlds Collide II - AAA / WWE",
+tituloDestacado: "Ver Worlds Collide II En Vivo",
+descripcion: "Transmisión en vivo del evento WWE x AAA Worlds Collide II.",
+imagen: "https://corporate.wwe.com/f/inline-images/WWE_AAA_Worlds_Collide_Logo.jpeg",
+imagenDestacada: "hhttps://corporate.wwe.com/f/inline-images/WWE_AAA_Worlds_Collide_Logo.jpeg",
+logoMini: "https://www.wwe.com/f/styles/wwe_show_logo_med/public/2025/08/WWE_AAA_Worlds_Collide_Logo_2025.png",
+icono: "https://www.wwe.com/f/styles/wwe_show_logo_med/public/2025/08/WWE_AAA_Worlds_Collide_Logo_2025.png",
+enlace: "HTML/destacada2.html",
+enlaceProgramacion: "destacada2.html",
+destacado: true,
+fijarComoDestacado: true,
+inicio: "2025-09-12T21:00:00",
+fin: "2025-09-12T23:30:00",
+orden: 1
 },
 
 // AEW Evento - 20 de septiembre
 {
-  titulo: "AEW All Out 2025",
-  tituloDestacado: "Ver All Out 2025 En Vivo",
-  descripcion: "Sábado 20 de septiembre",
-  imagen: "https://upload.wikimedia.org/wikipedia/en/3/31/All_Out_%282025%29_promotional_poster.jpg",
-  imagenDestacada: "https://staticg.sportskeeda.com/editor/2025/05/4f220-17477692964168-1920.jpg",
-  logoMini: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUtor91rBGahrThu9Mxees5CnznfbszzN_MfUkBmhlo9xxMfbHsXaexvObjDoW46kGMRJj26ilFjaJukccK4GYDVbRWklx3erKzEA80V7sRRIHjHmH8VE2Yf0DHY8AgAOfSywBulY97qn0sQUy4fUiRndhPhYLTO-fqH-RygtY0PBow9J2n9S2I0FVzTo/s899/AEW-All-Out-logo-v4.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AEW_Logo_%28simplified%29.svg/2560px-AEW_Logo_%28simplified%29.svg.png",
-  enlace: "HTML/destacada3.html",
-  enlaceProgramacion: "destacada3.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  orden: 4,
-  inicio: "2025-09-20T12:00:00",
-  fin: "2025-09-20T16:00:00"
+titulo: "AEW All Out 2025",
+tituloDestacado: "Ver All Out 2025 En Vivo",
+descripcion: "Sábado 20 de septiembre",
+imagen: "https://upload.wikimedia.org/wikipedia/en/3/31/All_Out_%282025%29_promotional_poster.jpg",
+imagenDestacada: "https://staticg.sportskeeda.com/editor/2025/05/4f220-17477692964168-1920.jpg",
+logoMini: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUtor91rBGahrThu9Mxees5CnznfbszzN_MfUkBmhlo9xxMfbHsXaexvObjDoW46kGMRJj26ilFjaJukccK4GYDVbRWklx3erKzEA80V7sRRIHjHmH8VE2Yf0DHY8AgAOfSywBulY97qn0sQUy4fUiRndhPhYLTO-fqH-RygtY0PBow9J2n9S2I0FVzTo/s899/AEW-All-Out-logo-v4.png",
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/AEW_Logo_%28simplified%29.svg/2560px-AEW_Logo_%28simplified%29.svg.png",
+enlace: "HTML/destacada3.html",
+enlaceProgramacion: "destacada3.html",
+destacado: true,
+fijarComoDestacado: true,
+orden: 4,
+inicio: "2025-09-20T12:00:00",
+fin: "2025-09-20T16:00:00"
 },
 
 // WWE Evento - 11 de octubre
 {
-  titulo: "WWE Crown Jewel - 11 octubre 2025",
-  tituloDestacado: "Ver Crown Jewel 2025 En Vivo",
-  descripcion: "Sábado 11 de octubre",
-  imagen: "https://upload.wikimedia.org/wikipedia/en/d/d8/Crown_Jewel_2025_promotional_poster.jpg",
-  imagenDestacada: "https://www.voxcatch.fr/wp-content/uploads/2025/05/WWE-Crown-Jewel-2025.jpeg",
-  logoMini: "https://corporate.wwe.com/f/inline-images/CJ-Perth-2025-Logo.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
-  enlace: "HTML/destacada2.html",
-  enlaceProgramacion: "destacada2.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  orden: 16,
-  inicio: "2025-10-11T07:00:00",
-  fin: "2025-10-11T11:00:00"
+titulo: "WWE Crown Jewel - 11 octubre 2025",
+tituloDestacado: "Ver Crown Jewel 2025 En Vivo",
+descripcion: "Sábado 11 de octubre",
+imagen: "https://upload.wikimedia.org/wikipedia/en/d/d8/Crown_Jewel_2025_promotional_poster.jpg",
+imagenDestacada: "https://www.voxcatch.fr/wp-content/uploads/2025/05/WWE-Crown-Jewel-2025.jpeg",
+logoMini: "https://corporate.wwe.com/f/inline-images/CJ-Perth-2025-Logo.png",
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+enlace: "HTML/destacada2.html",
+enlaceProgramacion: "destacada2.html",
+destacado: true,
+fijarComoDestacado: true,
+orden: 16,
+inicio: "2025-10-11T07:00:00",
+fin: "2025-10-11T11:00:00"
 },
 
 // WWE Evento - 29 de noviembre
 {
-  titulo: "WWE Survivor Series - 29 noviembre 2025",
-  tituloDestacado: "Ver Survivor Series 2025 En Vivo",
-  descripcion: "Sábado 29 de noviembre",
-  imagen: "https://preview.redd.it/my-survivor-series-2025-fanmade-poster-v0-efcvntjfavxe1.png?auto=webp&s=f06bed169ba7f549eb57b1f21accaccbcc6a1a95",
-  imagenDestacada: "https://preview.redd.it/my-survivor-series-2025-fanmade-poster-v0-efcvntjfavxe1.png?auto=webp&s=f06bed169ba7f549eb57b1f21accaccbcc6a1a95",
-  logoMini: "https://assets.primesport.com/prod/images/46088%20SurvivorSeries%20LOGO%202025.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
-  enlace: "HTML/destacada2.html",
-  enlaceProgramacion: "destacada2.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  orden: 17,
-  inicio: "2025-11-29T13:00:00",
-  fin: "2025-11-29T17:00:00"
+titulo: "WWE Survivor Series - 29 noviembre 2025",
+tituloDestacado: "Ver Survivor Series 2025 En Vivo",
+descripcion: "Sábado 29 de noviembre",
+imagen: "https://preview.redd.it/my-survivor-series-2025-fanmade-poster-v0-efcvntjfavxe1.png?auto=webp&s=f06bed169ba7f549eb57b1f21accaccbcc6a1a95",
+imagenDestacada: "https://preview.redd.it/my-survivor-series-2025-fanmade-poster-v0-efcvntjfavxe1.png?auto=webp&s=f06bed169ba7f549eb57b1f21accaccbcc6a1a95",
+logoMini: "https://assets.primesport.com/prod/images/46088%20SurvivorSeries%20LOGO%202025.png",
+icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
+enlace: "HTML/destacada2.html",
+enlaceProgramacion: "destacada2.html",
+destacado: true,
+fijarComoDestacado: true,
+orden: 17,
+inicio: "2025-11-29T13:00:00",
+fin: "2025-11-29T17:00:00"
 }
 ];
 
@@ -1064,82 +1225,92 @@ if (contenedorPrincipal) {
     }
   });
 });
-
 function iniciarTemporizadores() {
   const temporizadores = document.querySelectorAll(".temporizador");
 
   temporizadores.forEach(temp => {
+    // evitar inicializar dos veces
+    if (temp.dataset.timerId) return;
+
     const inicio = new Date(temp.dataset.inicio);
     const fin = new Date(temp.dataset.fin);
-    const index = parseInt(temp.dataset.index);
+    const index = temp.dataset.index ? parseInt(temp.dataset.index) : null;
+
     const card = temp.closest(".card");
-    const btn = card.querySelector(".ver-evento");
-    const enlaceCorrecto = desdeProgramacion && eventos[index].enlaceProgramacion ? eventos[index].enlaceProgramacion : eventos[index].enlace;
+    const btn = card ? card.querySelector(".ver-evento") : null;
+    const enlaceCorrecto =
+      index !== null && eventos[index]
+        ? (desdeProgramacion && eventos[index].enlaceProgramacion
+            ? eventos[index].enlaceProgramacion
+            : eventos[index].enlace)
+        : null;
 
- function actualizar() {
-  const ahora = new Date();
-  const dif = inicio - ahora;
+    function actualizar() {
+      const ahora = new Date();
+      const dif = inicio - ahora;
 
-  if (ahora >= fin) {
-    const minutosDesdeFin = (ahora - fin) / (1000 * 60);
+      // ✅ Evento finalizado
+      if (ahora >= fin) {
+        const minutosDesdeFin = (ahora - fin) / (1000 * 60);
+        if (minutosDesdeFin >= 15) {
+          if (temp.dataset.timerId) {
+            clearInterval(Number(temp.dataset.timerId));
+            delete temp.dataset.timerId;
+          }
+          if (card) card.remove();
+        } else {
+          temp.textContent = "Finalizado";
+          if (card) {
+            card.className = card.className.replace(/\bbg-\w+\b/g, "").trim();
+            card.classList.add("bg-danger");
 
-    if (minutosDesdeFin >= 15) {
-      card.remove(); // Ocultar después de 15 min
-    } else {
-      temp.textContent = "Finalizado";
+            const textoCard = card.querySelector(".card-text");
+            if (textoCard) textoCard.textContent = "Evento finalizado";
 
-      // ✅ Cambiar fondo a rojo sin importar qué bg-* tenía
-      card.className = card.className.replace(/\bbg-\w+\b/g, "").trim();
-      card.classList.add("bg-danger");
-
-      // ✅ Cambiar el texto de la descripción (fecha)
-      const textoCard = card.querySelector(".card-text");
-      if (textoCard) textoCard.textContent = "Evento finalizado";
-
-      // ✅ Cambiar el botón si aún no es finalizado
-      if (btn && btn.dataset.disponible !== "finalizado") {
-        btn.outerHTML = `<button class="btn btn-outline-light ver-evento" data-disponible="finalizado">Evento finalizado</button>`;
+            if (btn && btn.dataset.disponible !== "finalizado") {
+              btn.outerHTML = `<button class="btn btn-outline-light ver-evento" data-disponible="finalizado">Evento finalizado</button>`;
+            }
+          }
+        }
+        return;
       }
+
+      // 🔴 Evento en vivo
+      if (dif <= 0) {
+        temp.textContent = "En vivo";
+        if (btn && enlaceCorrecto && btn.dataset.disponible !== "true") {
+          btn.outerHTML = `<a href="${enlaceCorrecto}" class="btn btn-light ver-evento" data-disponible="true">Ver Evento</a>`;
+        }
+        return;
+      }
+
+      // ⏳ Evento aún no ha iniciado → mostrar solo tiempo
+      const minutosRestantes = dif / (1000 * 60);
+      if (minutosRestantes <= 30 && btn && btn.dataset.disponible === "false" && enlaceCorrecto) {
+        btn.outerHTML = `<a href="${enlaceCorrecto}" class="btn btn-light ver-evento" data-disponible="true">Ver Evento</a>`;
+      }
+
+      const dias = Math.floor(dif / 86400000);
+      const horas = Math.floor((dif / 3600000) % 24);
+      const minutos = Math.floor((dif / 60000) % 60);
+      const segundos = Math.floor((dif / 1000) % 60);
+
+      let tiempoTexto = "";
+      if (dias > 0) tiempoTexto += `${dias}d `;
+      if (horas > 0 || dias > 0) tiempoTexto += `${horas}h `;
+      if (minutos > 0) tiempoTexto += `${minutos}m `;
+      tiempoTexto += `${segundos}s`;
+
+      temp.textContent = minutosRestantes <= 5
+        ? `${tiempoTexto} ¡Comienza pronto!`
+        : tiempoTexto;
     }
 
-    return;
-  }
-
-  // ⏳ Evento aún no ha iniciado
-  if (dif <= 0) {
-    temp.textContent = "En vivo";
-
-    if (btn && btn.dataset.disponible !== "true") {
-      btn.outerHTML = `<a href="${enlaceCorrecto}" class="btn btn-light ver-evento" data-disponible="true">Ver Evento</a>`;
-    }
-
-    return;
-  }
-
-  const minutosRestantes = dif / (1000 * 60);
-  if (minutosRestantes <= 30 && btn && btn.dataset.disponible === "false") {
-    btn.outerHTML = `<a href="${enlaceCorrecto}" class="btn btn-light ver-evento" data-disponible="true">Ver Evento</a>`;
-  }
-
-  const dias = Math.floor(dif / 86400000);
-  const horas = Math.floor((dif / 3600000) % 24);
-  const minutos = Math.floor((dif / 60000) % 60);
-  const segundos = Math.floor((dif / 1000) % 60);
-
-  let tiempoTexto = "";
-  if (dias > 0) tiempoTexto += `${dias}d `;
-  if (horas > 0 || dias > 0) tiempoTexto += `${horas}h `;
-  if (minutos > 0) tiempoTexto += `${minutos}m `;
-  tiempoTexto += `${segundos}s`;
-
-  temp.textContent = minutosRestantes <= 5
-    ? `${tiempoTexto} ¡Comienza pronto!`
-    : tiempoTexto;
-}
     actualizar();
-    setInterval(actualizar, 1000);
-  }); // <-- Cierre del forEach
-} // <-- Cierre de la función iniciarTemporizadores
+    const intervalId = setInterval(actualizar, 1000);
+    temp.dataset.timerId = String(intervalId);
+  });
+}
 
 
 // MOSTRAR PRÓXIMO EN VIVO
@@ -1304,15 +1475,20 @@ document.addEventListener("DOMContentLoaded", () => {
 // Archivos a los que se les aplica la lógica dinámica
 const archivosConTituloDinamico = [
   "destacada.html", "destacada2.html", "destacada3.html", "destacada4.html", "destacada5.html",
-  "Winplus.html", "Winsports.html", "FoxMX2.html", "FoxMX.html","Fox1Arg.html",
+  "Winplus.html", "Winsports.html", "FoxMX2.html", "FoxMX.html","Fox1Arg.html","Fox2Arg.html",
   "FoxSportsPremium.html", "tntsportsa.html", "tycsports.html", "tycsports2.html",
-  "TUDNMX.html", "Dsports.html", "Dsports2.html", "Dsportsplus.html","Disneyplus.html",
+  "TUDNMX.html","TUDNUSA.html", "Dsports.html", "Dsports2.html", "Dsportsplus.html",
+  "Disneyplus.html", "Disneyplus2.html", "Disneyplus3.html", "Disneyplus4.html",
+  "Disneyplus5.html", "Disneyplus6.html", "Disneyplus7.html", "Disneyplus8.html",
   "ESPN.html", "ESPN2.html", "ESPN3.html", "ESPN4.html", "ESPN5.html",
-  "ESPNPremium.html", "espndeportesusa.html","beinespañol.html",
+  "espndeportesusa.html","beinesp.html","beinespañol.html",
   "Aztecadeportes.html", "azteca7.html", "Caracoltv.html", "RCN.html",
-  "DAZNLALIGA.html", "DAZN1.html", "DAZN2.html", "DAZN3.html",
-  "MovistarLaLiga.html", "TNTUSA.html", "TelemundoUSA.html", "ESPNPremium.html"
+  "DAZNLALIGA.html", "DAZNLALIGA2.html", "DAZN1.html", "DAZN2.html", "DAZN3.html", "DAZN4.html",
+  "MovistarLaLiga.html", "MovistarLaLiga2.html", "PremiereBR.html",
+  "TNTUSA.html", "TelemundoUSA.html","ESPNMX.html",
+  "ESPNARGENTINA1.html", "ESPNARGENTINA2.html", "ESPNBRASIL.html", "ESPNPremium.html"
 ];
+
 
   if (!archivosConTituloDinamico.includes(nombreArchivo)) return;
 

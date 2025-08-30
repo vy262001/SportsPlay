@@ -21,8 +21,8 @@ function formatearFecha(fecha) {
 const showsSemanales = [
   { base: "WWE Monday Night Raw", dia: 1, enlace: "/HTML/destacada2.html" },
   { base: "WWE NXT", dia: 2, enlace: "/HTML/destacada2.html" },
-  { base: "AEW Dynamite", dia: 3, enlace: "/HTML/FoxMX2.html" },
-  { base: "TNA iMPACT!", dia: 4, enlace: "https://www.youtube.com/watch?v=t2tgiK1Syhk" },
+  { base: "AEW Dynamite", dia: 3, enlace: "/HTML/FoxSportsPremium.html" },
+  { base: "TNA iMPACT!", dia: 4, enlace: "https://www.youtube.com/watch?v=rr_4EFkQrww" },
   { base: "WWE SmackDown", dia: 5, enlace: "/HTML/destacada2.html" },
   { base: "AEW Collision", dia: 6, enlace: "/HTML/TNTUSA.html" }
 ];
@@ -44,109 +44,142 @@ showsSemanales.forEach(show => {
 // ================================
 // Eventos especiales fijos
 // ================================
-
-// Eventos de Fútbol
+// Eventos
 Object.assign(opcionesEventos, {
-  "Real Madrid Vs Osasuna - La Liga": [
-    { enlace: "/HTML/Dsports.html" },
-    { enlace: "/HTML/espndeportesusa.html" },
-    { enlace: "/HTML/DAZNLALIGA.html" }
+  // LaLiga EA Sports
+  "Alavés Vs Atlético Madrid - LaLiga EA Sports": [
+    { enlace: "HTML/Disneyplus.html" }
   ],
-  "Vélez Vs Fortaleza - Copa Libertadores": [
-    { enlace: "/HTML/Fox1Arg.html" }
+  "Real Oviedo Vs Real Sociedad - LaLiga EA Sports": [
+    { enlace: "HTML/Dsports.html" }
   ],
-  "Huracán Vs Once Caldas - Copa Sudamericana": [
-    { enlace: "/HTML/ESPN.html" }
+  "Girona Vs Sevilla - LaLiga EA Sports": [
+    { enlace: "HTML/Disneyplus3.html" }
   ],
-  "Racing Vs Peñarol - Copa Libertadores": [
-    { enlace: "/HTML/Fox1Arg.html" }
+  "Real Madrid Vs R.C.D. Mallorca - LaLiga EA Sports": [
+    { enlace: "HTML/Dsports.html" }
   ],
-  "Sao Paulo Vs Nacional - Copa Libertadores": [
-    { enlace: "/HTML/ESPN.html" }
+  "Celta de Vigo Vs Villarreal - LaLiga EA Sports": [
+    { enlace: "HTML/DAZNLALIGA.html" }
   ],
-  "Runa Vs Independiente del Valle - Copa Sudamericana": [
-    { enlace: "/HTML/Dsports.html" }
+  "Betis Vs Athletic - LaLiga EA Sports": [
+    { enlace: "HTML/DAZNLALIGA.html" }
   ],
-  "Fluminense Vs América de Cali - Copa Sudamericana": [
-    { enlace: "/HTML/Disneyplus.html" }
+  "RCD Espanyol Vs Osasuna - LaLiga EA Sports": [
+    { enlace: "HTML/DAZNLALIGA.html" }
   ],
-  "Santa Fe Vs Envigado - Liga BetPlay 2025": [
-    { enlace: "/HTML/Winplus.html" }
+  "Rayo Vallecano Vs Barcelona - LaLiga EA Sports": [
+    { enlace: "HTML/ESPN.html" }
   ],
-  "Estudiantes Vs Cerro Porteño - Copa Libertadores": [
-    { enlace: "/HTML/ESPN.html" }
+  // Leagues Cup Final
+  "Seattle Sounders Vs Inter Miami - Leagues Cup Final": [
+    { enlace: "HTML/DAZN1.html" }
   ],
-  "Cienciano Vs Bolívar - Copa Sudamericana": [
-    { enlace: "/HTML/Dsports.html" }
+  // Partidos Liga BetPlay
+  "Boyacá Chicó Vs Unión Magdalena - Liga BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Inter Miami Vs Tigres - Leagues Cup 2025": [
-    { enlace: "/HTML/DAZN1.html" }
+  "Deportivo Pereira Vs Bucaramanga - Liga BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Internacional Vs Flamengo - Copa Libertadores": [
-    { enlace: "/HTML/ESPN.html" }
+  "Deportivo Cali Vs Medellín - Liga BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "U Católica Vs Alianza Lima - Copa Sudamericana": [
-    { enlace: "/HTML/Dsports.html" }
+  "Atlético Nacional Vs Envigado - Liga BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Independiente Vs U de Chile - Copa Sudamericana": [
-    { enlace: "/HTML/Dsports.html" }
+  "Alianza Vs América - Liga BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Millonarios Vs Unión Magdalena - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "La Equidad Vs Pasto - Liga BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Toluca Vs Orlando - Leagues Cup 2025": [
-    { enlace: "/HTML/DAZN1.html" }
+  "Tolima Vs Fortaleza - Liga BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Seattle Sounders Vs Puebla - Leagues Cup 2025": [
-    { enlace: "/HTML/DAZN1.html" }
+  "Santa Fe Vs Once Caldas - Liga BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "LA Galaxy Vs Pachuca - Leagues Cup 2025": [
-    { enlace: "/HTML/DAZN1.html" }
+  // Partidos Liga Argentina
+  "San Lorenzo Vs Huracán - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "LDU Quito Vs Botafogo - Copa Libertadores 2025": [
-    { enlace: "/HTML/ESPN.html" }
+  "Central Córdoba Vs Estudiantes - Liga Argentina": [
+    { enlace: "HTML/tntsportsa.html" }
   ],
-  "River Plate Vs Libertad - Copa Libertadores 2025": [
-    { enlace: "/HTML/ESPN.html" }
+  "Independiente Rivadavia Vs Argentinos Jrs. - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "Palmeiras Vs Universitario - Copa Libertadores 2025": [
-    { enlace: "/HTML/ESPN.html" }
+  "Sarmiento Vs Rosario Central - Liga Argentina": [
+    { enlace: "HTML/tntsportsa.html" }
   ],
-  "Bayern Munich Vs RB Leipzig - Bundesliga 2025": [
-    { enlace: "/HTML/DAZN1.html" }
+  "Vélez Vs Lanús - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "Boyacá Chicó Vs Deportivo Cali - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "Aldosivi Vs Boca Juniors - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "Llaneros Vs Pasto - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "Talleres Vs Deportivo Riestra - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "Medellín Vs La Equidad - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "Defensa y Justicia Vs Belgrano - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "Envigado Vs Deportivo Pereira - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "River Plate Vs San Martín - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "Fortaleza Vs Santa Fe - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "Racing Vs Unión - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "Millonarios Vs Junior - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "Gimnasia Vs Atlético Tucumán - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "Once Caldas Vs Tolima - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "Platense Vs Godoy Cruz - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" }
   ],
-  "Unión Magdalena Vs Alianza - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  // Partidos Premier League
+  "Leeds Vs Newcastle - Premier League": [
+    { enlace: "HTML/Disneyplus2.html" }
   ],
-  "América Vs Atlético Nacional - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "Brighton Vs Manchester City - Premier League": [
+    { enlace: "HTML/DAZN2.html" }
   ],
-  "Bucaramanga Vs Águilas Doradas - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "Nottingham Forest Vs West Ham - Premier League": [
+    { enlace: "HTML/DAZN2.html" }
   ],
-  "Real Cartagena Vs Millonarios - Copa BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
+  "Liverpool Vs Arsenal - Premier League": [
+    { enlace: "HTML/DAZN2.html" }
+  ],
+  "Aston Villa Vs Crystal Palace - Premier League": [
+    { enlace: "HTML/DAZN2.html" }
+  ],
+  // Partidos Serie A
+  "Napoli Vs Cagliari - Serie A": [
+    { enlace: "HTML/destacada.html" }
+  ],
+  // Partidos Ligue 1
+  "Toulouse Vs PSG - Ligue 1": [
+    { enlace: "HTML/destacada4.html" }
+  ],
+  // Partidos Bundesliga
+  "Augsburgo Vs Bayern Munich - Bundesliga": [
+    { enlace: "HTML/ESPN.html" }
+  ],
+  "Wolfsburg Vs Mainz 05 - Bundesliga": [
+    { enlace: "HTML/DAZN3.html" }
+  ],
+  "Dortmund Vs FC Union Berlin - Bundesliga": [
+    { enlace: "HTML/DAZN3.html" }
+  ],
+  "Colonia Vs Friburgo - Bundesliga": [
+    { enlace: "HTML/DAZN3.html" }
+  ],
+  // Partidos Brasileirão
+  "Botafogo Vs Bragantino - Brasileirão": [
+    { enlace: "HTML/PremiereBR.html" }
+  ],
+  "Cruzeiro Vs São Paulo - Brasileirão": [
+    { enlace: "HTML/PremiereBR.html" }
   ]
 });
 
@@ -166,8 +199,15 @@ Object.assign(opcionesEventos, {
   ],
   "WWE Survivor Series - 29 noviembre 2025": [
     { enlace: "/HTML/destacada2.html" }
+  ],
+  "Worlds Collide II - AAA / WWE": [
+    { enlace: "/HTML/destacada2.html" }
+  ],
+  "NXT Heatwave 24 de agosto 2025": [
+    { enlace: "/HTML/destacada2.html" }
   ]
 });
+
 
 // Eventos Otros (Agregar aquí los que no son ni fútbol ni lucha libre)
 Object.assign(opcionesEventos, {
@@ -215,14 +255,21 @@ function mostrarEventosHoy() {
     const fin = new Date(evento.fin);
     const estaEnVivo = ahora >= inicio && ahora <= fin;
 
-  const horaHTML = estaEnVivo
-    ? `<span class="evento-hoy-hora en-vivo-parpadeo">🔴 EN VIVO</span>`
-    : `<span class="evento-hoy-hora">${inicio.toLocaleTimeString(navigator.language, {
-        hour: "numeric",
-        minute: "2-digit",
-        hour12: true, // cambia a false si querés formato 24h
-        timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
-      })}</span>`;
+    // buscamos el índice en el array original de eventos (si coincide título+inicio+fin)
+    const indexOriginal = eventos.findIndex(e =>
+      e.titulo === evento.titulo && e.inicio === evento.inicio && e.fin === evento.fin
+    );
+
+    const dataIndexAttr = indexOriginal >= 0 ? `data-index="${indexOriginal}"` : "";
+
+    const horaHTML = estaEnVivo
+      ? `<span class="evento-hoy-hora en-vivo-parpadeo">🔴 EN VIVO</span>`
+      : `<span class="evento-hoy-hora">${inicio.toLocaleTimeString(navigator.language, {
+          hour: "numeric",
+          minute: "2-digit",
+          hour12: true,
+          timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone
+        })}</span>`;
 
     const iconoHTML = evento.icono
       ? `<img src="${evento.icono}" alt="icono" class="icono-evento-img">`
@@ -231,11 +278,18 @@ function mostrarEventosHoy() {
     const item = document.createElement("div");
     item.className = "evento-hoy-item";
     item.innerHTML = `
-      <div class="grupo-hora-icono">
-        ${horaHTML}
-        ${iconoHTML}
+      <div class="evento-hoy-izq">
+        <div class="grupo-hora-icono">
+          ${horaHTML}
+          ${iconoHTML}
+        </div>
+        <span class="evento-hoy-nombre">${evento.titulo}</span>
       </div>
-      <span class="evento-hoy-nombre">${evento.titulo}</span>
+      <div class="evento-hoy-der">
+        <span class="temporizador" ${dataIndexAttr} data-inicio="${evento.inicio}" data-fin="${evento.fin}">
+          Empieza en: --
+        </span>
+      </div>
     `;
 
     const contOpciones = document.createElement("div");
@@ -257,16 +311,23 @@ function mostrarEventosHoy() {
 
         const nombreBonito = {
           "espndeportesusa.html": "ESPN Deportes USA",
-          "beinespañol.html": "Bein Sports",
+          "beinesp.html": "Bein Sports",
+          "beinespañol.html": "Bein Sports Español",
           "Winplus.html": "Win Sports+",
           "ESPNPremium.html": "ESPN Premium",
+          "ESPNARGENTINA1.html": "ESPN Argentina 1",
+          "ESPNARGENTINA2.html": "ESPN Argentina 2",
+          "ESPNBRASIL.html": "ESPN Brasil",
+          "ESPNMX.html": "ESPN MX",
           "FoxSportsPremium.html": "Fox Sports Premium",
           "tycsports2.html": "TyC Sports 2",
           "tycsports.html": "TyC Sports",
           "TUDNMX.html": "TUDN MX",
+          "TUDNUSA.html": "TUDN USA",
           "FoxMX.html": "Fox Sports MX",
           "FoxMX2.html": "Fox Sports MX 2",
           "Fox1Arg.html": "Fox Sports 1 Argentina",
+          "Fox2Arg.html": "Fox Sports 2 Argentina",
           "ESPN.html": "ESPN",
           "ESPN2.html": "ESPN 2",
           "ESPN3.html": "ESPN 3",
@@ -275,6 +336,13 @@ function mostrarEventosHoy() {
           "Caracoltv.html": "Caracol",
           "RCN.html": "RCN",
           "Disneyplus.html": "Disney +",
+          "Disneyplus2.html": "Disney +",
+          "Disneyplus3.html": "Disney +",
+          "Disneyplus4.html": "Disney +",
+          "Disneyplus5.html": "Disney +",
+          "Disneyplus6.html": "Disney +",
+          "Disneyplus7.html": "Disney +",
+          "Disneyplus8.html": "Disney +",
           "Dsports.html": "DSports",
           "Dsports2.html": "DSports 2",
           "Dsportsplus.html": "DSports+",
@@ -283,10 +351,14 @@ function mostrarEventosHoy() {
           "Aztecadeportes.html": "Azteca Deportes",
           "azteca7.html": "Azteca 7",
           "DAZNLALIGA.html": "DAZN LaLiga",
+          "DAZNLALIGA2.html": "DAZN LaLiga 2",
           "DAZN1.html": "DAZN 1",
           "DAZN2.html": "DAZN 2",
           "DAZN3.html": "DAZN 3",
+          "DAZN4.html": "DAZN 4",
           "MovistarLaLiga.html": "Movistar LaLiga",
+          "MovistarLaLiga2.html": "Movistar LaLiga 2",
+          "PremiereBR.html": "Premiere Brasil",
           "TNTUSA.html": "TNT USA",
           "TelemundoUSA.html": "Telemundo USA",
           "destacada.html": "Canal 1",
@@ -295,6 +367,7 @@ function mostrarEventosHoy() {
           "destacada4.html": "Canal 4",
           "destacada5.html": "Canal 5"
         };
+
 
         listaOpciones.forEach(opcion => {
           const archivo = opcion.enlaceProgramacion || opcion.enlace;
@@ -331,5 +404,40 @@ function mostrarEventosHoy() {
 
     contenedor.appendChild(item);
     contenedor.appendChild(contOpciones);
+
+    // ✅ TEMPORIZADOR exclusivo para Eventos Hoy
+    const temp = item.querySelector(".temporizador");
+    if (temp) {
+      function actualizarTempHoy() {
+        const ahora = new Date();
+        const dif = inicio - ahora;
+
+        if (ahora >= fin) {
+          temp.textContent = "Finalizado";
+          return;
+        }
+
+        if (dif <= 0) {
+          temp.textContent = "En vivo";
+          return;
+        }
+
+        const dias = Math.floor(dif / 86400000);
+        const horas = Math.floor((dif / 3600000) % 24);
+        const minutos = Math.floor((dif / 60000) % 60);
+        const segundos = Math.floor((dif / 1000) % 60);
+
+        let tiempoTexto = "";
+        if (dias > 0) tiempoTexto += `${dias}d `;
+        if (horas > 0 || dias > 0) tiempoTexto += `${horas}h `;
+        if (minutos > 0) tiempoTexto += `${minutos}m `;
+        tiempoTexto += `${segundos}s`;
+
+        temp.textContent = `Empieza en: ${tiempoTexto}`;
+      }
+
+      actualizarTempHoy();
+      setInterval(actualizarTempHoy, 1000);
+    }
   });
 }

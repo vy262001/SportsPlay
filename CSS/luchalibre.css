@@ -22,7 +22,7 @@ html, body {
 }
 
 body {
-  background-color: #0f0f0f;
+  background-color: #000;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -32,7 +32,7 @@ body {
 
 header {
   position: relative;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #000;
   padding: 25px 0 10px;
   text-align: center;
   border-bottom: 2px solid #1f6feb;
@@ -324,7 +324,7 @@ header nav ul.nav li a:hover {
   padding: 8px 16px;
   border-radius: 6px;
   transition: all 0.3s ease;
-  background-color: transparent;
+  background-color: #000;
   text-decoration: none;
 }
 
@@ -396,5 +396,76 @@ header nav ul.nav li a:hover {
 
   .dropdown.show .dropdown-menu {
     display: block;
+  }
+}
+/* ===== MENÚ RESPONSIVE UNIFORME ===== */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #000 !important; /* Fondo negro sólido */
+    padding: 15px 0;
+    border-top: 1px solid #1f6feb; /* línea superior azul */
+  }
+
+  .navbar-nav .nav-link {
+    color: #f0f6fc !important;
+    font-weight: 500 !important; /* normal en móvil */
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    padding: 14px 22px;
+    margin: 2px 0;
+    width: 100%;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+    text-align: left;
+  }
+
+  /* Hover */
+  .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* sutil en hover */
+    color: #eb1f1f !important; /* texto rojo */
+    border-left: 3px solid #eb1f1f; /* línea roja */
+  }
+
+  /* Dropdown dentro del menú */
+  .dropdown-menu {
+    background-color: #000;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .dropdown-item {
+    color: #c9d1d9 !important;
+    padding: 12px 22px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+
+  .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #eb1f1f !important;
+    padding-left: 26px; /* animación lateral sutil */
+  }
+}
+/* ===== ESTILOS EXCLUSIVOS PARA MÓVILES ===== */
+@media (max-width: 576px) {
+  /* Contenedor de botones: flex en fila, ajustados */
+  .text-center.mb-4.d-flex.justify-content-center.gap-3 {
+    flex-wrap: wrap; /* que se ajusten si no caben */
+    gap: 6px; /* un poco más de espacio entre botones */
+  }
+
+  /* Botones más grandes que antes pero aún móviles */
+  .btn-programacion {
+    padding: 6px 12px;       /* un poco más de padding */
+    font-size: 0.75rem;      /* fuente más grande */
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  /* Hover para levantar los botones */
+  .btn-programacion:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
   }
 }

@@ -349,3 +349,58 @@ header nav ul.nav li a:hover {
     display: block;
   }
 }
+/* ===== MENÚ RESPONSIVE UNIFORME ===== */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #000 !important; /* Fondo negro sólido */
+    padding: 15px 0;
+    border-top: 1px solid #1f6feb; /* línea superior azul */
+  }
+
+  .navbar-nav .nav-link {
+    color: #f0f6fc !important;
+    font-weight: 500 !important; /* normal en móvil */
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    padding: 14px 22px;
+    margin: 2px 0;
+    width: 100%;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+    text-align: left;
+  }
+
+  /* Hover */
+  .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* sutil en hover */
+    color: #eb1f1f !important; /* texto rojo */
+    border-left: 3px solid #eb1f1f; /* línea roja */
+  }
+
+  /* Activo */
+  .navbar-nav .nav-link.active {
+    background-color: #0d1117; /* tono oscuro igual al navbar */
+    color: #ffffff !important;
+  }
+
+  /* Dropdown dentro del menú */
+  .dropdown-menu {
+    background-color: #000;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .dropdown-item {
+    color: #c9d1d9 !important;
+    padding: 12px 22px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+  }
+
+  .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #eb1f1f !important;
+    padding-left: 26px; /* animación lateral sutil */
+  }
+}

@@ -1,6 +1,90 @@
 const eventosRepeticiones = [
   {
-    titulo: "WWE SmackDown 16 de Agosto 2025 Repetición",
+    titulo: "WWE SmackDown 29 de Agosto 2025 Repetición",
+    evento: "SMACKDOWN",
+    imagen: "https://img.solowrestling.com/images/143/mobile143764-wwe-smackdown.jpg",
+    url: "//ok.ru/videoembed/9405067561627?nochat=1"
+  },
+  {
+    titulo: "AEW Dynamite 27 de Agosto 2025 Repetición",
+    evento: "DYNAMITE",
+    imagen: "https://latinluchas.com/wp-content/uploads/2025/08/AEW-Dynamite-27-de-Agosto-2025-En-Vivo-y-Repeticion.webp",
+    url: "https://latinlucha.upns.online/#h9wiu8"
+  },
+  {
+    titulo: "WWE NXT 26 de Agosto 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://img.solowrestling.com/images/143/mobile143689-nxt-wwe.jpg",
+    url: "//ok.ru/videoembed/9394043095707?nochat=1"
+  },
+  {
+    titulo: "WWE RAW 25 de Agosto 2025 Repetición",
+    evento: "RAW",
+    imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/08/20250818_RAW_Netflix_Match_RheaRox_16x9_Monday-1024x576.jpg",
+    url: "//ok.ru/videoembed/9390247840411?nochat=1"
+  },  
+  {
+    titulo: "WWE NXT HeatWave 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://img.solowrestling.com/images/143/143632-heatwave.jpg",
+    url: "//ok.ru/videoembed/9383448742555?nochat=1"
+  },
+  {
+    titulo: "AEW Forbidden Door 2025 Repetición",
+    evento: "AEW",
+    imagen: "https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/537116596_1228142376009898_8299410841599684440_n.webp?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7MkQqFIHeKQQ7kNvwF1RM6k&_nc_oc=Adk9CxcEh4Ar_49UEmQJhd6iy82dSoGwkq-2fI7J6tt1jHeLrh4c34EhaDLwK7_JJg0&_nc_zt=23&_nc_ht=scontent-bog2-1.xx&_nc_gid=spTIu4EZeX-hS8C2iGPUIg&oh=00_AfXrR5YkuAjiSS9U7qjJ4RQJivQeESw0RhQwoXXTUrrbCA&oe=68B8FB5C",
+    url: "//ok.ru/videoembed/9382969936539?nochat=1"
+  },
+  {
+    titulo: "AEW Collision 23 de Agosto 2025 Repetición",
+    evento: "COLLISION",
+    imagen: "https://latinluchas.com/wp-content/uploads/2025/08/AEW-Collision-de-Agosto-2025-En-Vivo-y-Repeticion.webp",
+    url: "//ok.ru/videoembed/9379830434459?nochat=1"
+  },
+  {
+    titulo: "WWE SmackDown 22 de Agosto 2025 Repetición",
+    evento: "SMACKDOWN",
+    imagen: "https://i0.wp.com/www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/08/20250815_SD_Match_MCMGMeloMiz_16x9_Friday.jpg?resize=740%2C416&ssl=1",
+    url: "//ok.ru/videoembed/9376020368027?nochat=1"
+  },
+  {
+    titulo: "TNA iMPACT! 21 de Agosto 2025 Repeticion",
+    evento: "TNA",
+    imagen: "https://img.solowrestling.com/images/143/143562-tna.jpg",
+    url: "//ok.ru/videoembed/9657158863460?nochat=1"
+  },
+  {
+    titulo: "AEW Dynamite 20 de Agosto 2025 Repetición",
+    evento: "DYNAMITE",
+    imagen: "https://i0.wp.com/aiptcomics.com/wp-content/uploads/2025/08/Gyy3_pKWQAAK6Fp.jpeg?resize=740%2C416&ssl=1",
+    url: "//ok.ru/videoembed/9370525305499?nochat=1"
+  },
+  {
+    titulo: "WWE NXT 19 de Agosto 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://img.solowrestling.com/images/143/mobile143506-wwe-nxt.jpg",
+    url: "//ok.ru/videoembed/9356994415259?nochat=1"
+  },
+  {
+    titulo: "WWE RAW 18 de Agosto 2025 Repetición",
+    evento: "RAW",
+    imagen: "https://i0.wp.com/www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/08/20250815_RAW_Netflix_Match_JeyBron_16x9_tonight.jpg?resize=740%2C416&ssl=1",
+    url: "//ok.ru/videoembed/9351989037723?nochat=1"
+  },  
+  {
+    titulo: "Lucha Libre AAA TripleMania XXXIII Repetición",
+    evento: "AAA",
+    imagen: "https://i0.wp.com/www.prwrestling.com/nw/wp-content/uploads/2025/08/aaa_11zon.jpg?fit=960%2C540&quality=89&ssl=1",
+    url: "//ok.ru/videoembed/9346063207067?nochat=1"
+  },
+  {
+    titulo: "AEW Collision 16 de Agosto 2025 Repetición",
+    evento: "COLLISION",
+    imagen: "https://img.solowrestling.com/images/143/tablet143434-aew-collision.jpg",
+    url: "//ok.ru/videoembed/9343947442843?nochat=1"
+  },
+  {
+    titulo: "WWE SmackDown 15 de Agosto 2025 Repetición",
     evento: "SMACKDOWN",
     imagen: "https://portalciudad.com.ar/wp-content/uploads/2025/08/tablet143403-smackdown.jpg",
     url: "//ok.ru/videoembed/9340045232795?nochat=1"
@@ -8,7 +92,7 @@ const eventosRepeticiones = [
   {
     titulo: "TNA Emergence 2025 Repeticion",
     evento: "TNA",
-    imagen: "https://tnawrestling.com/wp-content/uploads/2025/08/TNA-Emergence-Trick-Williams-vs-Moose-2-1024x576.jpg",
+    imagen: "https://img.solowrestling.com/images/143/143412-tna-emergence.jpg",
     url: "//ok.ru/videoembed/9340178008731?nochat=1"
   },
   {

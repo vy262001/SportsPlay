@@ -1,7 +1,37 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
-  titulo: "WWE SmackDown 16 de agosto de 2025 Resumen",
+  titulo: "WWE SmackDown 29 de agosto de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/f0db8_kgi4Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDdpCntesHeBYysRzgc3cg74s1cIA",
+  videoId: "1BQfrOajvn8",
+  categoria: "WWE"
+},
+{
+  titulo: "WWE Monday Night Raw 25 de agosto de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/drx88ZG6R_I/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCMiS49jyruJyNgiYvVrPsGJRPkiA",
+  videoId: "XPyITs2wmVI",
+  categoria: "WWE"
+},
+{
+  titulo: "WWE SmackDown 22 de agosto de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/9HSTwb9ljFY/maxresdefault.jpg",
+  videoId: "ERN6uglbQLc",
+  categoria: "WWE"
+},
+{
+  titulo: "WWE Monday Night Raw 18 de agosto de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/fXqsN5X-NeM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBl2MDCcCziMhrbs5t3M3hRhA1svQ",
+  videoId: "ZTtwpb5bK8o",
+  categoria: "WWE"
+},
+{
+  titulo: "Lucha Libre AAA TripleMania XXXIII Resumen",
+  miniatura: "https://i.ytimg.com/vi/6mhTftfrPX8/maxresdefault.jpg",
+  videoId: "Wqtj-ilNNfI",
+  categoria: "AAA"
+},
+{
+  titulo: "WWE SmackDown 15 de agosto de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/N4FyFJl6hWk/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBSgmmr6WJBisDP06Leq8vJUzZiGw",
   videoId: "DTQSUCg-qug",
   categoria: "WWE"

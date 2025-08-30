@@ -297,7 +297,7 @@ header nav ul.nav li a:hover {
 
 .custom-navbar .nav-link {
   color: #ffffff !important;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1rem;
   padding: 10px 20px;
   border-radius: 8px;
@@ -654,35 +654,52 @@ header nav ul.nav li a:hover {
   }
 }
 
-/* ========== ESTILOS PARA MÓVILES (CLICK) ========== */
+/* ===== MENÚ RESPONSIVE UNIFORME ===== */
 @media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #000 !important; /* Fondo negro sólido */
+    padding: 15px 0;
+    border-top: 1px solid #1f6feb; /* línea superior azul */
+  }
+
+  .navbar-nav .nav-link {
+    color: #f0f6fc !important;
+    font-weight: 500 !important; /* normal en móvil */
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    padding: 14px 22px;
+    margin: 2px 0;
+    width: 100%;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+    text-align: left;
+  }
+
+  /* Hover */
+  .navbar-nav .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.05); /* sutil en hover */
+    color: #eb1f1f !important; /* texto rojo */
+    border-left: 3px solid #eb1f1f; /* línea roja */
+  }
+
+  /* Dropdown dentro del menú */
   .dropdown-menu {
-    display: none;
-    position: static;
-    float: none;
-    transform: none;
-    box-shadow: none;
     background-color: #000;
-    opacity: 1;
-    visibility: visible;
-    padding: 0.3rem 0;
-    border-radius: 0.5rem;
+    border: none;
+    border-radius: 0;
+    padding: 0;
   }
 
-  .dropdown.show .dropdown-menu {
-    display: block;
+  .dropdown-item {
+    color: #c9d1d9 !important;
+    padding: 12px 22px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
   }
-}
 
-#eventos-hoy-titulo {
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* Ajuste para móviles */
-@media (max-width: 576px) {
-  #eventos-hoy-titulo {
-    font-size: 12px;    /* Un poco más pequeño en móvil */
+  .dropdown-item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #eb1f1f !important;
+    padding-left: 26px; /* animación lateral sutil */
   }
 }

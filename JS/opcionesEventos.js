@@ -48,138 +48,140 @@ showsSemanales.forEach(show => {
 Object.assign(opcionesEventos, {
   // LaLiga EA Sports
   "Alavés Vs Atlético Madrid - LaLiga EA Sports": [
-    { enlace: "HTML/Disneyplus.html" }
+    { enlace: "/HTML/Disneyplus.html" },
+    { enlace: "/HTML/espndeportesusa.html" },
+    { enlace: "/HTML/ESPNARGENTINA1.html" }
   ],
   "Real Oviedo Vs Real Sociedad - LaLiga EA Sports": [
-    { enlace: "HTML/Dsports.html" }
+    { enlace: "/HTML/Dsports.html" }
   ],
   "Girona Vs Sevilla - LaLiga EA Sports": [
-    { enlace: "HTML/Disneyplus3.html" }
+    { enlace: "/HTML/Disneyplus3.html" }
   ],
   "Real Madrid Vs R.C.D. Mallorca - LaLiga EA Sports": [
-    { enlace: "HTML/Dsports.html" }
+    { enlace: "/HTML/Dsports.html" }
   ],
   "Celta de Vigo Vs Villarreal - LaLiga EA Sports": [
-    { enlace: "HTML/DAZNLALIGA.html" }
+    { enlace: "/HTML/DAZNLALIGA.html" }
   ],
   "Betis Vs Athletic - LaLiga EA Sports": [
-    { enlace: "HTML/DAZNLALIGA.html" }
+    { enlace: "/HTML/DAZNLALIGA.html" }
   ],
   "RCD Espanyol Vs Osasuna - LaLiga EA Sports": [
-    { enlace: "HTML/DAZNLALIGA.html" }
+    { enlace: "/HTML/DAZNLALIGA.html" }
   ],
   "Rayo Vallecano Vs Barcelona - LaLiga EA Sports": [
-    { enlace: "HTML/ESPN.html" }
+    { enlace: "/HTML/ESPN.html" }
   ],
   // Leagues Cup Final
   "Seattle Sounders Vs Inter Miami - Leagues Cup Final": [
-    { enlace: "HTML/DAZN1.html" }
+    { enlace: "/HTML/DAZN1.html" }
   ],
   // Partidos Liga BetPlay
   "Boyacá Chicó Vs Unión Magdalena - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "Deportivo Pereira Vs Bucaramanga - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "Deportivo Cali Vs Medellín - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "Atlético Nacional Vs Envigado - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "Alianza Vs América - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "La Equidad Vs Pasto - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "Tolima Vs Fortaleza - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "Santa Fe Vs Once Caldas - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   // Partidos Liga Argentina
   "San Lorenzo Vs Huracán - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Central Córdoba Vs Estudiantes - Liga Argentina": [
-    { enlace: "HTML/tntsportsa.html" }
+    { enlace: "/HTML/tntsportsa.html" }
   ],
   "Independiente Rivadavia Vs Argentinos Jrs. - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Sarmiento Vs Rosario Central - Liga Argentina": [
-    { enlace: "HTML/tntsportsa.html" }
+    { enlace: "/HTML/tntsportsa.html" }
   ],
   "Vélez Vs Lanús - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Aldosivi Vs Boca Juniors - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Talleres Vs Deportivo Riestra - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Defensa y Justicia Vs Belgrano - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "River Plate Vs San Martín - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Racing Vs Unión - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Gimnasia Vs Atlético Tucumán - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Platense Vs Godoy Cruz - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+    { enlace: "/HTML/ESPNPremium.html" }
   ],
   // Partidos Premier League
   "Leeds Vs Newcastle - Premier League": [
-    { enlace: "HTML/Disneyplus2.html" }
+    { enlace: "/HTML/Disneyplus2.html" }
   ],
   "Brighton Vs Manchester City - Premier League": [
-    { enlace: "HTML/DAZN2.html" }
+    { enlace: "/HTML/DAZN2.html" }
   ],
   "Nottingham Forest Vs West Ham - Premier League": [
-    { enlace: "HTML/DAZN2.html" }
+    { enlace: "/HTML/DAZN2.html" }
   ],
   "Liverpool Vs Arsenal - Premier League": [
-    { enlace: "HTML/DAZN2.html" }
+    { enlace: "/HTML/DAZN2.html" }
   ],
   "Aston Villa Vs Crystal Palace - Premier League": [
-    { enlace: "HTML/DAZN2.html" }
+    { enlace: "/HTML/DAZN2.html" }
   ],
   // Partidos Serie A
   "Napoli Vs Cagliari - Serie A": [
-    { enlace: "HTML/destacada.html" }
+    { enlace: "/HTML/destacada.html" }
   ],
   // Partidos Ligue 1
   "Toulouse Vs PSG - Ligue 1": [
-    { enlace: "HTML/destacada4.html" }
+    { enlace: "/HTML/destacada4.html" }
   ],
   // Partidos Bundesliga
   "Augsburgo Vs Bayern Munich - Bundesliga": [
-    { enlace: "HTML/ESPN.html" }
+    { enlace: "/HTML/ESPN.html" }
   ],
   "Wolfsburg Vs Mainz 05 - Bundesliga": [
-    { enlace: "HTML/DAZN3.html" }
+    { enlace: "/HTML/DAZN3.html" }
   ],
   "Dortmund Vs FC Union Berlin - Bundesliga": [
-    { enlace: "HTML/DAZN3.html" }
+    { enlace: "/HTML/DAZN3.html" }
   ],
   "Colonia Vs Friburgo - Bundesliga": [
-    { enlace: "HTML/DAZN3.html" }
+    { enlace: "/HTML/DAZN3.html" }
   ],
   // Partidos Brasileirão
   "Botafogo Vs Bragantino - Brasileirão": [
-    { enlace: "HTML/PremiereBR.html" }
+    { enlace: "/HTML/PremiereBR.html" }
   ],
   "Cruzeiro Vs São Paulo - Brasileirão": [
-    { enlace: "HTML/PremiereBR.html" }
+    { enlace: "/HTML/PremiereBR.html" }
   ]
 });
 

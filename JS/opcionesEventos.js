@@ -165,6 +165,7 @@ Object.assign(opcionesEventos, {
   ],
   // Partidos Bundesliga
   "Augsburgo Vs Bayern Munich - Bundesliga": [
+    { enlace: "/HTML/Disneyplus7.html" },
     { enlace: "/HTML/ESPN.html" }
   ],
   "Wolfsburg Vs Mainz 05 - Bundesliga": [

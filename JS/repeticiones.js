@@ -1,5 +1,17 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE Clash In Paris 2025 Repetición",
+    evento: "WWE",
+    imagen: "https://cdn2.mediotiempo.com/uploads/media/2025/08/26/wwe-clash-in-paris-fecha.jpg",
+    url: "//ok.ru/videoembed/9412022241947?nochat=1"
+  },
+  {
+    titulo: "AEW Collision 30 de Agosto 2025 Repetición",
+    evento: "COLLISION",
+    imagen: "https://img.solowrestling.com/images/143/143790-collision-30-ago.jpg",
+    url: "//ok.ru/videoembed/9408823495323?nochat=1"
+  },
+  {
     titulo: "WWE SmackDown 29 de Agosto 2025 Repetición",
     evento: "SMACKDOWN",
     imagen: "https://img.solowrestling.com/images/143/mobile143764-wwe-smackdown.jpg",

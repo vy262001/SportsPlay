@@ -1,5 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
+  {
+  titulo: "WWE Clash In Paris 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/z8iLoPmOY7Y/maxresdefault.jpg",
+  videoId: "AVt5fVuVTnY",
+  categoria: "WWE"
+},
 {
   titulo: "WWE SmackDown 29 de agosto de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/f0db8_kgi4Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDdpCntesHeBYysRzgc3cg74s1cIA",

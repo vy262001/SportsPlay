@@ -46,140 +46,87 @@ showsSemanales.forEach(show => {
 // ================================
 // Eventos
 Object.assign(opcionesEventos, {
-  // LaLiga EA Sports
-  "Alavés Vs Atlético Madrid - LaLiga EA Sports": [
-    { enlace: "HTML/Disneyplus.html" }
+  "Gimnasia Vs Atlético Tucumán - Liga Argentina": [
+    { enlace: "HTML/ESPNPremium.html" },
+    { enlace: "HTML/tycsports2.html" }
   ],
-  "Real Oviedo Vs Real Sociedad - LaLiga EA Sports": [
-    { enlace: "HTML/Dsports.html" }
-  ],
-  "Girona Vs Sevilla - LaLiga EA Sports": [
-    { enlace: "HTML/Disneyplus3.html" }
-  ],
-  "Real Madrid Vs R.C.D. Mallorca - LaLiga EA Sports": [
-    { enlace: "HTML/Dsports.html" }
-  ],
-  "Celta de Vigo Vs Villarreal - LaLiga EA Sports": [
-    { enlace: "HTML/DAZNLALIGA.html" }
-  ],
-  "Betis Vs Athletic - LaLiga EA Sports": [
-    { enlace: "HTML/DAZNLALIGA.html" }
-  ],
-  "RCD Espanyol Vs Osasuna - LaLiga EA Sports": [
-    { enlace: "HTML/DAZNLALIGA.html" }
-  ],
-  "Rayo Vallecano Vs Barcelona - LaLiga EA Sports": [
-    { enlace: "HTML/ESPN.html" }
-  ],
-  // Leagues Cup Final
-  "Seattle Sounders Vs Inter Miami - Leagues Cup Final": [
-    { enlace: "HTML/DAZN1.html" }
-  ],
-  // Partidos Liga BetPlay
-  "Boyacá Chicó Vs Unión Magdalena - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
-  ],
-  "Deportivo Pereira Vs Bucaramanga - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
-  ],
-  "Deportivo Cali Vs Medellín - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
-  ],
-  "Atlético Nacional Vs Envigado - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
-  ],
-  "Alianza Vs América - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
-  ],
-  "La Equidad Vs Pasto - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
-  ],
-  "Tolima Vs Fortaleza - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+  "Platense Vs Godoy Cruz - Liga Argentina": [
+    { enlace: "HTML/tntsportsa.html" }
   ],
   "Santa Fe Vs Once Caldas - Liga BetPlay": [
     { enlace: "HTML/Winplus.html" }
   ],
-  // Partidos Liga Argentina
-  "San Lorenzo Vs Huracán - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Real Soacha Vs Deportivo Pereira - Copa BetPlay": [
+    { enlace: "HTML/Winsports.html" }
   ],
-  "Central Córdoba Vs Estudiantes - Liga Argentina": [
-    { enlace: "HTML/tntsportsa.html" }
+  "Atlético de Cali Vs Junior - Copa BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Independiente Rivadavia Vs Argentinos Jrs. - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Envigado Vs Millonarios - Copa BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Sarmiento Vs Rosario Central - Liga Argentina": [
-    { enlace: "HTML/tntsportsa.html" }
+  "América Vs Bucaramanga - Copa BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Vélez Vs Lanús - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Medellín Vs Fortaleza - Copa BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Aldosivi Vs Boca Juniors - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Deportes Quindío Vs Nacional - Copa BetPlay": [
+    { enlace: "HTML/Winplus.html" }
   ],
-  "Talleres Vs Deportivo Riestra - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Kazajistán Vs Gales - Clasificación Mundial UEFA": [
+    { enlace: "HTML/UEFA.html" }
   ],
-  "Defensa y Justicia Vs Belgrano - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Lituania Vs Malta - Clasificación Mundial UEFA": [
+    { enlace: "HTML/UEFA.html" }
   ],
-  "River Plate Vs San Martín - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Georgia Vs Turquía - Clasificación Mundial UEFA": [
+    { enlace: "HTML/UEFA.html" }
   ],
-  "Racing Vs Unión - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Liechtenstein Vs Bélgica - Clasificación Mundial UEFA": [
+    { enlace: "HTML/UEFA.html" }
   ],
-  "Gimnasia Vs Atlético Tucumán - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Eslovaquia Vs Alemania - Clasificación Mundial UEFA": [
+    { enlace: "HTML/UEFA.html" }
   ],
-  "Platense Vs Godoy Cruz - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" }
+  "Países Bajos Vs Polonia - Clasificación Mundial UEFA": [
+    { enlace: "HTML/UEFA.html" }
   ],
-  // Partidos Premier League
-  "Leeds Vs Newcastle - Premier League": [
-    { enlace: "HTML/Disneyplus2.html" }
+  "Bulgaria Vs España - Clasificación Mundial UEFA": [
+    { enlace: "HTML/UEFA.html" }
   ],
-  "Brighton Vs Manchester City - Premier League": [
-    { enlace: "HTML/DAZN2.html" }
+  "Luxemburgo Vs Irlanda del Norte - Clasificación Mundial UEFA": [
+    { enlace: "HTML/UEFA.html" }
   ],
-  "Nottingham Forest Vs West Ham - Premier League": [
-    { enlace: "HTML/DAZN2.html" }
+  "Uruguay Vs Perú - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ],
-  "Liverpool Vs Arsenal - Premier League": [
-    { enlace: "HTML/DAZN2.html" }
+  "Colombia Vs Bolivia - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ],
-  "Aston Villa Vs Crystal Palace - Premier League": [
-    { enlace: "HTML/DAZN2.html" }
+  "Argentina Vs Venezuela - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ],
-  // Partidos Serie A
-  "Napoli Vs Cagliari - Serie A": [
-    { enlace: "HTML/destacada.html" }
+  "Paraguay Vs Ecuador - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ],
-  // Partidos Ligue 1
-  "Toulouse Vs PSG - Ligue 1": [
-    { enlace: "HTML/destacada4.html" }
+  "Brasil Vs Chile - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ],
-  // Partidos Bundesliga
-  "Augsburgo Vs Bayern Munich - Bundesliga": [
-    { enlace: "HTML/ESPN.html" }
+  "Ecuador Vs Argentina - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ],
-  "Wolfsburg Vs Mainz 05 - Bundesliga": [
-    { enlace: "HTML/DAZN3.html" }
+  "Chile Vs Uruguay - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ],
-  "Dortmund Vs FC Union Berlin - Bundesliga": [
-    { enlace: "HTML/DAZN3.html" }
+  "Bolivia Vs Brasil - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ],
-  "Colonia Vs Friburgo - Bundesliga": [
-    { enlace: "HTML/DAZN3.html" }
+  "Venezuela Vs Colombia - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ],
-  // Partidos Brasileirão
-  "Botafogo Vs Bragantino - Brasileirão": [
-    { enlace: "HTML/PremiereBR.html" }
-  ],
-  "Cruzeiro Vs São Paulo - Brasileirão": [
-    { enlace: "HTML/PremiereBR.html" }
+  "Perú Vs Paraguay - Clasificación Mundial CONMEBOL": [
+    { enlace: "HTML/CONMEBOL.html" }
   ]
 });
 
@@ -191,8 +138,8 @@ Object.assign(opcionesEventos, {
   "AEW x NJPW: Forbidden Door 2025": [
     { enlace: "/HTML/FoxSportsPremium.html" }
   ],
-  "AEW All Out 2025": [
-    { enlace: "/HTML/FoxSportsPremium.html" }
+  "AEW All Out - 20 septiembre 2025": [
+    { enlace: "/HTML/destacada3.html" }
   ],
   "WWE Crown Jewel - 11 octubre 2025": [
     { enlace: "/HTML/destacada2.html" }
@@ -205,9 +152,11 @@ Object.assign(opcionesEventos, {
   ],
   "NXT Heatwave 24 de agosto 2025": [
     { enlace: "/HTML/destacada2.html" }
+  ],
+  "WWE Wrestlepalooza - 20 septiembre 2025": [
+    { enlace: "/HTML/destacada2.html" }
   ]
 });
-
 
 // Eventos Otros (Agregar aquí los que no son ni fútbol ni lucha libre)
 Object.assign(opcionesEventos, {
@@ -284,11 +233,6 @@ function mostrarEventosHoy() {
           ${iconoHTML}
         </div>
         <span class="evento-hoy-nombre">${evento.titulo}</span>
-      </div>
-      <div class="evento-hoy-der">
-        <span class="temporizador" ${dataIndexAttr} data-inicio="${evento.inicio}" data-fin="${evento.fin}">
-          Empieza en: --
-        </span>
       </div>
     `;
 

@@ -176,15 +176,15 @@ header p {
 
   .dropdown-item {
     color: #c9d1d9 !important;
-    padding: 8px 16px;   /* 🔽 menos alto y ancho */
-    font-size: 0.8rem;   /* 🔽 letra más chica */
-    border-radius: 4px;  /* 🔽 esquinas más compactas */
+    padding: 6px 12px;    /* 🔹 menos alto y ancho */
+    font-size: 0.75rem;   /* 🔹 letra más pequeña */
+    border-radius: 4px;   /* esquinas más compactas */
   }
 
   .dropdown-item:hover {
     background-color: rgba(255, 255, 255, 0.05);
     color: #eb1f1f !important;
-    padding-left: 20px; /* 🔽 menos desplazamiento en hover */
+    padding-left: 16px;   /* ajuste menor al hover */
   }
 }
 
@@ -202,7 +202,7 @@ header p {
   border: 2px solid #1f6feb;
   border-radius: 16px;
   padding: 25px 30px;
-  width: 90%;   /* ocupa el 95% del ancho de la pantalla */
+  width: 70%;   /* ocupa el 95% del ancho de la pantalla */
   margin: 0 auto; /* centrado */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
@@ -221,14 +221,14 @@ header p {
 .lista-eventos-hoy {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 0; /* 🔹 ahora los cuadros están pegados uno con otro */
 }
 
 .evento-hoy-item {
   background: linear-gradient(90deg, #0d1117, #1c2733);
   border: 1px solid #30363d;
   border-radius: 10px;
-  padding: 12px 18px;
+  padding: 8px 18px;
   display: flex;
   justify-content: space-between; /* 🔹 separa título/izq y temporizador/der */
   align-items: center;
@@ -239,10 +239,9 @@ header p {
   cursor: pointer;
   gap: 12px;
   flex-wrap: nowrap;
-  margin-bottom: 8px; /* para dar respiro entre items */
+  margin-bottom: 4px; /* para dar respiro entre items */
   text-decoration: none !important;
 }
-
 
 .evento-hoy-item:hover {
   background: linear-gradient(90deg, #1c2733, #223544);
@@ -427,14 +426,12 @@ header p {
 
   /* Item de evento compacto */
   .evento-hoy-item {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 6px 10px;       /* delgaditos */
-    border-radius: 6px;
-    font-size: 0.75rem;      /* letra más pequeña */
-    gap: 6px;
-    min-height: 40px;        /* 🔹 altura mínima reducida */
+    min-height: 30px;        /* 🔹 altura mínima reducida */
+    padding: 6px 8px;       /* menos espacio interno */
+    font-size: 0.7rem;      /* letra más pequeña */
+    border-radius: 6px;     /* esquinas más compactas */
+    max-width: 100%;        /* no excede el ancho del item */
+    margin-top: 0px;        /* separación del evento principal */
   }
 
   /* Lado izquierdo */

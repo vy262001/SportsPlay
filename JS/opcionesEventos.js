@@ -46,87 +46,85 @@ showsSemanales.forEach(show => {
 // ================================
 // Eventos
 Object.assign(opcionesEventos, {
-  "Gimnasia Vs Atlético Tucumán - Liga Argentina": [
-    { enlace: "HTML/ESPNPremium.html" },
-    { enlace: "HTML/tycsports2.html" }
-  ],
-  "Platense Vs Godoy Cruz - Liga Argentina": [
-    { enlace: "HTML/tntsportsa.html" }
-  ],
-  "Santa Fe Vs Once Caldas - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
-  ],
   "Real Soacha Vs Deportivo Pereira - Copa BetPlay": [
-    { enlace: "HTML/Winsports.html" }
+    { enlace: "/HTML/destacada4.html" }
   ],
   "Atlético de Cali Vs Junior - Copa BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "Envigado Vs Millonarios - Copa BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "América Vs Bucaramanga - Copa BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "Medellín Vs Fortaleza - Copa BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/destacada4.html" }
   ],
   "Deportes Quindío Vs Nacional - Copa BetPlay": [
-    { enlace: "HTML/Winplus.html" }
+    { enlace: "/HTML/Winplus.html" }
   ],
   "Kazajistán Vs Gales - Clasificación Mundial UEFA": [
-    { enlace: "HTML/UEFA.html" }
+    { enlace: "/HTML/UEFA.html" }
   ],
   "Lituania Vs Malta - Clasificación Mundial UEFA": [
-    { enlace: "HTML/UEFA.html" }
+    { enlace: "/HTML/UEFA.html" }
   ],
   "Georgia Vs Turquía - Clasificación Mundial UEFA": [
-    { enlace: "HTML/UEFA.html" }
+    { enlace: "/HTML/UEFA.html" }
   ],
   "Liechtenstein Vs Bélgica - Clasificación Mundial UEFA": [
-    { enlace: "HTML/UEFA.html" }
+    { enlace: "/HTML/UEFA.html" }
   ],
   "Eslovaquia Vs Alemania - Clasificación Mundial UEFA": [
-    { enlace: "HTML/UEFA.html" }
+    { enlace: "/HTML/UEFA.html" }
   ],
   "Países Bajos Vs Polonia - Clasificación Mundial UEFA": [
-    { enlace: "HTML/UEFA.html" }
+    { enlace: "/HTML/UEFA.html" }
   ],
   "Bulgaria Vs España - Clasificación Mundial UEFA": [
-    { enlace: "HTML/UEFA.html" }
+    { enlace: "/HTML/UEFA.html" }
   ],
   "Luxemburgo Vs Irlanda del Norte - Clasificación Mundial UEFA": [
-    { enlace: "HTML/UEFA.html" }
+    { enlace: "/HTML/UEFA.html" }
   ],
   "Uruguay Vs Perú - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/MovistarDeportes.html" }
   ],
   "Colombia Vs Bolivia - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/Caracoltv.html" },
+    { enlace: "/HTML/RCN.html" }
   ],
   "Argentina Vs Venezuela - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/tycsports.html" },
+    { enlace: "/HTML/Telefe.html" },
+    { enlace: "/HTML/destacada5.html" },
   ],
   "Paraguay Vs Ecuador - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/destacada1.html" },
+    { enlace: "/HTML/ECDF.html" }
   ],
   "Brasil Vs Chile - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/destacada3.html" },
+    { enlace: "/HTML/MEGAChile.html" },
+    { enlace: "/HTML/SporTV.html" },
+    { enlace: "/HTML/SporTV2.html" }
   ],
   "Ecuador Vs Argentina - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/CONMEBOL.html" }
   ],
   "Chile Vs Uruguay - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/CONMEBOL.html" }
   ],
   "Bolivia Vs Brasil - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/CONMEBOL.html" }
   ],
   "Venezuela Vs Colombia - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/CONMEBOL.html" }
   ],
   "Perú Vs Paraguay - Clasificación Mundial CONMEBOL": [
-    { enlace: "HTML/CONMEBOL.html" }
+    { enlace: "/HTML/CONMEBOL.html" }
   ]
 });
 
@@ -305,13 +303,21 @@ function mostrarEventosHoy() {
           "PremiereBR.html": "Premiere Brasil",
           "TNTUSA.html": "TNT USA",
           "TelemundoUSA.html": "Telemundo USA",
+          "TVPublica.html": "TV Pública",
+          "Telefe.html": "Telefe",
+          "SporTV.html": "SporTV",
+          "SporTV2.html": "SporTV 2",
+          "ECDF.html": "El Canal del Fútbol (ECDF)",
+          "ESPNSUR.html": "ESPN Sur",
+          "Movistarplus.html": "Movistar Plus",
+          "MovistarDeportes.html": "Movistar Deportes",
+          "MEGAChile.html": "MEGA Chile",
           "destacada.html": "Canal 1",
           "destacada2.html": "Canal WWE",
           "destacada3.html": "Canal 3",
           "destacada4.html": "Canal 4",
-          "destacada5.html": "Canal 5"
+          "destacada5.html": "Canal 5",
         };
-
 
         listaOpciones.forEach(opcion => {
           const archivo = opcion.enlaceProgramacion || opcion.enlace;

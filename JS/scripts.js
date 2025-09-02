@@ -1,5 +1,11 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
+{
+  titulo: "WWE Monday Night Raw 1 de septiembre de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/HojkVbELvhs/maxresdefault.jpg",
+  videoId: "YBo-UyM7ORg",
+  categoria: "WWE"
+},
   {
   titulo: "WWE Clash In Paris 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/z8iLoPmOY7Y/maxresdefault.jpg",

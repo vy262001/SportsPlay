@@ -19,63 +19,17 @@ const eventos = [
   orden: 9
   },
 
-// Eventos 1/09/2025
-
-{
-  titulo: "Gimnasia Vs Atlético Tucumán - Liga Argentina",
-  tituloDestacado: "Ver Gimnasia Vs Atlético Tucumán - Liga Profesional Argentina AFA En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
-  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
-  enlace: "HTML/ESPNPremium.html",
-  enlaceProgramacion: "ESPNPremium.html",
-  inicio: "2025-09-01T15:00:00",
-  fin: "2025-09-01T17:27:00",
-  orden: 11
-},
-{
-  titulo: "Platense Vs Godoy Cruz - Liga Argentina",
-  tituloDestacado: "Ver Platense Vs Godoy Cruz - Liga Profesional Argentina AFA En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://marcadegol.com/fotos//2020/05/logo-de-la-liga-profesional-de-futbol.jpg",
-  imagenDestacada: "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/UGOPXXHNUFAE3KLDROHBQGPQXE.jpg",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Logo_LPF_AFA.svg/1200px-Logo_LPF_AFA.svg.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Argentina.png",
-  enlace: "HTML/tntsportsa.html",
-  enlaceProgramacion: "tntsportsa.html",
-  inicio: "2025-09-01T17:15:00",
-  fin: "2025-09-01T19:42:00",
-  orden: 12
-},
-
-{
-  titulo: "Santa Fe Vs Once Caldas - Liga BetPlay",
-  tituloDestacado: "Ver Santa Fe Vs Once Caldas - Liga BetPlay En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://files.lafm.com.co/assets/public/styles/img_node_706x392/public/2024-12/portada_la_fm_5_3.png.webp",
-  imagenDestacada: "https://www.nacionfutbol.com.co/image/nacionfutbolcomco/sorpresa-total-en-el-fpc-se-confirma-el-nuevo-club-que-jugara-en-la-a-desde-2026-foto-dimayor-y-escudoteca-1746629836.webp",
-  logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
-  icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
-  inicio: "2025-09-01T19:30:00",
-  fin: "2025-09-01T21:30:00",
-  orden: 8
-},
-
 // Eventos 2025-09-02 - Copa BetPlay
 {
   titulo: "Real Soacha Vs Deportivo Pereira - Copa BetPlay",
   tituloDestacado: "Ver Real Soacha Vs Deportivo Pereira - Copa BetPlay 2025 En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://www.kienyke.com/sites/default/files/styles/interna_contenido_s/public/2025-05/copa-betplay.jpg?itok=iPCoMYZw",
+  imagen: "https://blog.micasino.com/wp-content/uploads/2024/03/Pronostico-Real-Soacha-vs-Deportivo-Pereira-Copa-Colombia-MiCasino.com_.jpg",
   imagenDestacada: "https://www.365scores.com/es/news/wp-content/uploads/2023/08/Trofeo-Copa-BetPlay.jpg",
   logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
   icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winsports.html",
-  enlaceProgramacion: "Winsports.html",
+  enlace: "HTML/destacada4.html",
+  enlaceProgramacion: "destacada4.html",
   inicio: "2025-09-02T19:00:00",
   fin: "2025-09-02T21:00:00",
   orden: 1
@@ -85,7 +39,7 @@ const eventos = [
   titulo: "Atlético de Cali Vs Junior - Copa BetPlay",
   tituloDestacado: "Ver Atlético de Cali Vs Junior - Copa BetPlay 2025 En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://www.kienyke.com/sites/default/files/styles/interna_contenido_s/public/2025-05/copa-betplay.jpg?itok=iPCoMYZw",
+  imagen: "https://blog.micasino.com/wp-content/uploads/2025/09/Atletico-de-Cali-vs-Junior-Pronosticos-Copa-Colombia_MiCasino.com_.webp",
   imagenDestacada: "https://i.postimg.cc/sgZv0t2L/Miniatura-para-Youtube-Versus-Vs-Moderno-Morado-y-Azul.png",
   logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
   icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
@@ -103,7 +57,7 @@ const eventos = [
   titulo: "Envigado Vs Millonarios - Copa BetPlay",
   tituloDestacado: "Ver Envigado Vs Millonarios - Copa BetPlay 2025 En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://www.kienyke.com/sites/default/files/styles/interna_contenido_s/public/2025-05/copa-betplay.jpg?itok=iPCoMYZw",
+  imagen: "https://i.ibb.co/JWbLxWgP/Logo-de-la-Copa-Bet-Play-DIMAYOR-1.jpg",
   imagenDestacada: "https://www.365scores.com/es/news/wp-content/uploads/2023/08/Trofeo-Copa-BetPlay.jpg",
   logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
   icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
@@ -113,12 +67,11 @@ const eventos = [
   fin: "2025-09-03T17:00:00",
   orden: 1
 },
-
 {
   titulo: "América Vs Bucaramanga - Copa BetPlay",
   tituloDestacado: "Ver América de Cali Vs Atlético Bucaramanga - Copa BetPlay 2025 En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://www.kienyke.com/sites/default/files/styles/interna_contenido_s/public/2025-05/copa-betplay.jpg?itok=iPCoMYZw",
+  imagen: "https://i.ibb.co/JWbLxWgP/Logo-de-la-Copa-Bet-Play-DIMAYOR-1.jpg",
   imagenDestacada: "https://www.365scores.com/es/news/wp-content/uploads/2023/08/Trofeo-Copa-BetPlay.jpg",
   logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
   icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
@@ -128,17 +81,16 @@ const eventos = [
   fin: "2025-09-03T19:15:00",
   orden: 2
 },
-
 {
   titulo: "Medellín Vs Fortaleza - Copa BetPlay",
   tituloDestacado: "Ver Independiente Medellín Vs Fortaleza CEIF - Copa BetPlay 2025 En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://www.kienyke.com/sites/default/files/styles/interna_contenido_s/public/2025-05/copa-betplay.jpg?itok=iPCoMYZw",
+  imagen: "https://i.ibb.co/JWbLxWgP/Logo-de-la-Copa-Bet-Play-DIMAYOR-1.jpg",
   imagenDestacada: "https://www.365scores.com/es/news/wp-content/uploads/2023/08/Trofeo-Copa-BetPlay.jpg",
   logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
   icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
-  enlace: "HTML/Winplus.html",
-  enlaceProgramacion: "Winplus.html",
+  enlace: "HTML/destacada4.html",
+  enlaceProgramacion: "destacada4.html",
   inicio: "2025-09-03T19:30:00",
   fin: "2025-09-03T21:30:00",
   orden: 3
@@ -148,7 +100,7 @@ const eventos = [
   titulo: "Deportes Quindío Vs Nacional - Copa BetPlay",
   tituloDestacado: "Ver Deportes Quindío Vs Nacional - Copa BetPlay 2025 En Vivo",
   descripcion: "Transmisión en vivo",
-  imagen: "https://www.kienyke.com/sites/default/files/styles/interna_contenido_s/public/2025-05/copa-betplay.jpg?itok=iPCoMYZw",
+  imagen: "https://i.ibb.co/JWbLxWgP/Logo-de-la-Copa-Bet-Play-DIMAYOR-1.jpg",
   imagenDestacada: "https://www.365scores.com/es/news/wp-content/uploads/2023/08/Trofeo-Copa-BetPlay.jpg",
   logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Dimayor_Colombia_logo.svg/1200px-Dimayor_Colombia_logo.svg.png",
   icono: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN_V2s7zzsgjOrYbD6lQMPpJTXN5cPQJckjw&s",
@@ -174,7 +126,6 @@ const eventos = [
   fin: "2025-09-04T10:57:00",
   orden: 1
 },
-
 {
   titulo: "Lituania Vs Malta - Clasificación Mundial UEFA",
   tituloDestacado: "Ver Lituania Vs Malta - Clasificación Mundial UEFA En Vivo",
@@ -189,7 +140,6 @@ const eventos = [
   fin: "2025-09-04T12:57:00",
   orden: 2
 },
-
 {
   titulo: "Georgia Vs Turquía - Clasificación Mundial UEFA",
   tituloDestacado: "Ver Georgia Vs Turquía - Clasificación Mundial UEFA En Vivo",
@@ -219,7 +169,6 @@ const eventos = [
   fin: "2025-09-04T15:42:00",
   orden: 4
 },
-
 {
   titulo: "Eslovaquia Vs Alemania - Clasificación Mundial UEFA",
   tituloDestacado: "Ver Eslovaquia Vs Alemania - Clasificación Mundial UEFA En Vivo",
@@ -249,7 +198,6 @@ const eventos = [
   fin: "2025-09-04T15:42:00",
   orden: 6
 },
-
 {
   titulo: "Bulgaria Vs España - Clasificación Mundial UEFA",
   tituloDestacado: "Ver Bulgaria Vs España - Clasificación Mundial UEFA En Vivo",
@@ -264,7 +212,6 @@ const eventos = [
   fin: "2025-09-04T15:42:00",
   orden: 7
 },
-
 {
   titulo: "Luxemburgo Vs Irlanda del Norte - Clasificación Mundial UEFA",
   tituloDestacado: "Ver Luxemburgo Vs Irlanda del Norte - Clasificación Mundial UEFA En Vivo",
@@ -279,7 +226,6 @@ const eventos = [
   fin: "2025-09-04T15:42:00",
   orden: 8
 },
-
 {
   titulo: "Uruguay Vs Perú - Clasificación Mundial CONMEBOL",
   tituloDestacado: "Ver Uruguay Vs Perú - Clasificación Mundial CONMEBOL En Vivo",
@@ -288,8 +234,8 @@ const eventos = [
   imagenDestacada: "https://elpopular.cronosmedia.glr.pe/original/2023/08/25/64e930992decda23d269fb0f.jpg",
   logoMini: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
   icono: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
-  enlace: "HTML/CONMEBOL.html",
-  enlaceProgramacion: "CONMEBOL.html",
+  enlace: "HTML/Dsports.html",
+  enlaceProgramacion: "Dsports.html",
   inicio: "2025-09-04T18:30:00",
   fin: "2025-09-04T20:27:00",
   orden: 9
@@ -303,8 +249,8 @@ const eventos = [
   imagenDestacada: "https://elpopular.cronosmedia.glr.pe/original/2023/08/25/64e930992decda23d269fb0f.jpg",
   logoMini: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
   icono: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
-  enlace: "HTML/CONMEBOL.html",
-  enlaceProgramacion: "CONMEBOL.html",
+  enlace: "HTML/Caracoltv.html",
+  enlaceProgramacion: "Caracoltv.html",
   inicio: "2025-09-04T18:30:00",
   fin: "2025-09-04T20:27:00",
   orden: 10
@@ -318,8 +264,8 @@ const eventos = [
   imagenDestacada: "https://elpopular.cronosmedia.glr.pe/original/2023/08/25/64e930992decda23d269fb0f.jpg",
   logoMini: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
   icono: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
-  enlace: "HTML/CONMEBOL.html",
-  enlaceProgramacion: "CONMEBOL.html",
+  enlace: "HTML/tycsports.html",
+  enlaceProgramacion: "tycsports.html",
   inicio: "2025-09-04T18:30:00",
   fin: "2025-09-04T20:27:00",
   orden: 11
@@ -333,8 +279,8 @@ const eventos = [
   imagenDestacada: "https://elpopular.cronosmedia.glr.pe/original/2023/08/25/64e930992decda23d269fb0f.jpg",
   logoMini: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
   icono: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
-  enlace: "HTML/CONMEBOL.html",
-  enlaceProgramacion: "CONMEBOL.html",
+  enlace: "HTML/destacada1.htm",
+  enlaceProgramacion: "destacada1.htm",
   inicio: "2025-09-04T18:30:00",
   fin: "2025-09-04T20:27:00",
   orden: 12
@@ -348,8 +294,8 @@ const eventos = [
   imagenDestacada: "https://elpopular.cronosmedia.glr.pe/original/2023/08/25/64e930992decda23d269fb0f.jpg",
   logoMini: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
   icono: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
-  enlace: "HTML/CONMEBOL.html",
-  enlaceProgramacion: "CONMEBOL.html",
+  enlace: "HTML/destacada3.html",
+  enlaceProgramacion: "destacada3.html",
   inicio: "2025-09-04T19:30:00",
   fin: "2025-09-04T21:27:00",
   orden: 13
@@ -452,8 +398,8 @@ disponible: true,
 destacado: true,
 fijarComoDestacado: true,
 orden: 7,
-inicio: "2025-06-16T13:00:00",
-fin: "2025-06-16T16:00:00"
+inicio: "2025-06-16T19:00:00",
+fin: "2025-06-16T22:00:00"
 },
 {
 titulo: "WWE NXT 17 de junio de 2025",
@@ -1254,12 +1200,13 @@ const archivosConTituloDinamico = [
   "TUDNMX.html","TUDNUSA.html", "Dsports.html", "Dsports2.html", "Dsportsplus.html",
   "Disneyplus.html", "Disneyplus2.html", "Disneyplus3.html", "Disneyplus4.html",
   "Disneyplus5.html", "Disneyplus6.html", "Disneyplus7.html", "Disneyplus8.html",
-  "ESPN.html", "ESPN2.html", "ESPN3.html", "ESPN4.html", "ESPN5.html",
-  "espndeportesusa.html","beinesp.html","beinespañol.html",
+  "ESPN.html", "ESPN2.html", "ESPN3.html", "ESPN4.html", "ESPN5.html","TVPublica.html",
+  "espndeportesusa.html","beinesp.html","beinespañol.html","Telefe.html",
   "Aztecadeportes.html", "azteca7.html", "Caracoltv.html", "RCN.html",
   "DAZNLALIGA.html", "DAZNLALIGA2.html", "DAZN1.html", "DAZN2.html", "DAZN3.html", "DAZN4.html",
   "MovistarLaLiga.html", "MovistarLaLiga2.html", "PremiereBR.html",
-  "TNTUSA.html", "TelemundoUSA.html","ESPNMX.html",
+  "TNTUSA.html", "TelemundoUSA.html","ESPNMX.html","SporTV2.html", "ECDF.html", "ESPNSUR.html", 
+  "Movistarplus.html", "MovistarDeportes.html", "MEGAChile.html","SporTV.html",
   "ESPNARGENTINA1.html", "ESPNARGENTINA2.html", "ESPNBRASIL.html", "ESPNPremium.html"
 ];
 

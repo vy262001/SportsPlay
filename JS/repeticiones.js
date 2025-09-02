@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE RAW 1 de Septiembre 2025 Repetición",
+    evento: "RAW",
+    imagen: "https://imageio.forbes.com/specials-images/imageserve/68b5d71c84a04ea2ec54abcc/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds",
+    url: "//ok.ru/videoembed/9415888865947?nochat=1"
+  },  
+  {
     titulo: "WWE Clash In Paris 2025 Repetición",
     evento: "WWE",
     imagen: "https://cdn2.mediotiempo.com/uploads/media/2025/08/26/wwe-clash-in-paris-fecha.jpg",

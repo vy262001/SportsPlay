@@ -46,47 +46,29 @@ showsSemanales.forEach(show => {
 // ================================
 // Eventos
 Object.assign(opcionesEventos, {
-  "Real Soacha Vs Deportivo Pereira - Copa BetPlay": [
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "Atlético de Cali Vs Junior - Copa BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Envigado Vs Millonarios - Copa BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "América Vs Bucaramanga - Copa BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Medellín Vs Fortaleza - Copa BetPlay": [
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "Deportes Quindío Vs Nacional - Copa BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
   "Kazajistán Vs Gales - Clasificación Mundial UEFA": [
     { enlace: "/HTML/UEFA.html" }
   ],
   "Lituania Vs Malta - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/UEFA.html" }
+    { enlace: "/HTML/Disneyplus3.html" }
   ],
   "Georgia Vs Turquía - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/UEFA.html" }
+    { enlace: "/HTML/Disneyplus2.html" }
   ],
   "Liechtenstein Vs Bélgica - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/UEFA.html" }
+    { enlace: "/HTML/Disneyplus8.html" }
   ],
   "Eslovaquia Vs Alemania - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/UEFA.html" }
+    { enlace: "/HTML/ESPNARGENTINA1.html" }
   ],
   "Países Bajos Vs Polonia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/UEFA.html" }
+    { enlace: "/HTML/Disneyplus7.html" }
   ],
   "Bulgaria Vs España - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/UEFA.html" }
+    { enlace: "/HTML/Disneyplus7.html" }
   ],
   "Luxemburgo Vs Irlanda del Norte - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/UEFA.html" }
+    { enlace: "/HTML/Disneyplus6.html" }
   ],
   "Uruguay Vs Perú - Clasificación Mundial CONMEBOL": [
     { enlace: "/HTML/Dsports.html" },
@@ -102,7 +84,7 @@ Object.assign(opcionesEventos, {
     { enlace: "/HTML/destacada5.html" },
   ],
   "Paraguay Vs Ecuador - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/destacada1.html" },
+    { enlace: "/HTML/destacada.html" },
     { enlace: "/HTML/ECDF.html" }
   ],
   "Brasil Vs Chile - Clasificación Mundial CONMEBOL": [
@@ -308,7 +290,7 @@ function mostrarEventosHoy() {
           "SporTV.html": "SporTV",
           "SporTV2.html": "SporTV 2",
           "ECDF.html": "El Canal del Fútbol (ECDF)",
-          "ESPNSUR.html": "ESPN Sur",
+          "ESPNSUR.html": "ESPN Suramerica",
           "Movistarplus.html": "Movistar Plus",
           "MovistarDeportes.html": "Movistar Deportes",
           "MEGAChile.html": "MEGA Chile",

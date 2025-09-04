@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canales Deportivos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../CSS/Envivo.css">
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <!-- Logo o título -->
+      <h1>
+        <a href="../index.html" style="text-decoration: none; color: inherit;">SportsPLAY</a>
+      </h1>
+      <a href="../index.html" class="btn btn-black fw-bold text-white mb-3">
+        Ir a Inicio
+      </a>
+
+      <style>
+      .btn-black {
+        background-color: #000;
+        border: none; /* opcional si no quieres borde */
+      }
+      .btn-black:hover {
+        background-color: #222; /* un negro un poco más claro al pasar el mouse */
+      }
+      </style>
+
+
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg custom-navbar px-0">
+        <div class="container-fluid px-0">
+
+          <!-- Hamburguesa + "Menú" + lupa (solo en móviles) -->
+          <div class="d-flex d-lg-none justify-content-between align-items-center w-100 px-3 py-2">
+            <div class="d-flex align-items-center">
+              <button class="navbar-toggler me-2" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <span class="text-white fw-bold fs-6">Menú</span>
+            </div>
+            <button class="btn text-white p-0">
+              <i class="fas fa-search fs-5"></i>
+            </button>
+          </div>
+
+          <!-- Menú principal -->
+          <div class="collapse navbar-collapse justify-content-center" id="menuPrincipal">
+            <ul class="navbar-nav text-center flex-wrap">
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white px-4" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white px-4" href="../HTML/Canales.html">CANALES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white px-4" href="../HTML/Envivohoy.html">EN VIVO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white px-4" href="../HTML/repeticiones.html">REPETICIONES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-white px-4" href="../HTML/programacion.html">PROGRAMACIÓN</a>
+              </li>
+              <li class="nav-item dropdown position-relative">
+                <a class="nav-link dropdown-toggle fw-bold text-white px-4" href="#" data-bs-toggle="dropdown">DEPORTES</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../HTML/ligascompeticiones.html">Fútbol</a></li>
+                  <li><a class="dropdown-item" href="../HTML/lucha-libre.html">Lucha Libre</a></li>
+                  <li><a class="dropdown-item" href="../HTML/programacion.html">Otros</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="contenedor-eventos-hoy">
+      <div class="cuadro-eventos-hoy">
+        <h2 id="eventos-hoy-titulo">Lista de Canales</h2>
+        <div class="lista-eventos-hoy" id="listaCanales">
+          <!-- Tarjetas generadas con JS -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+<!-- FOOTER -->
+<footer class="text-center py-4 bg-dark text-white mt-auto">
+  <div>© 2025 SportsPlay. Todos los derechos reservados.</div>
+  <div class="paypal-donacion mt-2">
+    <a href="https://www.paypal.com/donate/?hosted_button_id=CAQWXQQWKSNKU" target="_blank" class="paypal-enlace d-inline-flex align-items-center gap-2">
+      <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" alt="PayPal" class="paypal-logo" style="height:24px;">
+      <span class="paypal-boton btn btn-primary btn-sm">Donar con PayPal</span>
+    </a>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const canales = [
+      { nombre: "Azteca 7", enlace: "azteca7.html", img: "https://upload.wikimedia.org/wikipedia/commons/2/23/Logo_Azteca_7_2011.svg" },
+      { nombre: "Azteca Deportes", enlace: "Aztecadeportes.html", img: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Azteca_logo.png" },
+      { nombre: "Bein Sports Español", enlace: "beinespañol.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/BeIN-Sports-Logo.svg/473px-BeIN-Sports-Logo.svg.png" },
+      { nombre: "Canal WWE", enlace: "destacada2.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png" },
+      { nombre: "Caracol", enlace: "Caracoltv.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Caracol_Televisi%C3%B3n_logo.svg/2048px-Caracol_Televisi%C3%B3n_logo.svg.png" },
+      { nombre: "DAZN 1", enlace: "DAZN1.html", img: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Tv-channel-%E2%94%82-dazn-1.png" },
+      { nombre: "DAZN 2", enlace: "DAZN2.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tv-channel-%E2%94%82-dazn-2.png/960px-Tv-channel-%E2%94%82-dazn-2.png" },
+      { nombre: "DAZN 3", enlace: "DAZN3.html", img: "data:image/png;base64,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" },
+      { nombre: "DAZN 4", enlace: "DAZN4.html", img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATgAAAChCAMAAABkv1NnAAAAY1BMVEUAAAD////j4+O5ubnx8fHo6OgoKCjY2NhaWlofHx/Ly8uRkZF2dnb4+PiOjo7ExMStra2zs7NVVVWfn58NDQ1nZ2fR0dF/f39hYWGYmJilpaVISEgtLS0+Pj6GhoY3NzcVFRXBDKMBAAAJAElEQVR4nO2deX/yIAzHq3NeWz3msUM3ff+v8vEsBEKAUNo+n+b315xF4CslkIRaFCKRSCQSiUQikUgUof2wM3r9aRtGjF4H3dFL2zBiJOCYEnBMCTimBBxTAo4pAceUgGNKwDEl4JgScEwJOKYEHFMCjikBx5SAY8oDbv4GtVktR2EUypf1Q/tmwc3Ctc0GDu/KYTXxQlhq1/82B268DKzr0coZuyYa3Kej1HnnQ3fSLw/sTQ3g4rilVEmDe3cXXJAFR+Da99y9eOorFBjezhixwRVf1GS3AZceh0G9SAcXO+AGozG3Kj64YkoU3HE6lAwudDJVagUccQcOjSspxkrJ4KIHXEvgihdXuZV5ZRnSi1Rw06BagFoCd3JNcwfzSidiXanggiqByg/u/Le46O/zA5T+xouZd2qgXU0Ed4zG1gS44+M2GE2menG8mHWnFrOQ/UYiuHUcs3t3soMbq57rq2J0Oi6/nm8f6AsNpYH7jZ/hGgY30nYFf2hrqrfn1V+7gF6kgVtFEXs2tUlwg4Uq/oV9zVXW0XT0+/zTaUc0JYE7cgZcw+DUOCp+MR6VAdkMvqsrA0xeEjjWgGsYnLbBOyLlJ5XLYa85SQLsagq4GWvANQxuoIqfkV2osqmXF1v9hUcp4H6ieFVqGJzmAETAVfPadZCpTavfriaAC5lCMTUMTnP/2eDK6r0rKnWvfnp7kQDuLRLYUw2DO6ryNrjKo3S6vjesWnbyhjcSwMUCe6phcFptNrjq5tzBl8Xc1ws+OMfWz68OgVP71Pt8rVyaXrvKBjdmx+o6BE7Z1HsJbe3i6wUbHO3Gp9QhcNX29PT4h5oQfXaVDY4fHO4OuGG1VNk8/qPuVXRjq4kLjj/gOgROnY55ji+1QTt6FltccGGhIFTdAVd5lE7PPVBZLYgLT0yfCS4w+IiqM+s4ZQpUdz6R/6Higdv60wrc6syIU3fq+3p111qBO9E7cR64lAHXNLizKm+Am1oVANF2lQcuYYZr0TtiNHviSWKh7SoLXIhr2a2uuJXWvurI2ljggpPIUDULbqKKGzv3X6QGIHK/ygFHDrjl95tnBdQsOO0kMwyel0gFUOS9ygFHDbjyshj3mNxGwanonwnCfzYcjVEkgCMH3HXP0iVwerIlCMGUO/vzTVEjhAGOuvVvIbbWwano2/KsFQdXDwNyaik/cDw4Mq/rZqlaBzd7mS8v+nkHCw7oQNRWv8bnqCjhlqgtHhxpa25fY+vgUI3hYkQlPJhBTs0OE32NBkfmdd1nlGzg6LW8BxwMkWh3qtUh9RbhA4oGRzW+vG9isoGjI+w0uAPko+7UD+uD/qr33IG8oXcVaIic4R7erHzgyK+NBmfsEpVN3VgfpFliV1dGsdzovK4PurYawFFjjgI3dnqUtvaaQ8twcngzhtFdOFBEnt9UTnAEOQKcyU27U0/IJ6nhiOexDa3sV6/IAfesr2ZwBhDn3eo6WXOxC9ZUpZJcsTGlTfxYbYxvnkwkrIKUNYMzh5Lry7NzUq867TbIDK/AYY0dkcGuaLtQePK6qv7VDc7cHTnu1nK+mEK9fy/3uOtw8nm74GuB76omjw/4WNgjZRR/n9Ieqsk5Fzhr+uJkHtel4RFvJamwAZcBXGmQ42U01iGGXfDkdWnZA/WD0yJ5dzGOV9Si0QlvIy0yzeYtL7hujDmOXSjoGe5Vc0TkAGdaiFlSvIgrz3bYIXLA6Wc+s4AzW92GgRieOdzG5Ayne74ygXsF80sb9+rS1URSZJoNcOA3MuLaMA8T1pMYSC8iYNHEHMc6DJWsL0cTKZGp0nC304RVjT9fXIc4VpUacCU8GNrAOs6b25xJ8es4MvHfmDSz7xy27Yy3q2J3DjMShvE1ZN+rtscteq9K5nXtjYtze0dc9+lqSmlnrvzmm9sTmFZzaGfKx8e8O8LRcd4RcoYzbU1mf5xrvHlXWXPH5XBUqJWVo54YC0EOuIl5dV4PsNMu4I5MTTAso50ABl+FMnSuDIjwDiABDbSmh3zgUh7oRdiFja8s3DNq4EDoUHXH+RUFWwj68UlLU561aTm/X+aOERAi7AIfHNiGBIALjnLZocda9O2v2RS1fksAp5+RDwEXGlfNtaGOXoeT65AEcHoPg8ANJkEr4VzgrNkxhZs/U5AAN8MaRW5PvBnEOcF58uUtcR71qAku5AA4bTYKBBeUdPN/gBtNPeYaGi0ITsVT+gcOEVgTGx48CE55fwScsWowF/EGuGo8CjhofKyjWSa4N6tQb8GBdaK1+THBbR9xMwEH9tB2iM4E93Q59h5cqTvOkAd5WeAeZ0l7D+5PL4mENi1wD/PRd3BgJYJFr21w9zzhnoMDHm70NBsC7nbYqufgdK80nmWFgLuZ3n6DA95g3LGqwKllyzU3vNfgwErE4U1U4F6US3Xec3D6luHD4ZDWwKkspMuypc/gfCuRmxS4tVZg2WdwIM7rzKPTwb1Wfx96DA7kd7hTN3Rw2rZ2qRqVDs7/xEieYmMOYeD0uD9xrB6AG52fLw51jjg6c4Qtb3SFBQ5sGYiAMACnDbkKYR2Pzzh+v4Rr7YurLu+XxcdVQ8CBXxmg4poQHBbvq/25Iz5li+SHgNO3DDvqK4TgsBhZ58BlOpN/E3Bekk+OMcANzlZ1fQIHtgx0frUJzg6U9ggcyF3zPKvNBFdas1yPwOkZYb68dBOcnV/XH3ChKxEcXGlmZPQG3Eh3XnozrCxw1pDrDTh9JXLYTyy5UiCq7ayRL9gXcGDAYGvFP0AOAWcMub6A85+JBEc1EXDGR/QFnP+gFWgYBg7mgQs4tGEYOPiLoQIObRgKTj3KohBwjoah4MAsJ+DQhuHgdK9U4+A8ZyJzuZUirap6bAVwBmhxanIA5ADn+Q0J3sn2q2hwXocy9KOrmDXYnGlPFyA3uznA0b90tvQ8YpyQZ+ewX79R+jHcc5vPu4xDAOXP4nY59iyr3OCKYuZUykEu/s+91K9M4PJIwDEl4JgScEwJOKYEHFMCjikBx5SAY0rAMSXgmBJwTAk4pgQcUwKOKQHH1H7YGb36fw9NJBKJRCKRSCQSibqvf2ztn1HeYZVbAAAAAElFTkSuQmCC" },
+      { nombre: "DAZN LaLiga", enlace: "DAZNLALIGA.html", img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATgAAACiCAMAAADiKyHJAAAAflBMVEUAAAD////v7+/V1dX39/fBwcH8/Py2trZMTEykpKTPz88aGhrd3d0uLi719fUUFBSampp0dHTp6enGxsazs7MpKSk5OTni4uJ7e3tkZGQ0NDRYWFhFRUWIiIhSUlKOjo4hISGDg4MLCwtAQEB3d3eqqqpsbGxiYmKVlZUXFxeT6+MUAAALqUlEQVR4nO2d61rbOhBFc6cNIdBwa4GWQAst7/+ChzixpJE0e0ayFNrvaP8CEtnOijWam8xo1NTU1NTU1NTU1NTUlKDbyV+j9dVHw0jRZPz3aP7RMFLUwGWqgctUA5epBi5TDVymGrhMNXCZauAy1cBlqoHLVAOXqQYuUw1cphq4TDVwmRLAraaeVhslhYkd8j8EdxIZ8fbz8VKGcOuM+FQX3MNixmmxZMZM+THvWp/JZ8Xg7plR5xcLAcKr+/aTquBuwSEZAn/whXxVnBWD+8QPnMOBM/LeH/g6e+WB+wyO+Cs+5KHAdWSDGz0lnHuNrzTlglMgXDJjsJ1eq86bD270Cga+0rfq5moWOACBI3CFL+OH6rwDwI0e2XGzZ/rOb/hSD8oB9wKO9y0+5De+is+6Ew8BN5qqEczwxTKjZCHryZRpn/G1rJRnHgTuJzfui/9O1VzNAAcuf8MMwb7U4m74mccuuOcvnX6fq3gEpxGmx17p4ND3wXzpT/gaNJ5IJy240/5Pl65rdB0fFlnNNOtqMjhkOi/iQ+6wA8qtw6GSwVGvOG7lzEx9M2/Ebt9eyeDAt3HLDMHxn84T6ZQBbuEMjy6ss9P+ZYsC+S69UsEBa7VgQoYLfAU6T6RTBjjXH4/yMPf7z/HWvBNfcadEcF/BoZ7iQ4So+SXh7DngHEMQ9dsN2EfnAyjmahq4U3AkzlThT6v1RBSHioNzFvptzNaaV5fOJ1DM1TRwS/5As7f4EMEp0noinXLATWxc8BwBZ2G59vBc9oGTwPFhy3j8Oz5E+O6Y6c0oB9zs2o6PgDNr6i/yGeQkXgq4M3AcJmQ4xV+d3hPplAPOvadDcM6aSj7EF3imnVLAAbeCCxnA3B4neSKdssDdmD+fh+DsN7dzsyb2VPBMOyWAQ0k4JmT4jk/O5Ww5DQT3FoIzQct996t1jcS5qgeHknBcyIDPneKJdBoI7jQEZ17bp71slkacq3pwIAnH+RQ4eckFGryKg1t6h7aXJBjnBHAgE8llN9DcHid6Is6n45QBzni//dwwa4VgnfXgUGzPVBnu8Zkf06DtVBrcwuSd+kqSvSgUI+2kBQdie86nwMkZroiIVBqcvfLeYZjak8FzqcGB4I3zKXC8tzhnhiGVBmfWVOOhLrbm3cJc1YH7BY7AhAxoyDioLOlUGpyJxp7Mn2we/WkMpQIXC/J6MT5FZOl3FWtXkFUYnJ2pJ2Zz2wn77hxw4K7lfAq2ptSJCzQEDQy5/OyIECjjj6ABh/z/h/gQlA4YJyUvXWUF+VvzZ7/oIJztCZ5NEWaj2J7xKYR+BybQYGTzQgPTSjf0/dK6jpKPKnAgtp8yQ3DIkJS8HArOsQqeYykW1+C6KoMDJYPFdXyI0O+wFc9JZB2XHHCOLaLxp+N5MIIpChEcmnVBDXwvofkiLXnplu1ywDnXSENA2QN/GwQOzDpuYSmavHzHYH7KAOek2Dybo/j+0LoqfQzQYDNhhuBU1owZxWtrfkoHN7Fe3Oicvl1xZjRXBXAoUGfSkEJ0zLQzAW3NT2pwm06rK3IyaqztTH2Yn7ia21CIaZrQgAOBOtOahU42zkhevh/R/DSoW8kbbddUf/VzLBCYqxgcWB6PFzLYBgGcbxHAUZ/cWVN9d8sxJmCuQnBoefwZHyL0OzCjoGzMhGuNAjj6ZjtTz4MD3YPXjODUAcvjn/gIod8hLWQ4yLHvkBwG5y1ZNvn6FBzIKXWyzj980A3IqOWFDNwoLPcuRT1/EJy/WcC+EsYHjrvAxdyQGyj0cCGD0O/AjBJEpvcnPtmDwPkArIWKddnaI92EL+4E5ynq22XCvKL9DkbfyW937ArBgzsN5o7No8au2bEo0bmKe72BH8utKKU6L72j0hv1mjsLk4p+D7XCEXbBiU0SJwsRq9RhSw1cX9twQSW0SCsYReWHKFvGnVvdnfu6fri/iPpH5rPH3U6zdGwjdxyzLvYCySTmqxX6HdJDhh6cv6iccrN17Yu3NpNNlynfMLdvn0mPvCxwY6ziTky9QAgZ8qoMe3D+LN/qtltVkVQO5nPfXGyPW6QzqwwHcD45IcNcUWLIyNsrJrYXQgYpkBTA+dkz3X6r8pJLNOz9wyCvETK44PzYWKgGVZIi6c/t5OWGFmyRjoPzJzvaalxNTE1Pc12bVaDpdPpH6G9XbBsXwY0npGtCaIWqIs68u8LZIarNa+EqQxzc5p8Ap9zSvzvaVylkyGlMCsF50/1DpqoiKya1h/Xa7MJW3NiTHTIQcN7iICzilaSx1dIjJzpNumhfCBmyGpN8cN4lf5Q7onjeNNo/ftBkb7tQi8R4SMjggPO43ai+1hoSAq5RdFMA1bo3+Thk0BhUEZw3T08/8CFL8kKHrdzaZMmE5S2zMYmA87hxoep6ugRaBRH/IZD3/zzb/5lLEMj7uYFvNrGhrvBgmCEhQw/Oc325tJJ0b28pikmfk7uhC/T00OTzxt05TOOH1TOXg5i5GYKKIcNBHjd2o7poTOnib+087b20CWfOBomzNf7AiQlJrAghQ16VgYoe4xObYxNXPArOyX+TwNfeUGwQIK4QkUh6RvNRdaoMQCAxnQ+OTBsFOPkBM378sPZYCw3GuVUGXsh/GwDuKRGcbBaI3VwEt2jdkCEUvMEHgHPrwSpw4smcktIiXCCFpFh2lYETjheGgHNqyDpwortgvuPItBZ2VZb/dzi41DAEnHPLKcGJueB96HW1jbyEExTDQ4ZAGJy4jZP2Z1Bw1giUArfzZubb2AtCNDugysBJiLSWF75IE4CXi/CmkHHaioG7uYwnjOuHDIGSQ1S3AuwbFg+c+TjFwHHC86ZEyBAoFRyxer5h8Y12bwFrgyv5IBatEsGRWC0wLD64vlZbGZyQIVY/Ei5JieBcKxs21gVuwvwY4ECHxE7lQ4ZOaeCIlQ0NSwDu7hjgsCeSvpdBpyRwxMpGchGhY3pSH5zgibCdagOVBM5NqsSaS0Nw19XBCT0v1f6DZgo4NzETbaSKhEIvtcFVa0wSlACO1HKjBCLgui3UFcEJtTlFg0Wm9OCIlY0/nt6Csxf8uS44fMPJBbRs6cG5tVzGsFhwc7uVeFET3BZecpWQ4SA1OJJnZPZeWHBT++OfmuBw4b5ElYGTFhxJzHD70Syt5dg9RT1wsD5TJ2Q4SAvOreWyBtkFZ3/+XhEccn4rhQwHKcGR9ZKtirjgnL2EM7vLqzQ4sF9rdnZ9FtVdzrbBQDpwxMryvcwuOKdB99E6gEcEt4hrPL4d2rLUSQfOtbLAHhNwzoPjbGrgmFM1rkkhy6cC52Z9UVWEgovV+0qDk57l52v2XT6mThpwxMoij5OCc55dZVQanPB/ojxFqorZUoAjIQNspPLARUCUBifk4qhech6wx0kBzrWl+FmTHrjILVc85NIbuauy7rAM7kr/dh9c6EkVB6f5PxE7nTDbM7MlgiMhg9BI5YML65nl00qqTRAn5es1Ijg3MSP1zQfggicGlAeHw/z9cbc5BxYkgXPXIfz0txi4YHtfhdS59EDreZFAIZAAjtwy4j9KDcH5t1yNYg0sOswjPlERCeDclegHfWDSu6686CsE59dKqtRV+YMyHRMlhMGJGVRq9SLgvFxiFXDcPyepiG3oQ6m8TEkEnLcJqE4LRNS7XNbENhwc+bJj4GidqVLTTRh5LSt0dhFVB0f3MFQC56e6Kt9tO9UHR5oTa4Ejibnl8K1HsuqDI6n/auBsgbzqkmB1BHBu0FYNXO8HX9a2bb3y/t27FQFns+XEV3acGuhDDwLXJbyOdLfthMGJmzboIz42fRn6jNZzjBeMm+qHgRtNL+sEV3FJIZcfLFBdej1yi9V0unuKhe+RrvZvn+LHGQ8Ed1x94P7eQA1cphq4TDVwmWrgMtXAZaqBy1QDl6kGLlMNXKYauEw1cJlq4DLVwGWqgcvUPwXuA5/UHeifAnc7+Wu0rrZFsqmpqampqampqamp6Yj6D55EqdyOvYr0AAAAAElFTkSuQmCC" },
+      { nombre: "DAZN LaLiga 2", enlace: "DAZNLALIGA2.html", img: "data:image/png;base64,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" },
+      { nombre: "DSports", enlace: "Dsports.html", img: "https://pelotalibre.io/wp-content/uploads/2025/07/DSports.webp" },
+      { nombre: "DSports 2", enlace: "Dsports2.html", img: "https://librepelota.com/img/logo-canal/dsports_2.webp" },
+      { nombre: "DSports+", enlace: "Dsportsplus.html", img: "https://i.ibb.co/wF3tH66p/image-removebg-preview.png" },
+      { nombre: "ECDF (El Canal del Fútbol)", enlace: "ECDF.html", img: "https://img.utdstc.com/icon/e7b/1ff/e7b1ff52f3b668c5ad37bfaed6d7ca27d06765fda4078d8e0154bb72ae036368:200" },
+      { nombre: "ESPN", enlace: "ESPN.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ESPN_logos.png/640px-ESPN_logos.png" },
+      { nombre: "ESPN 2", enlace: "ESPN2.html", img: "https://deporte-libre.click/img/espn2.webp" },
+      { nombre: "ESPN 3", enlace: "ESPN3.html", img: "https://deporte-libre.click/img/espn3.webp" },
+      { nombre: "ESPN 4", enlace: "ESPN4.html", img: "https://deporte-libre.click/img/espn4.webp" },
+      { nombre: "ESPN 5", enlace: "ESPN5.html", img: "https://deporte-libre.click/img/espn5.png" },
+      { nombre: "ESPN Brasil", enlace: "ESPNBRASIL.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ESPN_logos.png/640px-ESPN_logos.png" },
+      { nombre: "ESPN Deportes USA", enlace: "espndeportesusa.html", img: "https://deporte-libre.click/img/espndeportes.png" },
+      { nombre: "ESPN MX", enlace: "ESPNMX.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ESPN_logos.png/640px-ESPN_logos.png" },
+      { nombre: "ESPN Premium", enlace: "ESPNPremium.html", img: "https://cdn.storage.foromedios.com/monthly_2022_05/large_es.png.aa439426a82c10606ef062d67bd99b89.png" },
+      { nombre: "ESPN Suramerica", enlace: "ESPNSUR.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ESPN_logos.png/640px-ESPN_logos.png" },
+      { nombre: "Fox Sports 1 Argentina", enlace: "Fox1Arg.html", img: "https://cdn.storage.foromedios.com/monthly_2023_02/small.1336428652_FOXSportsARG(2023-).png.98ba18dffe20a821f8f4fdc1f3dfc0b1.png" },
+      { nombre: "Fox Sports 2 Argentina", enlace: "Fox2Arg.html", img: "https://r2.thesportsdb.com/images/media/channel/logo/d96btm1707916453.png" },
+      { nombre: "Fox Sports MX", enlace: "FoxMX.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fox_Sports_M%C3%A9xico_Logo_2022.png/1200px-Fox_Sports_M%C3%A9xico_Logo_2022.png" },
+      { nombre: "Fox Sports MX 2", enlace: "FoxMX2.html", img: "https://i.postimg.cc/j2FXxM3D/fox2-removebg-preview.png" },
+      { nombre: "Fox Sports Premium", enlace: "FoxSportsPremium.html", img: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Fox_sports_premium_mx.png" },
+      { nombre: "MEGA Chile", enlace: "MEGAChile.html", img: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mega_Chile_2020.png" },
+      { nombre: "Movistar Deportes", enlace: "MovistarDeportes.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Movistar_Deportes.svg/2560px-Movistar_Deportes.svg.png" },
+      { nombre: "Movistar LaLiga", enlace: "MovistarLaLiga.html", img: "https://deporte-libre.click/img/laliga.png" },
+      { nombre: "Movistar LaLiga 2", enlace: "MovistarLaLiga2.html", img: "https://deporte-libre.click/img/laliga.png" },
+      { nombre: "Movistar Plus", enlace: "Movistarplus.html", img: "https://deporte-libre.click/img/m+.png" },
+      { nombre: "Premiere Brasil", enlace: "PremiereBR.html", img: "https://s3.glbimg.com/v1/AUTH_a917c721cb38494aba6a38e47abe658c/premiere-widget/assests/favicon.ico" },
+      { nombre: "RCN", enlace: "RCN.html", img: "https://upload.wikimedia.org/wikipedia/commons/0/0b/Logo_RCN_Televisi%C3%B3n.png" },
+      { nombre: "SporTV", enlace: "SporTV.html", img: "https://upload.wikimedia.org/wikipedia/commons/2/26/SporTV_2021.png" },
+      { nombre: "SporTV 2", enlace: "SporTV2.html", img: "https://upload.wikimedia.org/wikipedia/commons/0/01/SporTV2_2021.png" },
+      { nombre: "Telefe", enlace: "Telefe.html", img: "https://upload.wikimedia.org/wikipedia/commons/c/cc/Telefe_%28nuevo_logo%29.png" },
+      { nombre: "Telemundo USA", enlace: "TelemundoUSA.html", img: "https://upload.wikimedia.org/wikipedia/commons/8/84/Telemundo-nuevo-logo.png" },
+      { nombre: "TNT Sports Argentina", enlace: "tntsportsa.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/2560px-TNT_Sports_2021_logo.svg.png" },
+      { nombre: "TNT USA", enlace: "TNTUSA.html", img: "https://upload.wikimedia.org/wikipedia/commons/7/7e/TNT_Sports_Logo.svg" },
+      { nombre: "TUDN MX", enlace: "TUDNMX.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/2560px-TUDN_Logo.svg.png" },
+      { nombre: "TUDN USA", enlace: "TUDNUSA.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/TUDN_Logo.svg/2560px-TUDN_Logo.svg.png" },
+      { nombre: "TyC Sports", enlace: "tycsports.html", img: "https://deporte-libre.click/img/tycsports.png" },
+      { nombre: "TyC Sports 2", enlace: "tycsports2.html", img: "https://deporte-libre.click/img/tycsports.png" },
+      { nombre: "TV Pública", enlace: "TVPublica.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1200px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png" },
+      { nombre: "Win Sports", enlace: "Winsports.html", img: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Win%2B_F%C3%BAtbol_logo.svg" },
+      { nombre: "Win Sports+", enlace: "Winplus.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/1200px-Win_Sports_nuevo_logo.svg.png" }
+    ];
+
+    const lista = document.getElementById("listaCanales");
+
+    // Grilla responsiva con centrado en la última fila
+    lista.className = "grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 my-5 px-4 justify-center";
+
+    // Insertamos los canales
+    canales.forEach(c => {
+      lista.innerHTML += `
+        <div class="bg-black border border-gray-700 rounded-lg p-4 flex flex-col items-center text-center transition hover:scale-105">
+          <a href="${c.enlace}" class="flex flex-col items-center w-full h-full">
+            <img class="w-24 h-24 object-contain mb-3" loading="lazy" src="${c.img}" alt="${c.nombre}" title="${c.nombre}">
+            <p class="text-white font-semibold mb-3">${c.nombre}</p>
+            <span class="bg-white text-black py-2 px-3 rounded font-bold w-full block text-center">
+              Ver en VIVO
+            </span>
+          </a>
+        </div>
+      `;
+    });
+  });
+</script>
+
+  <!-- Botón flotante elegante de volver arriba -->
+  <button id="btnVolverArriba" title="Volver arriba">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+</body>
+</html>

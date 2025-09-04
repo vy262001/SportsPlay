@@ -1,10 +1,22 @@
 const eventosRepeticiones = [
   {
+    titulo: "AEW Dynamite 3 de Septiembre 2025 Repetición",
+    evento: "DYNAMITE",
+    imagen: "https://img.solowrestling.com/images/143/143879-aew-mone-windsor.jpg",
+    url: "//ok.ru/videoembed/9422875986587?nochat=1"
+  },
+  {
+    titulo: "WWE NXT 2 de Septiembre 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://img.solowrestling.com/images/143/143847-nxt.jpg",
+    url: "//ok.ru/videoembed/9419528145563?nochat=1"
+  },
+  {
     titulo: "WWE RAW 1 de Septiembre 2025 Repetición",
     evento: "RAW",
     imagen: "https://imageio.forbes.com/specials-images/imageserve/68b5d71c84a04ea2ec54abcc/0x0.jpg?format=jpg&height=600&width=1200&fit=bounds",
     url: "//ok.ru/videoembed/9415888865947?nochat=1"
-  },  
+  },
   {
     titulo: "WWE Clash In Paris 2025 Repetición",
     evento: "WWE",

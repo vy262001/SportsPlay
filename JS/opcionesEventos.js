@@ -44,70 +44,99 @@ showsSemanales.forEach(show => {
 // ================================
 // Eventos especiales fijos
 // ================================
-// Eventos
 Object.assign(opcionesEventos, {
-  "Kazajistán Vs Gales - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/UEFA.html" }
-  ],
-  "Lituania Vs Malta - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus3.html" }
-  ],
-  "Georgia Vs Turquía - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus2.html" }
-  ],
-  "Liechtenstein Vs Bélgica - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus8.html" }
-  ],
-  "Eslovaquia Vs Alemania - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/ESPNARGENTINA1.html" }
-  ],
-  "Países Bajos Vs Polonia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus7.html" }
-  ],
-  "Bulgaria Vs España - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus7.html" }
-  ],
-  "Luxemburgo Vs Irlanda del Norte - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus6.html" }
-  ],
-  "Uruguay Vs Perú - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/Dsports.html" },
-    { enlace: "/HTML/MovistarDeportes.html" }
-  ],
-  "Colombia Vs Bolivia - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/Caracoltv.html" },
-    { enlace: "/HTML/RCN.html" }
-  ],
-  "Argentina Vs Venezuela - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/tycsports.html" },
-    { enlace: "/HTML/Telefe.html" },
-    { enlace: "/HTML/destacada5.html" },
-  ],
-  "Paraguay Vs Ecuador - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/destacada.html" },
-    { enlace: "/HTML/ECDF.html" }
-  ],
-  "Brasil Vs Chile - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/destacada3.html" },
-    { enlace: "/HTML/MEGAChile.html" },
-    { enlace: "/HTML/SporTV.html" },
-    { enlace: "/HTML/SporTV2.html" }
-  ],
-  "Ecuador Vs Argentina - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/CONMEBOL.html" }
-  ],
-  "Chile Vs Uruguay - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/CONMEBOL.html" }
-  ],
-  "Bolivia Vs Brasil - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/CONMEBOL.html" }
-  ],
-  "Venezuela Vs Colombia - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/CONMEBOL.html" }
-  ],
-  "Perú Vs Paraguay - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/CONMEBOL.html" }
-  ]
+  "Vélez Vs Central Córdoba - Supercopa Argentina (Final)": [
+    { enlace: "/HTML/Disneyplus.html" },
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Estados Unidos Vs Corea del Sur - Amistoso": [
+    { enlace: "/HTML/TelemundoUSA.html" },
+    { enlace: "/HTML/TNTUSA.html" },
+    { enlace: "/HTML/TNTUSA.html" },
+    { enlace: "/HTML/destacada4.html" }
+  ],
+  "México Vs Japón - Amistoso de Selecciones": [
+    { enlace: "/HTML/azteca7.html" },
+    { enlace: "/HTML/TUDNUSA.html" },
+  ],
+  "Armenia Vs Portugal - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/Disneyplus4.html" }
+  ],
+  "Inglaterra Vs Andorra - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/Disneyplus3.html" }
+  ],
+  "Austria Vs Chipre - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/Disneyplus7.html" }
+  ],
+  "San Marino Vs Bosnia - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/Disneyplus8.html" }
+  ],
+  "Irlanda Vs Hungría - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/ESPN3.html" }
+  ],
+  "Georgia Vs Bulgaria - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/UEFA2.html" }
+  ],
+  "Macedonia Vs Liechtenstein - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/UEFA3.html" }
+  ],
+  "Lituania Vs Países Bajos - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/UEFA4.html" }
+  ],
+  "Polonia Vs Finlandia - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/UEFA5.html" }
+  ],
+  "Alemania Vs Irlanda del Norte - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/UEFA6.html" }
+  ],
+  "Turquía Vs España - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/UEFA7.html" }
+  ],
+  "Luxemburgo Vs Eslovaquia - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/UEFA8.html" }
+  ],
+  "Bélgica Vs Kazajistán - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/UEFA9.html" }
+  ],
+  "Bucaramanga Vs Alianza - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Llaneros Vs Tolima - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Unión Magdalena Vs Junior - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Millonarios Vs Santa Fe - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Envigado Vs Águilas Doradas - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "América Vs Deportivo Cali - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Medellín Vs Atlético Nacional - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Fortaleza Vs La Equidad - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Ecuador Vs Argentina - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/tycsports.html" }
+  ],
+  "Chile Vs Uruguay - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/CONMEBOL.html" }
+  ],
+  "Bolivia Vs Brasil - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/CONMEBOL.html" }
+  ],
+  "Venezuela Vs Colombia - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/Caracoltv.html" }
+  ],
+  "Perú Vs Paraguay - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/MovistarDeportes.html" }
+  ]
 });
 
 // Eventos de Lucha Libre

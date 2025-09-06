@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE SmackDown 5 de Septiembre 2025 Repetición",
+    evento: "SMACKDOWN",
+    imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/20250618_SD_Match_Punk_16x9_Tonight-1024x576.jpg",
+    url: "//ok.ru/videoembed/9429472709275?nochat=1"
+  },
+  {
     titulo: "AEW Dynamite 3 de Septiembre 2025 Repetición",
     evento: "DYNAMITE",
     imagen: "https://img.solowrestling.com/images/143/143879-aew-mone-windsor.jpg",

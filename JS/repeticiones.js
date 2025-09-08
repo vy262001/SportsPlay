@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "AEW Collision 6 de Septiembre 2025 Repetición",
+    evento: "COLLISION",
+    imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/KF-1024x576.jpeg",
+    url: "//ok.ru/videoembed/9432823564955?nochat=1"
+  },
+  {
     titulo: "WWE SmackDown 5 de Septiembre 2025 Repetición",
     evento: "SMACKDOWN",
     imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/20250618_SD_Match_Punk_16x9_Tonight-1024x576.jpg",

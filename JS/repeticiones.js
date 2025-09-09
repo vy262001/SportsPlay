@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE RAW 8 de Septiembre 2025 Repetición",
+    evento: "RAW",
+    imagen: "https://portalciudad.com.ar/wp-content/uploads/2025/09/tablet143990-wwe-raw.jpg",
+    url: "//ok.ru/videoembed/9439501486747?nochat=1"
+  },
+  {
     titulo: "AEW Collision 6 de Septiembre 2025 Repetición",
     evento: "COLLISION",
     imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/KF-1024x576.jpeg",

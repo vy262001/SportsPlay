@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
+  titulo: "WWE Monday Night Raw 8 de septiembre de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/Jgu6fAk_9Fs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAJuACkf1ozl6gJ4-GiDIghoYIYkg",
+  videoId: "ssn_sqO7524",
+  categoria: "WWE"
+},
+{
   titulo: "WWE SmackDown 5 de septiembre de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/SOCxm4nqJQE/maxresdefault.jpg",
   videoId: "ZOt3-LCK_EA",
@@ -12,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   videoId: "YBo-UyM7ORg",
   categoria: "WWE"
 },
-  {
+{
   titulo: "WWE Clash In Paris 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/z8iLoPmOY7Y/maxresdefault.jpg",
   videoId: "AVt5fVuVTnY",

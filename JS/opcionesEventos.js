@@ -45,54 +45,16 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Ecuador Vs Argentina - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/tycsports.html" }
-  ],
-  "Chile Vs Uruguay - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/Dsports.html" }
-  ],
-  "Bolivia Vs Brasil - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/SporTV.html" },
-    { enlace: "/HTML/destacada5.html" }
-  ],
-  "Venezuela Vs Colombia - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/Caracoltv.html" },
-    { enlace: "/HTML/RCN.html" }
-  ],
-  "Perú Vs Paraguay - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/MovistarDeportes.html" }
-  ],
- "Gibraltar Vs Islas Feroe - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus5.html" }
-  ],
-  "Suiza Vs Eslovenia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus3.html" }
-  ],
-  "Grecia Vs Dinamarca - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus6.html" }
-  ],
-  "Israel Vs Italia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/ESPNARGENTINA1.html" },
-    { enlace: "/HTML/ESPN.html" },
-    { enlace: "/HTML/Disneyplus7.html" },
-  ],
-  "Croacia Vs Montenegro - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus8.html" }
-  ],
-  "Bielorrusia Vs Escocia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus4.html" }
-  ],
-  "Kosovo Vs Suecia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus2.html" }
-  ],
   "Estados Unidos Vs Japón - Amistoso": [
-    { enlace: "/HTML/TelemundoUSA.html" }
+    { enlace: "/HTML/destacada8.html" }
   ],
   "México Vs Corea del Sur - Amistoso": [
-    { enlace: "/HTML/TelemundoUSA.html" }
+    { enlace: "/HTML/azteca7.html" },
+    { enlace: "/HTML/TUDNUSA.html" },
+    { enlace: "/HTML/destacada8.html" }
   ],
   "Gales Vs Canadá - Amistoso Internacional": [
-    { enlace: "/HTML/TelemundoUSA.html" }
+    { enlace: "/HTML/Disneyplus11.html" }
   ],
   "Atlético Bucaramanga Vs Once Caldas - Liga BetPlay": [
     { enlace: "/HTML/Winplus.html" }
@@ -101,13 +63,14 @@ Object.assign(opcionesEventos, {
     { enlace: "/HTML/Winsports.html" }
   ],
   "Armenia Vs Irlanda - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus5.html" }
+    { enlace: "/HTML/Disneyplus.html" }
   ],
   "Azerbaiyán Vs Ucrania - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus6.html" }
+    { enlace: "/HTML/Disneyplus2.html" },
+    { enlace: "/HTML/ESPNARGENTINA2.html" }
   ],
   "Albania Vs Letonia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus7.html" }
+    { enlace: "/HTML/Disneyplus10.html" }
   ],
   "Bosnia Vs Austria - Clasificación Mundial UEFA": [
     { enlace: "/HTML/Disneyplus8.html" }
@@ -116,16 +79,37 @@ Object.assign(opcionesEventos, {
     { enlace: "/HTML/Disneyplus9.html" }
   ],
   "Francia Vs Islandia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus10.html" }
+    { enlace: "/HTML/Disneyplus4.html" }
   ],
   "Chipre Vs Rumanía - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus11.html" }
+    { enlace: "/HTML/Disneyplus7.html" }
   ],
   "Hungría Vs Portugal - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus12.html" }
+    { enlace: "/HTML/Disneyplus3.html" }
   ],
   "Serbia Vs Inglaterra - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus13.html" }
+    { enlace: "/HTML/Disneyplus6.html" },
+    { enlace: "/HTML/ESPNSUR.html" }
+  ],
+  "Ecuador Vs Argentina - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/tycsports.html" },
+    { enlace: "/HTML/Telefe.html" },
+    { enlace: "/HTML/ECDF.html" }
+  ],
+  "Chile Vs Uruguay - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/destacada4.html" },
+    { enlace: "/HTML/Dsports.html" }
+  ],
+  "Bolivia Vs Brasil - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/SporTV.html" },
+    { enlace: "/HTML/destacada7.html" }
+  ],
+  "Venezuela Vs Colombia - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/Caracoltv.html" },
+    { enlace: "/HTML/RCN.html" },
+  ],
+  "Perú Vs Paraguay - Clasificación Mundial CONMEBOL": [
+    { enlace: "/HTML/MovistarDeportes.html" }
   ],
   "Millonarios Vs Deportivo Pasto - Liga BetPlay": [
     { enlace: "/HTML/Winplus.html" }
@@ -297,73 +281,83 @@ function mostrarEventosHoy() {
 
         const listaOpciones = opcionesEventos[evento.titulo] || [];
 
-        const nombreBonito = {
-          "espndeportesusa.html": "ESPN Deportes USA",
-          "beinesp.html": "Bein Sports",
-          "beinespañol.html": "Bein Sports Español",
-          "Winplus.html": "Win Sports+",
-          "ESPNPremium.html": "ESPN Premium",
-          "ESPNARGENTINA1.html": "ESPN Argentina",
-          "ESPNARGENTINA2.html": "ESPN Argentina",
-          "ESPNBRASIL.html": "ESPN Brasil",
-          "ESPNMX.html": "ESPN MX",
-          "FoxSportsPremium.html": "Fox Sports Premium",
-          "tycsports2.html": "TyC Sports 2",
-          "tycsports.html": "TyC Sports",
-          "TUDNMX.html": "TUDN MX",
-          "TUDNUSA.html": "TUDN USA",
-          "FoxMX.html": "Fox Sports MX",
-          "FoxMX2.html": "Fox Sports MX 2",
-          "Fox1Arg.html": "Fox Sports 1 Argentina",
-          "Fox2Arg.html": "Fox Sports 2 Argentina",
-          "ESPN.html": "ESPN",
-          "ESPN2.html": "ESPN 2",
-          "ESPN3.html": "ESPN 3",
-          "ESPN4.html": "ESPN 4",
-          "ESPN5.html": "ESPN 5",
-          "Caracoltv.html": "Caracol",
-          "RCN.html": "RCN",
-          "Disneyplus.html": "Disney +",
-          "Disneyplus2.html": "Disney +",
-          "Disneyplus3.html": "Disney +",
-          "Disneyplus4.html": "Disney +",
-          "Disneyplus5.html": "Disney +",
-          "Disneyplus6.html": "Disney +",
-          "Disneyplus7.html": "Disney +",
-          "Disneyplus8.html": "Disney +",
-          "Dsports.html": "DSports",
-          "Dsports2.html": "DSports 2",
-          "Dsportsplus.html": "DSports+",
-          "Winsports.html": "Win Sports",
-          "tntsportsa.html": "TNT Sports Argentina",
-          "Aztecadeportes.html": "Azteca Deportes",
-          "azteca7.html": "Azteca 7",
-          "DAZNLALIGA.html": "DAZN LaLiga",
-          "DAZNLALIGA2.html": "DAZN LaLiga 2",
-          "DAZN1.html": "DAZN 1",
-          "DAZN2.html": "DAZN 2",
-          "DAZN3.html": "DAZN 3",
-          "DAZN4.html": "DAZN 4",
-          "MovistarLaLiga.html": "Movistar LaLiga",
-          "MovistarLaLiga2.html": "Movistar LaLiga 2",
-          "PremiereBR.html": "Premiere Brasil",
-          "TNTUSA.html": "TNT USA",
-          "TelemundoUSA.html": "Telemundo USA",
-          "TVPublica.html": "TV Pública",
-          "Telefe.html": "Telefe",
-          "SporTV.html": "SporTV",
-          "SporTV2.html": "SporTV 2",
-          "ECDF.html": "El Canal del Fútbol (ECDF)",
-          "ESPNSUR.html": "ESPN Suramerica",
-          "Movistarplus.html": "Movistar Plus",
-          "MovistarDeportes.html": "Movistar Deportes",
-          "MEGAChile.html": "MEGA Chile",
-          "destacada.html": "Canal 1",
-          "destacada2.html": "Canal WWE",
-          "destacada3.html": "Canal 3",
-          "destacada4.html": "Canal 4",
-          "destacada5.html": "Canal 5",
-        };
+      const nombreBonito = {
+        "espndeportesusa.html": "ESPN Deportes USA",
+        "beinesp.html": "Bein Sports",
+        "beinespañol.html": "Bein Sports Español",
+        "Winplus.html": "Win Sports+",
+        "ESPNPremium.html": "ESPN Premium",
+        "ESPNARGENTINA1.html": "ESPN Argentina",
+        "ESPNARGENTINA2.html": "ESPN Argentina",
+        "ESPNBRASIL.html": "ESPN Brasil",
+        "ESPNMX.html": "ESPN MX",
+        "FoxSportsPremium.html": "Fox Sports Premium",
+        "tycsports2.html": "TyC Sports 2",
+        "tycsports.html": "TyC Sports",
+        "TUDNMX.html": "TUDN MX",
+        "TUDNUSA.html": "TUDN USA",
+        "FoxMX.html": "Fox Sports MX",
+        "FoxMX2.html": "Fox Sports MX 2",
+        "Fox1Arg.html": "Fox Sports 1 Argentina",
+        "Fox2Arg.html": "Fox Sports 2 Argentina",
+        "ESPN.html": "ESPN",
+        "ESPN2.html": "ESPN 2",
+        "ESPN3.html": "ESPN 3",
+        "ESPN4.html": "ESPN 4",
+        "ESPN5.html": "ESPN 5",
+        "Caracoltv.html": "Caracol",
+        "RCN.html": "RCN",
+        "Disneyplus.html": "Disney +",
+        "Disneyplus2.html": "Disney +",
+        "Disneyplus3.html": "Disney +",
+        "Disneyplus4.html": "Disney +",
+        "Disneyplus5.html": "Disney +",
+        "Disneyplus6.html": "Disney +",
+        "Disneyplus7.html": "Disney +",
+        "Disneyplus8.html": "Disney +",
+        "Disneyplus9.html": "Disney +",
+        "Disneyplus10.html": "Disney +",
+        "Disneyplus11.html": "Disney +",
+        "Disneyplus14.html": "Disney +",
+        "Disneyplus15.html": "Disney +",
+        "Disneyplus16.html": "Disney +",
+        "Dsports.html": "DSports",
+        "Dsports2.html": "DSports 2",
+        "Dsportsplus.html": "DSports+",
+        "Winsports.html": "Win Sports",
+        "tntsportsa.html": "TNT Sports Argentina",
+        "Aztecadeportes.html": "Azteca Deportes",
+        "azteca7.html": "Azteca 7",
+        "DAZNLALIGA.html": "DAZN LaLiga",
+        "DAZNLALIGA2.html": "DAZN LaLiga 2",
+        "DAZN1.html": "DAZN 1",
+        "DAZN2.html": "DAZN 2",
+        "DAZN3.html": "DAZN 3",
+        "DAZN4.html": "DAZN 4",
+        "MovistarLaLiga.html": "Movistar LaLiga",
+        "MovistarLaLiga2.html": "Movistar LaLiga 2",
+        "PremiereBR.html": "Premiere Brasil",
+        "TNTUSA.html": "TNT USA",
+        "TelemundoUSA.html": "Telemundo USA",
+        "TVPublica.html": "TV Pública",
+        "Telefe.html": "Telefe",
+        "SporTV.html": "SporTV",
+        "SporTV2.html": "SporTV 2",
+        "ECDF.html": "El Canal del Fútbol (ECDF)",
+        "ESPNSUR.html": "ESPN Suramerica",
+        "Movistarplus.html": "Movistar Plus",
+        "MovistarDeportes.html": "Movistar Deportes",
+        "MEGAChile.html": "MEGA Chile",
+        "CanalLuchaLibre.html": "Canal Lucha Libre",
+        "destacada.html": "Canal 1",
+        "destacada2.html": "Canal WWE",
+        "destacada3.html": "Canal 3",
+        "destacada4.html": "Canal 4",
+        "destacada5.html": "Canal 5",
+        "destacada6.html": "Canal 6",
+        "destacada7.html": "Canal 7",
+        "destacada8.html": "Canal 8"
+      };
 
         listaOpciones.forEach(opcion => {
           const archivo = opcion.enlaceProgramacion || opcion.enlace;

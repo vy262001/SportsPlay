@@ -48,8 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
     { nombre: "TyC Sports", enlace: "tycsports.html", img: "https://deporte-libre.click/img/tycsports.png" },
     { nombre: "TyC Sports 2", enlace: "tycsports2.html", img: "https://deporte-libre.click/img/tycsports.png" },
     { nombre: "TV Pública", enlace: "TVPublica.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg/1200px-TVP_-_Televisi%C3%B3n_P%C3%BAblica_%282021%29.svg.png" },
-    { nombre: "Win Sports", enlace: "Winsports.html", img: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Win%2B_F%C3%BAtbol_logo.svg" },
-    { nombre: "Win Sports+", enlace: "Winplus.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/1200px-Win_Sports_nuevo_logo.svg.png" }
+    { nombre: "Win Sports", enlace: "Winsports.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/1200px-Win_Sports_nuevo_logo.svg.png" },
+    { nombre: "Win Sports+", enlace: "Winplus.html", img: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Win%2B_F%C3%BAtbol_logo.svg" }
   ];
 
   const contenedor = document.getElementById("canalesRow");

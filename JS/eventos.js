@@ -19,108 +19,6 @@ const eventos = [
   orden: 9
 },
 
-// Eventos Eliminatorias Europeas - Lunes 8 Septiembre
-{
-  titulo: "Gibraltar Vs Islas Feroe - Clasificación Mundial UEFA",
-  tituloDestacado: "Ver Gibraltar Vs Islas Feroe - Clasificación Mundial UEFA En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/zc8rK6P/Eliminatorias-UEFA.png",
-  imagenDestacada: "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2021/09/07/16310259596592.jpg",
-  logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus5.html",
-  enlaceProgramacion: "Disneyplus5.html",
-  inicio: "2025-09-08T13:45:00",
-  fin: "2025-09-08T15:42:00",
-  orden: 1
-},
-{
-  titulo: "Suiza Vs Eslovenia - Clasificación Mundial UEFA",
-  tituloDestacado: "Ver Suiza Vs Eslovenia - Clasificación Mundial UEFA En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/zc8rK6P/Eliminatorias-UEFA.png",
-  imagenDestacada: "https://icdn.football-espana.net/wp-content/uploads/2023/03/Switzerland-vs-Slovenia.jpg",
-  logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus3.html",
-  enlaceProgramacion: "Disneyplus3.html",
-  inicio: "2025-09-08T13:45:00",
-  fin: "2025-09-08T15:42:00",
-  orden: 2
-},
-{
-  titulo: "Grecia Vs Dinamarca - Clasificación Mundial UEFA",
-  tituloDestacado: "Ver Grecia Vs Dinamarca - Clasificación Mundial UEFA En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/zc8rK6P/Eliminatorias-UEFA.png",
-  imagenDestacada: "https://www.footballdatabase.eu/images/photos/teams/2024-03/grecia-vs-dinamarca.jpg",
-  logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus6.html",
-  enlaceProgramacion: "Disneyplus6.html",
-  inicio: "2025-09-08T13:45:00",
-  fin: "2025-09-08T15:42:00",
-  orden: 3
-},
-{
-  titulo: "Israel Vs Italia - Clasificación Mundial UEFA",
-  tituloDestacado: "Ver Israel Vs Italia - Clasificación Mundial UEFA En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/zc8rK6P/Eliminatorias-UEFA.png",
-  imagenDestacada: "https://espnpressroom.com/latinamerica/files/2025/09/ESPN-Futbol-UEFA-European-Qualifiers-KV-Jugadores-16-9-1024x576.jpg",
-  logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus7.html",
-  enlaceProgramacion: "Disneyplus7.html",
-  destacado: true,
-  fijarComoDestacado: true,
-  inicio: "2025-09-08T13:45:00",
-  fin: "2025-09-08T15:42:00",
-  orden: 4
-},
-{
-  titulo: "Croacia Vs Montenegro - Clasificación Mundial UEFA",
-  tituloDestacado: "Ver Croacia Vs Montenegro - Clasificación Mundial UEFA En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/zc8rK6P/Eliminatorias-UEFA.png",
-  imagenDestacada: "https://pbs.twimg.com/media/Ez8iTYsXoAAJf0c.jpg",
-  logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus8.html",
-  enlaceProgramacion: "Disneyplus8.html",
-  inicio: "2025-09-08T13:45:00",
-  fin: "2025-09-08T15:42:00",
-  orden: 5
-},
-{
-  titulo: "Bielorrusia Vs Escocia - Clasificación Mundial UEFA",
-  tituloDestacado: "Ver Bielorrusia Vs Escocia - Clasificación Mundial UEFA En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/zc8rK6P/Eliminatorias-UEFA.png",
-  imagenDestacada: "https://ichef.bbci.co.uk/onesport/cps/976/cpsprodpb/16A9/production/_129455408_gettyimages-1479393124.jpg",
-  logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus4.html",
-  enlaceProgramacion: "Disneyplus4.html",
-  inicio: "2025-09-08T13:45:00",
-  fin: "2025-09-08T15:42:00",
-  orden: 6
-},
-{
-  titulo: "Kosovo Vs Suecia - Clasificación Mundial UEFA",
-  tituloDestacado: "Ver Kosovo Vs Suecia - Clasificación Mundial UEFA En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/zc8rK6P/Eliminatorias-UEFA.png",
-  imagenDestacada: "https://icdn.football-espana.net/wp-content/uploads/2021/03/Kosovo-vs-Sweden.jpg",
-  logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus2.html",
-  enlaceProgramacion: "Disneyplus2.html",
-  inicio: "2025-09-08T13:45:00",
-  fin: "2025-09-08T15:42:00",
-  orden: 7
-},
-
 // Eventos 2025-09-09
 {
   titulo: "Estados Unidos Vs Japón - Amistoso",
@@ -130,8 +28,8 @@ const eventos = [
   imagenDestacada: "https://images.mlssoccer.com/image/private/t_q-best/mls/cntj73dfcqxwumrh11ag.png",
   logoMini: "https://static.vecteezy.com/system/resources/thumbnails/029/110/786/small_2x/football-soccer-ball-png.png",
   icono: "https://cdn-icons-png.flaticon.com/512/6013/6013752.png",
-  enlace: "HTML/TelemundoUSA.html",
-  enlaceProgramacion: "TelemundoUSA.html",
+  enlace: "HTML/destacada8.html",
+  enlaceProgramacion: "destacada8.html",
   inicio: "2025-09-09T18:30:00",
   fin: "2025-09-09T20:30:00",
   orden: 11
@@ -144,8 +42,8 @@ const eventos = [
   imagenDestacada: "https://cdn.proceso.com.mx/media/2024/03/mexico-vs-corea.jpg",
   logoMini: "https://static.vecteezy.com/system/resources/thumbnails/029/110/786/small_2x/football-soccer-ball-png.png",
   icono: "https://cdn-icons-png.flaticon.com/512/6013/6013752.png",
-  enlace: "HTML/TelemundoUSA.html",
-  enlaceProgramacion: "TelemundoUSA.html",
+  enlace: "HTML/azteca7.html",
+  enlaceProgramacion: "azteca7.html",
   inicio: "2025-09-09T20:00:00",
   fin: "2025-09-09T22:00:00",
   orden: 12
@@ -158,8 +56,8 @@ const eventos = [
   imagenDestacada: "https://e0.365dm.com/22/09/1600x900/skysports-wales-football-nations-league_5890145.jpg",
   logoMini: "https://static.vecteezy.com/system/resources/thumbnails/029/110/786/small_2x/football-soccer-ball-png.png",
   icono: "https://cdn-icons-png.flaticon.com/512/6013/6013752.png",
-  enlace: "HTML/TelemundoUSA.html",
-  enlaceProgramacion: "TelemundoUSA.html",
+  enlace: "HTML/Disneyplus11.html",
+  enlaceProgramacion: "Disneyplus11.html",
   inicio: "2025-09-09T13:45:00",
   fin: "2025-09-09T15:45:00",
   orden: 13
@@ -203,8 +101,8 @@ const eventos = [
   imagenDestacada: "https://khelnow.com/_next/image?url=https%3A%2F%2Fassets.khelnow.com%2Fnews%2Fuploads%2F2025%2F09%2FArmenia-vs-Irlanda.jpg&w=1920&q=75",
   logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
   icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus5.html",
-  enlaceProgramacion: "Disneyplus5.html",
+  enlace: "HTML/Disneyplus.html",
+  enlaceProgramacion: "Disneyplus.html",
   inicio: "2025-09-09T11:00:00",
   fin: "2025-09-09T12:57:00",
   orden: 1
@@ -217,8 +115,8 @@ const eventos = [
   imagenDestacada: "https://pbs.twimg.com/media/FYc7FzvWAAEpT4N.jpg",
   logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
   icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus6.html",
-  enlaceProgramacion: "Disneyplus6.html",
+  enlace: "HTML/Disneyplus2.html",
+  enlaceProgramacion: "Disneyplus2.html",
   inicio: "2025-09-09T11:00:00",
   fin: "2025-09-09T12:57:00",
   orden: 2
@@ -231,8 +129,8 @@ const eventos = [
   imagenDestacada: "https://i.ytimg.com/vi/zXxQxeYBHp0/maxresdefault.jpg",
   logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
   icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus7.html",
-  enlaceProgramacion: "Disneyplus7.html",
+  enlace: "HTML/Disneyplus10.html",
+  enlaceProgramacion: "Disneyplus10.html",
   inicio: "2025-09-09T13:45:00",
   fin: "2025-09-09T15:42:00",
   orden: 3
@@ -273,8 +171,8 @@ const eventos = [
   imagenDestacada: "https://www.rctiplus.com/data/files/RC/2022/03/28/Francia-vs-Islandia.jpg",
   logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
   icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus10.html",
-  enlaceProgramacion: "Disneyplus10.html",
+  enlace: "HTML/Disneyplus4.html",
+  enlaceProgramacion: "Disneyplus4.html",
   inicio: "2025-09-09T13:45:00",
   fin: "2025-09-09T15:42:00",
   orden: 6
@@ -287,8 +185,8 @@ const eventos = [
   imagenDestacada: "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2023/03/28/16799628198024.jpg",
   logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
   icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus11.html",
-  enlaceProgramacion: "Disneyplus11.html",
+  enlace: "HTML/Disneyplus7.html",
+  enlaceProgramacion: "Disneyplus7.html",
   inicio: "2025-09-09T13:45:00",
   fin: "2025-09-09T15:42:00",
   orden: 7
@@ -301,8 +199,8 @@ const eventos = [
   imagenDestacada: "https://espnpressroom.com/latinamerica/files/2025/09/ESPN-Futbol-UEFA-European-Qualifiers-KV-Jugadores-16-9-1024x576.jpg",
   logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
   icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus12.html",
-  enlaceProgramacion: "Disneyplus12.html",
+  enlace: "HTML/Disneyplus3.html",
+  enlaceProgramacion: "Disneyplus3.html",
   destacado: true,
   fijarComoDestacado: true,
   inicio: "2025-09-09T13:45:00",
@@ -317,8 +215,8 @@ const eventos = [
   imagenDestacada: "https://cdn.vox-cdn.com/thumbor/n5cArYvDyGrA8cnYV6xMQdbw1fA=/0x0:4000x2667/1200x800/filters:focal(1680x1013:2320x1653)/cdn.vox-cdn.com/uploads/chorus_image/image/67050744/1209730285.jpg",
   logoMini: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
   icono: "https://a.espncdn.com/photo/2022/0317/r987715_2_1000x1000_1-1.png",
-  enlace: "HTML/Disneyplus13.html",
-  enlaceProgramacion: "Disneyplus13.html",
+  enlace: "HTML/Disneyplus6.html",
+  enlaceProgramacion: "Disneyplus6.html",
   inicio: "2025-09-09T13:45:00",
   fin: "2025-09-09T15:42:00",
   orden: 9
@@ -349,8 +247,8 @@ const eventos = [
   imagenDestacada: "https://elpopular.cronosmedia.glr.pe/original/2023/08/25/64e930992decda23d269fb0f.jpg",
   logoMini: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
   icono: "https://a.espncdn.com/combiner/i?img=/i/leaguelogos/soccer/500/65.png",
-  enlace: "HTML/Dsports.html",
-  enlaceProgramacion: "Dsports.html",
+  enlace: "HTML/destacada4.html",
+  enlaceProgramacion: "destacada4.html",
   inicio: "2025-09-09T18:30:00",
   fin: "2025-09-09T20:27:00",
   orden: 2
@@ -1132,7 +1030,7 @@ if (contenedorPrincipal) {
   }
 
   if (esFutbol) {
-    if (diferenciaHoras <= 168) {
+    if (diferenciaHoras <= 24) {
       eventosFutbolVisibles.push(eventoConIndice);
     }
   } else if (esLucha) {
@@ -1439,18 +1337,21 @@ document.addEventListener("DOMContentLoaded", () => {
 // Archivos a los que se les aplica la lógica dinámica
 const archivosConTituloDinamico = [
   "destacada.html", "destacada2.html", "destacada3.html", "destacada4.html", "destacada5.html",
-  "Winplus.html", "Winsports.html", "FoxMX2.html", "FoxMX.html","Fox1Arg.html","Fox2Arg.html",
+  "destacada6.html", "destacada7.html", "destacada8.html","CanalLuchaLibre.html",
+  "Winplus.html", "Winsports.html", "FoxMX2.html", "FoxMX.html", "Fox1Arg.html", "Fox2Arg.html",
   "FoxSportsPremium.html", "tntsportsa.html", "tycsports.html", "tycsports2.html",
-  "TUDNMX.html","TUDNUSA.html", "Dsports.html", "Dsports2.html", "Dsportsplus.html",
+  "TUDNMX.html", "TUDNUSA.html", "Dsports.html", "Dsports2.html", "Dsportsplus.html",
   "Disneyplus.html", "Disneyplus2.html", "Disneyplus3.html", "Disneyplus4.html",
   "Disneyplus5.html", "Disneyplus6.html", "Disneyplus7.html", "Disneyplus8.html",
-  "ESPN.html", "ESPN2.html", "ESPN3.html", "ESPN4.html", "ESPN5.html","TVPublica.html",
-  "espndeportesusa.html","beinesp.html","beinespañol.html","Telefe.html",
+  "Disneyplus9.html", "Disneyplus10.html", "Disneyplus11.html", 
+  "Disneyplus14.html", "Disneyplus15.html", "Disneyplus16.html",
+  "ESPN.html", "ESPN2.html", "ESPN3.html", "ESPN4.html", "ESPN5.html", "TVPublica.html",
+  "espndeportesusa.html", "beinesp.html", "beinespañol.html", "Telefe.html",
   "Aztecadeportes.html", "azteca7.html", "Caracoltv.html", "RCN.html",
   "DAZNLALIGA.html", "DAZNLALIGA2.html", "DAZN1.html", "DAZN2.html", "DAZN3.html", "DAZN4.html",
   "MovistarLaLiga.html", "MovistarLaLiga2.html", "PremiereBR.html",
-  "TNTUSA.html", "TelemundoUSA.html","ESPNMX.html","SporTV2.html", "ECDF.html", "ESPNSUR.html", 
-  "Movistarplus.html", "MovistarDeportes.html", "MEGAChile.html","SporTV.html",
+  "TNTUSA.html", "TelemundoUSA.html", "ESPNMX.html", "SporTV2.html", "ECDF.html", "ESPNSUR.html",
+  "Movistarplus.html", "MovistarDeportes.html", "MEGAChile.html", "SporTV.html",
   "ESPNARGENTINA1.html", "ESPNARGENTINA2.html", "ESPNBRASIL.html", "ESPNPremium.html"
 ];
 

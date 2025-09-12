@@ -45,132 +45,60 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Estados Unidos Vs Japón - Amistoso": [
-    { enlace: "/HTML/destacada8.html" }
-  ],
-  "México Vs Corea del Sur - Amistoso": [
-    { enlace: "/HTML/azteca7.html" },
-    { enlace: "/HTML/TUDNUSA.html" },
-    { enlace: "/HTML/destacada8.html" }
-  ],
-  "Gales Vs Canadá - Amistoso Internacional": [
-    { enlace: "/HTML/Disneyplus11.html" }
-  ],
-  "Atlético Bucaramanga Vs Once Caldas - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Independiente Santa Fe Vs Alianza - Copa Betplay": [
-    { enlace: "/HTML/Winsports.html" }
-  ],
-  "Armenia Vs Irlanda - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
-  ],
-  "Azerbaiyán Vs Ucrania - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus2.html" },
-    { enlace: "/HTML/ESPNARGENTINA2.html" }
-  ],
-  "Albania Vs Letonia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus10.html" }
-  ],
-  "Bosnia Vs Austria - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus8.html" }
-  ],
-  "Noruega Vs Moldavia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus9.html" }
-  ],
-  "Francia Vs Islandia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus4.html" }
-  ],
-  "Chipre Vs Rumanía - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus7.html" }
-  ],
-  "Hungría Vs Portugal - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus3.html" }
-  ],
-  "Serbia Vs Inglaterra - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus6.html" },
-    { enlace: "/HTML/ESPNSUR.html" }
-  ],
-  "Ecuador Vs Argentina - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/tycsports.html" },
-    { enlace: "/HTML/Telefe.html" },
-    { enlace: "/HTML/ECDF.html" }
-  ],
-  "Chile Vs Uruguay - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/destacada4.html" },
-    { enlace: "/HTML/Dsports.html" }
-  ],
-  "Bolivia Vs Brasil - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/SporTV.html" },
-    { enlace: "/HTML/destacada7.html" }
-  ],
-  "Venezuela Vs Colombia - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/Caracoltv.html" },
-    { enlace: "/HTML/RCN.html" },
-  ],
-  "Perú Vs Paraguay - Clasificación Mundial CONMEBOL": [
-    { enlace: "/HTML/MovistarDeportes.html" }
-  ],
-  "Millonarios Vs Deportivo Pasto - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Belgrano Vs San Martín SJ - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Riestra Vs Central Córdoba (SdE) - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Racing Vs San Lorenzo - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Huracán Vs Vélez - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Lanús Vs Independiente Rivadavia - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Newell's Vs Atl. Tucumán - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Rionegro Águilas Vs Independiente Medellín - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Junior Vs La Equidad - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Bayer Leverkusen Vs Eintracht Frankfurt - Bundesliga": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Sevilla Vs Elche - LaLiga EA Sports": [
-    { enlace: "/HTML/Disneyplus.html" }
-  ],
-  "Benfica Vs Santa Clara - Primeira Liga Portugal": [
-    { enlace: "/HTML/Disneyplus.html" }
-  ],
-  "VfL Wolfsburg Vs 1. FC Köln - Bundesliga": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Union Berlin Vs TSG Hoffenheim - Bundesliga": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "1. FC Heidenheim Vs Borussia Dortmund - Bundesliga": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Mainz 05 Vs RB Leipzig - Bundesliga": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "SC Freiburg Vs VfB Stuttgart - Bundesliga": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Bayern Múnich Vs Hamburger SV - Bundesliga": [
-    { enlace: "/HTML/ESPN.html" }
-  ]
+  "Riestra Vs Central Córdoba (SdE) - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
+  ],
+  "Racing Vs San Lorenzo - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Huracán Vs Vélez - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
+  ],
+  "Lanús Vs Independiente Rivadavia - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
+  ],
+  "Newell's Vs Atl. Tucumán - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Rionegro Águilas Vs Independiente Medellín - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Junior Vs La Equidad - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Bayer Leverkusen Vs Eintracht Frankfurt - Bundesliga": [
+    { enlace: "/HTML/espndeportesusa.html" }
+  ],
+  "Sevilla Vs Elche - LaLiga EA Sports": [
+    { enlace: "/HTML/MovistarLaLiga.html" }
+  ],
+  "Benfica Vs Santa Clara - Primeira Liga Portugal": [
+    { enlace: "/HTML/destacada5.html" }
+  ],
+  "VfL Wolfsburg Vs 1. FC Köln - Bundesliga": [
+    { enlace: "/HTML/ESPN.html" }
+  ],
+  "Union Berlin Vs TSG Hoffenheim - Bundesliga": [
+    { enlace: "/HTML/ESPN.html" }
+  ],
+  "1. FC Heidenheim Vs Borussia Dortmund - Bundesliga": [
+    { enlace: "/HTML/ESPN.html" }
+  ],
+  "Mainz 05 Vs RB Leipzig - Bundesliga": [
+    { enlace: "/HTML/ESPN.html" }
+  ],
+  "SC Freiburg Vs VfB Stuttgart - Bundesliga": [
+    { enlace: "/HTML/ESPN.html" }
+  ],
+  "Bayern Múnich Vs Hamburger SV - Bundesliga": [
+    { enlace: "/HTML/ESPN.html" }
+  ]
 });
 
 // Eventos de Lucha Libre
 Object.assign(opcionesEventos, {
   "Worlds Collide II - AAA / WWE": [
-    { enlace: "/HTML/destacada2.html" }
+    { enlace: "/HTML/CanalLuchaLibre.html" }
   ],
   "WWE Wrestlepalooza - 20 septiembre 2025": [
     { enlace: "/HTML/destacada2.html" }

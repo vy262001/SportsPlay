@@ -72,7 +72,8 @@ Object.assign(opcionesEventos, {
     { enlace: "/HTML/Disneyplus2.html" },
     { enlace: "/HTML/ESPN.html" },
     { enlace: "/HTML/ESPNARGENTINA1.html" },
-    { enlace: "/HTML/espndeportesusa.html" }
+    { enlace: "/HTML/espndeportesusa.html" },
+    { enlace: "/HTML/MovistarLaLiga.html" }
   ],
   "Athletic Club Vs Alavés - LaLiga EA Sports": [
     { enlace: "/HTML/Disneyplus11.html" },
@@ -160,6 +161,12 @@ Object.assign(opcionesEventos, {
   "Nacional Vs Atlético Bucaramanga - Liga BetPlay": [
     { enlace: "/HTML/Winplus.html" }
   ],
+  "UFC Fight Night: Lopes Contra Silva": [
+    { enlace: "/HTML/EventosMMA.html" }
+  ],
+  "Canelo Álvarez Contra Terence Crawford - Boxeo": [
+    { enlace: "/HTML/EventosNetflix.html" }
+  ],
   "Pachuca Vs Cruz Azul - Liga BBVA Bancomer MX": [
     { enlace: "/HTML/TUDNUSA.html" }
   ],
@@ -176,30 +183,35 @@ Object.assign(opcionesEventos, {
     { enlace: "/HTML/TUDNUSA.html" }
   ],
   "Celta Vs Girona - LaLiga EA Sports": [
-    { enlace: "/HTML/MovistarLaLiga.html" }
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/espndeportesusa.html" }
   ],
   "Levante Vs Betis - LaLiga EA Sports": [
-    { enlace: "/HTML/MovistarLaLiga.html" }
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/espndeportesusa.html" }
   ],
   "Osasuna Vs Rayo - LaLiga EA Sports": [
-    { enlace: "/HTML/MovistarLaLiga.html" }
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/MovistarLaLiga.html" },
+    { enlace: "/HTML/MovistarLaLiga2.html" }
   ],
   "Barcelona Vs Valencia - LaLiga EA Sports": [
-    { enlace: "/HTML/MovistarLaLiga.html" }
+    { enlace: "/HTML/Dsports.html" }
   ],
   "Burnley Vs Liverpool - Premier League": [
-    { enlace: "/HTML/Disneyplus2.html" }
+    { enlace: "/HTML/DAZN2.html" }
   ],
-  "MAnchester City Vs Manchester United - Premier League": [
-    { enlace: "/HTML/Disneyplus2.html" }
+  "Manchester City Vs Manchester United - Premier League": [
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/DAZN2.html" }
   ],
-  "Roma Vs Torino - Serie A": [
-    { enlace: "/HTML/Disneyplus.html" }
+  "AS Roma Vs Torino FC - Serie A": [
+    { enlace: "/HTML/ESPN.html" }
   ],
   "Atalanta Vs US Lecce - Serie A": [
     { enlace: "/HTML/Disneyplus.html" }
   ],
-  "Pisa Vs Udinese - Serie A": [
+  "Pisa Vs Udinese Calcio - Serie A": [
     { enlace: "/HTML/Disneyplus.html" }
   ],
   "Sassuolo Vs Lazio - Serie A": [
@@ -226,29 +238,29 @@ Object.assign(opcionesEventos, {
   "Tolima Vs Boyacá Chicó - Liga BetPlay": [
     { enlace: "/HTML/Winplus.html" }
   ],
-  "Instituto Vs Argentinos - Liga Profesional Argentina": [
+  "Instituto Vs Argentinos - Liga Argentina": [
     { enlace: "/HTML/ESPNPremium.html" }
   ],
-  "Gimnasia Vs Unión - Liga Profesional Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
+  "Gimnasia Vs Unión - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
   ],
-  "Central Vs Boca - Liga Profesional Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
+  "Rosario Central Vs Boca Jrs - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
   ],
-  "Defensa Vs Platense - Liga Profesional Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
+  "Defensa y Justicia Vs Platense - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
   ],
-  "Tigre Vs Talleres - Liga Profesional Argentina": [
+  "Tigre Vs Talleres - Liga Argentina": [
     { enlace: "/HTML/ESPNPremium.html" }
   ],
   "Querétaro Vs Monterrey - Liga BBVA Bancomer MX": [
-    { enlace: "/HTML/TUDNMX.html" }
+    { enlace: "/HTML/azteca7.html" }
   ],
   "Atlético San Luis Vs Tijuana - Liga BBVA Bancomer MX": [
-    { enlace: "/HTML/TUDNMX.html" }
+    { enlace: "/HTML/azteca7.html" }
   ],
   "Bragantino Vs Sport - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
+    { enlace: "/HTML/destacada8.html" }
   ],
   "Atlético MG Vs Santos - Brasileirão": [
     { enlace: "/HTML/PremiereBR.html" }
@@ -408,83 +420,93 @@ function mostrarEventosHoy() {
 
         const listaOpciones = opcionesEventos[evento.titulo] || [];
 
-      const nombreBonito = {
-        "espndeportesusa.html": "ESPN Deportes USA",
-        "beinesp.html": "Bein Sports",
-        "beinespañol.html": "Bein Sports Español",
-        "Winplus.html": "Win Sports+",
-        "ESPNPremium.html": "ESPN Premium",
-        "ESPNARGENTINA1.html": "ESPN Argentina",
-        "ESPNARGENTINA2.html": "ESPN Argentina",
-        "ESPNBRASIL.html": "ESPN Brasil",
-        "ESPNMX.html": "ESPN MX",
-        "FoxSportsPremium.html": "Fox Sports Premium",
-        "tycsports2.html": "TyC Sports 2",
-        "tycsports.html": "TyC Sports",
-        "TUDNMX.html": "TUDN MX",
-        "TUDNUSA.html": "TUDN USA",
-        "FoxMX.html": "Fox Sports MX",
-        "FoxMX2.html": "Fox Sports MX 2",
-        "Fox1Arg.html": "Fox Sports 1 Argentina",
-        "Fox2Arg.html": "Fox Sports 2 Argentina",
-        "ESPN.html": "ESPN",
-        "ESPN2.html": "ESPN 2",
-        "ESPN3.html": "ESPN 3",
-        "ESPN4.html": "ESPN 4",
-        "ESPN5.html": "ESPN 5",
-        "Caracoltv.html": "Caracol",
-        "RCN.html": "RCN",
-        "Disneyplus.html": "Disney +",
-        "Disneyplus2.html": "Disney +",
-        "Disneyplus3.html": "Disney +",
-        "Disneyplus4.html": "Disney +",
-        "Disneyplus5.html": "Disney +",
-        "Disneyplus6.html": "Disney +",
-        "Disneyplus7.html": "Disney +",
-        "Disneyplus8.html": "Disney +",
-        "Disneyplus9.html": "Disney +",
-        "Disneyplus10.html": "Disney +",
-        "Disneyplus11.html": "Disney +",
-        "Disneyplus14.html": "Disney +",
-        "Disneyplus15.html": "Disney +",
-        "Disneyplus16.html": "Disney +",
-        "Dsports.html": "DSports",
-        "Dsports2.html": "DSports 2",
-        "Dsportsplus.html": "DSports+",
-        "Winsports.html": "Win Sports",
-        "tntsportsa.html": "TNT Sports Argentina",
-        "Aztecadeportes.html": "Azteca Deportes",
-        "azteca7.html": "Azteca 7",
-        "DAZNLALIGA.html": "DAZN LaLiga",
-        "DAZNLALIGA2.html": "DAZN LaLiga 2",
-        "DAZN1.html": "DAZN 1",
-        "DAZN2.html": "DAZN 2",
-        "DAZN3.html": "DAZN 3",
-        "DAZN4.html": "DAZN 4",
-        "MovistarLaLiga.html": "Movistar LaLiga",
-        "MovistarLaLiga2.html": "Movistar LaLiga 2",
-        "PremiereBR.html": "Premiere Brasil",
-        "TNTUSA.html": "TNT USA",
-        "TelemundoUSA.html": "Telemundo USA",
-        "TVPublica.html": "TV Pública",
-        "Telefe.html": "Telefe",
-        "SporTV.html": "SporTV",
-        "SporTV2.html": "SporTV 2",
-        "ECDF.html": "El Canal del Fútbol (ECDF)",
-        "ESPNSUR.html": "ESPN Suramerica",
-        "Movistarplus.html": "Movistar Plus",
-        "MovistarDeportes.html": "Movistar Deportes",
-        "MEGAChile.html": "MEGA Chile",
-        "CanalLuchaLibre.html": "Canal Lucha Libre",
-        "destacada.html": "Canal 1",
-        "destacada2.html": "Canal WWE",
-        "destacada3.html": "Canal 3",
-        "destacada4.html": "Canal 4",
-        "destacada5.html": "Canal 5",
-        "destacada6.html": "Canal 6",
-        "destacada7.html": "Canal 7",
-        "destacada8.html": "Canal 8"
-      };
+        const nombreBonito = {
+          "espndeportesusa.html": "ESPN Deportes USA",
+          "beinesp.html": "Bein Sports",
+          "beinespañol.html": "Bein Sports Español",
+          "Winplus.html": "Win Sports+",
+          "ESPNPremium.html": "ESPN Premium",
+          "ESPNARGENTINA1.html": "ESPN Argentina",
+          "ESPNARGENTINA2.html": "ESPN Argentina",
+          "ESPNBRASIL.html": "ESPN Brasil",
+          "ESPNMX.html": "ESPN MX",
+          "FoxSportsPremium.html": "Fox Sports Premium",
+          "tycsports2.html": "TyC Sports 2",
+          "tycsports.html": "TyC Sports",
+          "TUDNMX.html": "TUDN MX",
+          "TUDNUSA.html": "TUDN USA",
+          "FoxMX.html": "Fox Sports MX",
+          "FoxMX2.html": "Fox Sports MX 2",
+          "Fox1Arg.html": "Fox Sports 1 Argentina",
+          "Fox2Arg.html": "Fox Sports 2 Argentina",
+          "Fox3Arg.html": "Fox Sports 3 Argentina",
+          "ESPN.html": "ESPN",
+          "ESPN2.html": "ESPN 2",
+          "ESPN3.html": "ESPN 3",
+          "ESPN4.html": "ESPN 4",
+          "ESPN5.html": "ESPN 5",
+          "ESPNplus.html": "ESPN +",
+          "ESPNplus2.html": "ESPN +",
+          "Caracoltv.html": "Caracol",
+          "RCN.html": "RCN",
+          "Disneyplus.html": "Disney +",
+          "Disneyplus2.html": "Disney +",
+          "Disneyplus3.html": "Disney +",
+          "Disneyplus4.html": "Disney +",
+          "Disneyplus5.html": "Disney +",
+          "Disneyplus6.html": "Disney +",
+          "Disneyplus7.html": "Disney +",
+          "Disneyplus8.html": "Disney +",
+          "Disneyplus9.html": "Disney +",
+          "Disneyplus10.html": "Disney +",
+          "Disneyplus11.html": "Disney +",
+          "Disneyplus12.html": "Disney +",
+          "Disneyplus13.html": "Disney +",
+          "Disneyplus14.html": "Disney +",
+          "Disneyplus15.html": "Disney +",
+          "Disneyplus16.html": "Disney +",
+          "Dsports.html": "DSports",
+          "Dsports2.html": "DSports 2",
+          "Dsportsplus.html": "DSports+",
+          "Winsports.html": "Win Sports",
+          "tntsportsa.html": "TNT Sports Argentina",
+          "Aztecadeportes.html": "Azteca Deportes",
+          "azteca7.html": "Azteca 7",
+          "DAZNLALIGA.html": "DAZN LaLiga",
+          "DAZNLALIGA2.html": "DAZN LaLiga 2",
+          "DAZN1.html": "DAZN 1",
+          "DAZN2.html": "DAZN 2",
+          "DAZN3.html": "DAZN 3",
+          "DAZN4.html": "DAZN 4",
+          "MovistarLaLiga.html": "Movistar LaLiga",
+          "MovistarLaLiga2.html": "Movistar LaLiga 2",
+          "PremiereBR.html": "Premiere Brasil",
+          "TNTUSA.html": "TNT USA",
+          "TelemundoUSA.html": "Telemundo USA",
+          "TVPublica.html": "TV Pública",
+          "Telefe.html": "Telefe",
+          "SporTV.html": "SporTV",
+          "SporTV2.html": "SporTV 2",
+          "ECDF.html": "El Canal del Fútbol (ECDF)",
+          "ESPNSUR.html": "ESPN Suramerica",
+          "Movistarplus.html": "Movistar Plus",
+          "MovistarDeportes.html": "Movistar Deportes",
+          "MEGAChile.html": "MEGA Chile",
+          "EventosNetflix.html": "Eventos Netflix",
+          "EventosNetflix2.html": "Eventos Netflix",
+          "EventosMMA.html": "Eventos MMA",
+          "CanalLuchaLibre.html": "Canal Lucha Libre",
+          "UnivisionUSA.html": "Univisión USA",
+          "GolTV.html": "GolTV",
+          "destacada.html": "Canal 1",
+          "destacada2.html": "Canal WWE",
+          "destacada3.html": "Canal 3",
+          "destacada4.html": "Canal 4",
+          "destacada5.html": "Canal 5",
+          "destacada6.html": "Canal 6",
+          "destacada7.html": "Canal 7",
+          "destacada8.html": "Canal 8"
+        };
 
         listaOpciones.forEach(opcion => {
           const archivo = opcion.enlaceProgramacion || opcion.enlace;

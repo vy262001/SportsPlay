@@ -1,6 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
+  titulo: "Worlds Collide 12 de Septiembre 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/ZnTH_1CxYEs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA1L5nPZ0larobpc0sicu-u-UZJ5Q",
+  videoId: "Z7havk--Wl0",
+  categoria: "AAA"
+},
+{
+  titulo: "WWE SmackDown 12 de septiembre de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/bQBYDuffufg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCQKwwXMZCdSzAFIu9FWZb46-Q9ZQ",
+  videoId: "EhSXOVBVLO4",
+  categoria: "WWE"
+},
+{
   titulo: "WWE Monday Night Raw 8 de septiembre de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/Jgu6fAk_9Fs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAJuACkf1ozl6gJ4-GiDIghoYIYkg",
   videoId: "ssn_sqO7524",

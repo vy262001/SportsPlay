@@ -1,5 +1,29 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE Worlds Collide 12 de Septiembre 2025 Repetición",
+    evento: "AAA",
+    imagen: "https://www.wwe.com/f/styles/wwe_16_9_xl/public/2025/09/20250818_WorldCollide_LV_VIkingoDom_16x9_Date_0.jpg",
+    url: "//ok.ru/videoembed/9737475132004?nochat=1"
+  },
+  {
+    titulo: "WWE SmackDown 12 de Septiembre 2025 Repetición",
+    evento: "SMACKDOWN",
+    imagen: "https://img.solowrestling.com/images/144/144086-smackdown.jpg",
+    url: "//ok.ru/videoembed/9453997722267?nochat=1"
+  },
+  {
+    titulo: "AEW Dynamite 10 de Septiembre 2025 Repetición",
+    evento: "DYNAMITE",
+    imagen: "https://img.solowrestling.com/images/144/144059-aew-hangman-alexander.jpg",
+    url: "//ok.ru/videoembed/9446599297691?nochat=1"
+  },
+  {
+    titulo: "WWE NXT 9 de Septiembre 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/tt-1024x576.jpeg",
+    url: "//ok.ru/videoembed/9446198872731?nochat=1"
+  },
+  {
     titulo: "WWE RAW 8 de Septiembre 2025 Repetición",
     evento: "RAW",
     imagen: "https://portalciudad.com.ar/wp-content/uploads/2025/09/tablet143990-wwe-raw.jpg",

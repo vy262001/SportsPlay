@@ -18,6 +18,8 @@
     { "source": "/espn3", "destination": "/HTML/ESPN3.html" },
     { "source": "/espn4", "destination": "/HTML/ESPN4.html" },
     { "source": "/espn5", "destination": "/HTML/ESPN5.html" },
+    { "source": "/espnplus", "destination": "/HTML/ESPNplus.html" },
+    { "source": "/espnplus2", "destination": "/HTML/ESPNplus2.html" },
     { "source": "/espnmx", "destination": "/HTML/ESPNMX.html" },
     { "source": "/espnargentina1", "destination": "/HTML/ESPNARGENTINA1.html" },
     { "source": "/espnargentina2", "destination": "/HTML/ESPNARGENTINA2.html" },
@@ -30,6 +32,7 @@
     { "source": "/foxmx2", "destination": "/HTML/FoxMX2.html" },
     { "source": "/fox1arg", "destination": "/HTML/Fox1Arg.html" },
     { "source": "/fox2arg", "destination": "/HTML/Fox2Arg.html" },
+    { "source": "/fox3arg", "destination": "/HTML/Fox3Arg.html" },
     { "source": "/foxsportspremium", "destination": "/HTML/FoxSportsPremium.html" },
 
     { "source": "/tycsports", "destination": "/HTML/tycsports.html" },
@@ -50,6 +53,8 @@
     { "source": "/disneyplus9", "destination": "/HTML/Disneyplus9.html" },
     { "source": "/disneyplus10", "destination": "/HTML/Disneyplus10.html" },
     { "source": "/disneyplus11", "destination": "/HTML/Disneyplus11.html" },
+    { "source": "/disneyplus12", "destination": "/HTML/Disneyplus12.html" },
+    { "source": "/disneyplus13", "destination": "/HTML/Disneyplus13.html" },
     { "source": "/disneyplus14", "destination": "/HTML/Disneyplus14.html" },
     { "source": "/disneyplus15", "destination": "/HTML/Disneyplus15.html" },
     { "source": "/disneyplus16", "destination": "/HTML/Disneyplus16.html" },
@@ -83,6 +88,13 @@
     { "source": "/premierebr", "destination": "/HTML/PremiereBR.html" },
     { "source": "/ecdf", "destination": "/HTML/ECDF.html" },
     { "source": "/mega", "destination": "/HTML/MEGAChile.html" },
+
+    { "source": "/univisionusa", "destination": "/HTML/UnivisionUSA.html" },
+    { "source": "/goltv", "destination": "/HTML/GolTV.html" },
+
+    { "source": "/eventosnetflix", "destination": "/HTML/EventosNetflix.html" },
+    { "source": "/eventosnetflix2", "destination": "/HTML/EventosNetflix2.html" },
+    { "source": "/eventosmma", "destination": "/HTML/EventosMMA.html" },
 
     { "source": "/destacada1", "destination": "/HTML/destacada.html" },
     { "source": "/destacada2", "destination": "/HTML/destacada2.html" },

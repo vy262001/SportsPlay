@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
-  titulo: "Worlds Collide 12 de Septiembre 2025 Resumen",
+  titulo: "WWe Worlds Collide 12 de Septiembre 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/ZnTH_1CxYEs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLA1L5nPZ0larobpc0sicu-u-UZJ5Q",
   videoId: "Z7havk--Wl0",
   categoria: "AAA"

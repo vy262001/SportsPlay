@@ -104,7 +104,7 @@ const eventosRepeticiones = [
   {
     titulo: "AEW Forbidden Door 2025 Repetición",
     evento: "AEW",
-    imagen: "https://scontent-bog2-1.xx.fbcdn.net/v/t39.30808-6/537116596_1228142376009898_8299410841599684440_n.webp?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=7MkQqFIHeKQQ7kNvwF1RM6k&_nc_oc=Adk9CxcEh4Ar_49UEmQJhd6iy82dSoGwkq-2fI7J6tt1jHeLrh4c34EhaDLwK7_JJg0&_nc_zt=23&_nc_ht=scontent-bog2-1.xx&_nc_gid=spTIu4EZeX-hS8C2iGPUIg&oh=00_AfXrR5YkuAjiSS9U7qjJ4RQJivQeESw0RhQwoXXTUrrbCA&oe=68B8FB5C",
+    imagen: "https://blob.postadeportes.com/images/2025/08/24/gzfoun6xmae6oek-1-418e69d4-focus-0-0-608-342.webp",
     url: "//ok.ru/videoembed/9382969936539?nochat=1"
   },
   {
@@ -398,7 +398,7 @@ const eventosRepeticiones = [
   {
     titulo: "WWE Night of Champions 2025 Repetición",
     evento: "WWE",
-    imagen: "https://rasslin.net/wp-content/uploads/2025/06/image-3.png?w=1080",
+    imagen: "https://img.solowrestling.com/images/142/142041-noc.jpg",
     url: "//ok.ru/videoembed/9202481695387?nochat=1"
   }
 ];

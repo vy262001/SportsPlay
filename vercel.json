@@ -23,6 +23,7 @@
     { "source": "/espnmx", "destination": "/HTML/ESPNMX.html" },
     { "source": "/espnargentina1", "destination": "/HTML/ESPNARGENTINA1.html" },
     { "source": "/espnargentina2", "destination": "/HTML/ESPNARGENTINA2.html" },
+    { "source": "/espnargentina3", "destination": "/HTML/ESPNARGENTINA2.html" },
     { "source": "/espnbrasil", "destination": "/HTML/ESPNBRASIL.html" },
     { "source": "/espnpremium", "destination": "/HTML/ESPNPremium.html" },
     { "source": "/espndeportesusa", "destination": "/HTML/espndeportesusa.html" },

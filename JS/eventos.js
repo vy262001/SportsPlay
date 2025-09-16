@@ -19,70 +19,6 @@ const eventos = [
   orden: 9
 },
 
-// Eventos 15-09-2025
-
-// LaLiga
-{
-  titulo: "Espanyol Vs Mallorca - LaLiga EA Sports",
-  tituloDestacado: "Ver Espanyol Vs Mallorca - LaLiga EA Sports En Vivo",
-  descripcion: "Jornada de LaLiga",
-  imagen: "https://i.postimg.cc/zvsFtKZp/La-Liga-Banner-Sportsplay.png",
-  imagenDestacada: "https://statics-maker.llt-services.com/gir/images/2023/07/04/xlarge/ef962943-cd1e-4843-a19a-8c1b5b9e9abb.jpg",
-  logoMini: "https://logos-world.net/wp-content/uploads/2023/07/LaLiga-Logo.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/5/53/Bandera_nacional_de_Espa%C3%B1a.png",
-  enlace: "HTML/espndeportesusa.html",
-  enlaceProgramacion: "espndeportesusa.html",
-  enlacesExtra: ["espndeportesusa.html", "MovistarLaLiga.html"],
-  inicio: "2025-09-15T14:00:00",
-  fin: "2025-09-15T16:00:00",
-  orden: 54
-},
-
-{
-  titulo: "Hellas Verona Vs U.S. Cremonese - Serie A",
-  tituloDestacado: "Ver Hellas Verona Vs U.S. Cremonese - Serie A En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/p626RLCR/Serie-ABanner.png",
-  imagenDestacada: "https://bubinoblog.altervista.org/wp-content/uploads/2024/08/epg_0dabbe01c1785e1187811e376c988cee.jpeg",
-  logoMini: "https://i.ibb.co/HDkzM2Xv/SerieA.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-  enlace: "HTML/destacada4.html",
-  enlaceProgramacion: "destacada4.html",
-  inicio: "2025-09-15T11:30:00",
-  fin: "2025-09-15T13:30:00",
-  orden: 55
-},
-{
-  titulo: "Como 1907 Vs Genoa - Serie A",
-  tituloDestacado: "Ver Como Vs Genoa - Serie A En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://i.ibb.co/p626RLCR/Serie-ABanner.png",
-  imagenDestacada: "https://bubinoblog.altervista.org/wp-content/uploads/2024/08/epg_0dabbe01c1785e1187811e376c988cee.jpeg",
-  logoMini: "https://i.ibb.co/HDkzM2Xv/SerieA.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/0/03/Flag_of_Italy.svg",
-  enlace: "HTML/ESPNARGENTINA2.html",
-  enlaceProgramacion: "ESPNARGENTINA2.html",
-  enlacesExtra: ["ESPNARGENTINA2.html", "destacada4.html"],
-  inicio: "2025-09-15T13:45:00",
-  fin: "2025-09-15T15:45:00",
-  orden: 56
-},
-
-{
-  titulo: "Bahia Vs Cruzeiro - Brasileirão",
-  tituloDestacado: "Ver Bahia Vs Cruzeiro - Brasileirão En Vivo",
-  descripcion: "Transmisión en vivo",
-  imagen: "https://t2.tudocdn.net/725820?w=1920&h=1080",
-  imagenDestacada: "https://www.mktesportivo.com/wp-content/uploads/2025/03/brasileirao2025.jpg",
-  logoMini: "https://upload.wikimedia.org/wikipedia/pt/4/42/Campeonato_Brasileiro_S%C3%A9rie_A_logo.png",
-  icono: "https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Brazil.svg",
-  enlace: "HTML/PremiereBR.html",
-  enlaceProgramacion: "PremiereBR.html",
-  inicio: "2025-09-15T18:00:00",
-  fin: "2025-09-15T20:00:00",
-  orden: 57
-},
-
 // Eventos 16-09-2025
 
 {
@@ -90,11 +26,14 @@ const eventos = [
   tituloDestacado: "Ver Athletic Vs Arsenal - Uefa Champions League En Vivo",
   descripcion: "Transmisión en vivo",
   imagen: "https://www.sportonspec.co.uk/wp-content/uploads/2024/01/uefa-champions-league-banner.jpg",
-  imagenDestacada: "https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg",
+  imagenDestacada: "https://m.media-amazon.com/images/S/sonata-images-prod/DE_3P_SH_CS_DAZN_UCL_Pre_Promote/f18f0e3f-1308-41d8-abc6-3a85cf5158c0._SX2160_FMjpg_.jpeg",
   logoMini: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
   icono: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
   enlace: "HTML/ESPN.html",
   enlaceProgramacion: "ESPN.html",
+  enlacesExtra: ["ESPN.html", "Fox1Arg.html", "TUDNUSA.html"],
+  destacado: true,
+  fijarComoDestacado: true,
   inicio: "2025-09-16T11:45:00",
   fin: "2025-09-16T13:45:00",
   orden: 1
@@ -107,8 +46,8 @@ const eventos = [
   imagenDestacada: "https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg",
   logoMini: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
   icono: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
+  enlace: "HTML/ESPNARGENTINA2.html",
+  enlaceProgramacion: "ESPNARGENTINA2.html",
   inicio: "2025-09-16T11:45:00",
   fin: "2025-09-16T13:45:00",
   orden: 2
@@ -118,11 +57,13 @@ const eventos = [
   tituloDestacado: "Ver R. Madrid Vs Marseille - Uefa Champions League En Vivo",
   descripcion: "Transmisión en vivo",
   imagen: "https://www.sportonspec.co.uk/wp-content/uploads/2024/01/uefa-champions-league-banner.jpg",
-  imagenDestacada: "https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg",
+  imagenDestacada: "https://depor.com/resizer/v2/BW4BHVHLRZBMZCXTCAHH4AKNWI.jpg?auth=d76cca1bddba07a633475d37420cb7bff74c5a103902e5500b8e66aedddf518a&width=1920&height=1080&quality=90&smart=true",
   logoMini: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
   icono: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
+  enlace: "HTML/ESPNARGENTINA1.html",
+  enlaceProgramacion: "ESPNARGENTINA1.html",
+  destacado: true,
+  fijarComoDestacado: true,
   inicio: "2025-09-16T14:00:00",
   fin: "2025-09-16T16:00:00",
   orden: 3
@@ -135,8 +76,8 @@ const eventos = [
   imagenDestacada: "https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg",
   logoMini: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
   icono: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
+  enlace: "HTML/ESPNARGENTINA2.html",
+  enlaceProgramacion: "ESPNARGENTINA2.html",
   inicio: "2025-09-16T14:00:00",
   fin: "2025-09-16T16:00:00",
   orden: 4
@@ -149,8 +90,8 @@ const eventos = [
   imagenDestacada: "https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg",
   logoMini: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
   icono: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
+  enlace: "HTML/Fox2Arg.html",
+  enlaceProgramacion: "Fox2Arg.html",
   inicio: "2025-09-16T14:00:00",
   fin: "2025-09-16T16:00:00",
   orden: 5
@@ -163,8 +104,8 @@ const eventos = [
   imagenDestacada: "https://m.media-amazon.com/images/S/pv-target-images/b653329169452b75ebba141c19510c90fd546b68136d8c15eec2839adc18aeae.jpg",
   logoMini: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
   icono: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtee0YCALUVYG-rv7WMe0oPHelUk1nbPthJcmsfEUhE0nQBwwm7eM1hKQV4se3ipu-cCV0Hdm6ht4R3DdyUxtWtmTvxv20RWR83gr3AFN98etDBI-wVjgBIUbz3CwCHy2ug90y8vjyQWk/s640/unnamed.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
+  enlace: "HTML/ESPNARGENTINA3.html",
+  enlaceProgramacion: "ESPNARGENTINA3.html",
   inicio: "2025-09-16T14:00:00",
   fin: "2025-09-16T16:00:00",
   orden: 5
@@ -173,15 +114,14 @@ const eventos = [
 {
   titulo: "Vélez Vs Racing - Copa Libertadores 2025",
   tituloDestacado: "Ver Vélez Vs Racing - Copa Libertadores 2025 En Vivo",
-  descripcion: "CONMEBOL Libertadores - Play-off",
+  descripcion: "Transmisión en vivo",
   imagen: "https://i.ibb.co/sYnVJ1D/LIBERTADORES-jpg.webp",
   imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2022/04/banner-libertadores.jpg",
   logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
-  destacado: true,
-  fijarComoDestacado: true,
+  icono: "https://i.namu.wiki/i/ERiBtFg1CI8uCA2WQjlo25QR7pHAP6KPE271lVupZxa3AvVq_uvexbiMIZD-UYUPkGwF1dCmiLqsA5wQ0XQYzQ.webp",
+  enlace: "HTML/Disneyplus5.html",
+  enlaceProgramacion: "Disneyplus5.html",
+  enlacesExtra: ["Disneyplus5.html", "Fox1Arg.html", "ESPN.html"],
   inicio: "2025-09-16T17:00:00",
   fin: "2025-09-16T19:00:00",
   orden: 1
@@ -194,10 +134,9 @@ const eventos = [
   imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2025/02/16_9.png",
   logoMini: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
   icono: "https://cdn.conmebol.com/wp-content/uploads/2021/10/logo_conmebol_sudamericana.png",
-  enlace: "HTML/ESPN.html",
-  enlaceProgramacion: "ESPN.html",
-  destacado: true,
-  fijarComoDestacado: true,
+  enlace: "HTML/Dsports.html",
+  enlaceProgramacion: "Dsports.html",
+  enlacesExtra: ["Dsports.html", "beinespañol.html"],
   inicio: "2025-09-16T19:30:00",
   fin: "2025-09-16T21:30:00",
   orden: 2
@@ -228,8 +167,8 @@ const eventos = [
   icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png",
   enlace: "HTML/destacada5.html",
   enlaceProgramacion: "destacada5.html",
-  inicio: "2025-09-13T18:30:00",
-  fin: "2025-09-13T20:30:00",
+  inicio: "2025-09-16T18:30:00",
+  fin: "2025-09-16T20:30:00",
   orden: 4
 },
 
@@ -341,7 +280,7 @@ const eventos = [
   imagen: "https://i.ibb.co/sYnVJ1D/LIBERTADORES-jpg.webp",
   imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2022/04/banner-libertadores.jpg",
   logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
+  icono: "https://i.namu.wiki/i/ERiBtFg1CI8uCA2WQjlo25QR7pHAP6KPE271lVupZxa3AvVq_uvexbiMIZD-UYUPkGwF1dCmiLqsA5wQ0XQYzQ.webp",
   enlace: "HTML/ESPN.html",
   enlaceProgramacion: "ESPN.html",
   destacado: true,
@@ -508,7 +447,7 @@ const eventos = [
   imagen: "https://i.ibb.co/sYnVJ1D/LIBERTADORES-jpg.webp",
   imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2022/04/banner-libertadores.jpg",
   logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
+  icono: "https://i.namu.wiki/i/ERiBtFg1CI8uCA2WQjlo25QR7pHAP6KPE271lVupZxa3AvVq_uvexbiMIZD-UYUPkGwF1dCmiLqsA5wQ0XQYzQ.webp",
   enlace: "HTML/FoxSports.html",
   enlaceProgramacion: "FoxSports.html",
   inicio: "2025-09-18T17:00:00",
@@ -522,7 +461,7 @@ const eventos = [
   imagen: "https://i.ibb.co/sYnVJ1D/LIBERTADORES-jpg.webp",
   imagenDestacada: "https://cdn.conmebol.com/wp-content/uploads/2022/04/banner-libertadores.jpg",
   logoMini: "https://r2.thesportsdb.com/images/media/league/badge/9shr931685425181.png",
-  icono: "https://www.zerozero.cl/img/logos/competicoes/58_imgbank_cl_20250220111837.png",
+  icono: "https://i.namu.wiki/i/ERiBtFg1CI8uCA2WQjlo25QR7pHAP6KPE271lVupZxa3AvVq_uvexbiMIZD-UYUPkGwF1dCmiLqsA5wQ0XQYzQ.webp",
   enlace: "HTML/FoxSports.html",
   enlaceProgramacion: "FoxSports.html",
   inicio: "2025-09-18T19:30:00",
@@ -551,7 +490,7 @@ titulo: "WWE Monday Night Raw 23 de junio de 2025",
 tituloDestacado: "Ver WWE Monday Night Raw En Vivo",
 descripcion: "Transmisión en vivo.",
 imagen: "https://www.wrestleview.com/wp-content/uploads/2025/06/wwe-raw-2025-logo-red.jpg",
-imagenDestacada: "https://www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/09/20250909_RAW_Netflix_Match_AJPunkBeckyRollins_16x9_Tonight.jpg", //../IMAGENES/RAWPoster.jpg
+imagenDestacada: "../IMAGENES/RAWPoster.jpg", //../IMAGENES/RAWPoster.jpg
 logoMini: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/WWE_RAW_Logo_2025.svg/1171px-WWE_RAW_Logo_2025.svg.png",// <-- nuevo campo
 icono: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png",
 enlace: "HTML/destacada2.html",
@@ -1320,9 +1259,9 @@ document.addEventListener("DOMContentLoaded", () => {
     "MovistarLaLiga.html", "MovistarLaLiga2.html", "PremiereBR.html",
     "TNTUSA.html", "TelemundoUSA.html", "UnivisionUSA.html", "GolTV.html",
     "ESPNMX.html", "SporTV2.html", "ECDF.html", "ESPNSUR.html", "ESPNBRASIL.html",
-    "EventosNetflix.html", "EventosNetflix2.html", "EventosMMA.html",
-    "Movistarplus.html", "MovistarDeportes.html", "MEGAChile.html", "SporTV.html",
-    "ESPNARGENTINA1.html", "ESPNARGENTINA2.html", "ESPNPremium.html"
+    "EventosNetflix.html", "EventosNetflix2.html", "EventosMMA.html","Movistarplus.html",
+    "MovistarDeportes.html", "MEGAChile.html", "SporTV.html", "ESPNARGENTINA1.html", 
+    "ESPNARGENTINA2.html", "ESPNARGENTINA3.html", "ESPNPremium.html"
   ];
 
   if (!archivosConTituloDinamico.includes(nombreArchivo)) return;

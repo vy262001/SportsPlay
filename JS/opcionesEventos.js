@@ -45,43 +45,34 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Espanyol Vs Mallorca - LaLiga EA Sports": [
-    { enlace: "/HTML/espndeportesusa.html" },
-    { enlace: "/HTML/MovistarLaLiga.html" }
-  ],
-  "Hellas Verona Vs U.S. Cremonese - Serie A": [
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "Como 1907 Vs Genoa - Serie A": [
-    { enlace: "/HTML/ESPNARGENTINA2.html" },
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "Bahia Vs Cruzeiro - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
   "Athletic Vs Arsenal - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/Fox1Arg.html" },
+    { enlace: "/HTML/TUDNUSA.html" }
   ],
   "PSV Vs Union SG - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPNARGENTINA2.html" }
   ],
   "Real Madrid Vs Olympique de Marsella - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPNARGENTINA1.html" }
   ],
   "Juventus Vs Borussia Dortmund - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPNARGENTINA2.html" }
   ],
   "Tottenham Vs Villarreal - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/Fox2Arg.html" }
   ],
   "Benfica Vs FK Qarabag - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPNARGENTINA3.html" }
   ],
   "Vélez Vs Racing - Copa Libertadores 2025": [
+    { enlace: "/HTML/Disneyplus5.html" },
+    { enlace: "/HTML/Fox1Arg.html" },
     { enlace: "/HTML/ESPN.html" }
   ],
   "Lanús Vs Fluminense - Copa Sudamericana 2025": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/beinespañol.html" }
   ],
   "América Vs Bucaramanga - Liga BetPlay 2025": [
     { enlace: "/HTML/Winplus.html" }
@@ -276,6 +267,7 @@ function mostrarEventosHoy() {
           "ESPNPremium.html": "ESPN Premium",
           "ESPNARGENTINA1.html": "ESPN Argentina",
           "ESPNARGENTINA2.html": "ESPN Argentina",
+          "ESPNARGENTINA3.html": "ESPN Argentina",
           "ESPNBRASIL.html": "ESPN Brasil",
           "ESPNMX.html": "ESPN MX",
           "FoxSportsPremium.html": "Fox Sports Premium",

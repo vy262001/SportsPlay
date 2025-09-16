@@ -1,5 +1,17 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE RAW 15 de Septiembre 2025 Repetición",
+    evento: "RAW",
+    imagen: "https://dosdossolodos.com/wp-content/uploads/2025/09/20250909_RAW_Netflix_Match_AJPunkBeckyRollins_16x9_Tonight.jpg",
+    url: "//ok.ru/videoembed/9464666917531?nochat=1"
+  },
+  {
+    titulo: "AEW Collision 13 de Septiembre 2025 Repetición",
+    evento: "COLLISION",
+    imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/mox-1-scaled.jpeg",
+    url: "//ok.ru/videoembed/9457602923163?nochat=1"
+  },
+  {
     titulo: "WWE Worlds Collide 12 de Septiembre 2025 Repetición",
     evento: "AAA",
     imagen: "https://www.wwe.com/f/styles/wwe_16_9_xl/public/2025/09/20250818_WorldCollide_LV_VIkingoDom_16x9_Date_0.jpg",

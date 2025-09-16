@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { nombre: "Fox Sports MX", enlace: "FoxMX.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Fox_Sports_M%C3%A9xico_Logo_2022.png/1200px-Fox_Sports_M%C3%A9xico_Logo_2022.png" },
     { nombre: "Fox Sports MX 2", enlace: "FoxMX2.html", img: "https://i.postimg.cc/Qdz7zWKk/fox2-removebg-preview-1.png" },
     { nombre: "Fox Sports Premium", enlace: "FoxSportsPremium.html", img: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Fox_sports_premium_mx.png" },
-    { nombre: "GolTV", enlace: "GolTV.html", img: "https://upload.wikimedia.org/wikipedia/commons/a/ad/GOLTV.png" },
+    { nombre: "Gol TV", enlace: "GolTV.html", img: "https://upload.wikimedia.org/wikipedia/commons/a/ad/GOLTV.png" },
     { nombre: "MEGA Chile", enlace: "MEGAChile.html", img: "https://upload.wikimedia.org/wikipedia/commons/d/d4/Mega_Chile_2020.png" },
     { nombre: "Movistar Deportes", enlace: "MovistarDeportes.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Movistar_Deportes.svg/2560px-Movistar_Deportes.svg.png" },
     { nombre: "Movistar LaLiga", enlace: "MovistarLaLiga.html", img: "https://deporte-libre.click/img/laliga.png" },

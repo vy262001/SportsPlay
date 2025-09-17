@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE NXT 16 de Septiembre 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://411mania.com/wp-content/uploads/2025/09/WWE-NXT-Homecoming-Ethan-Page-vs-Tyler-Breeze-e1758026125516-645x370.jpeg",
+    url: "//ok.ru/videoembed/9468245314203?nochat=1"
+  },
+  {
     titulo: "WWE RAW 15 de Septiembre 2025 Repetición",
     evento: "RAW",
     imagen: "https://dosdossolodos.com/wp-content/uploads/2025/09/20250909_RAW_Netflix_Match_AJPunkBeckyRollins_16x9_Tonight.jpg",

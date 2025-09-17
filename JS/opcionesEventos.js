@@ -45,73 +45,43 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Athletic Vs Arsenal - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" },
-    { enlace: "/HTML/Fox1Arg.html" },
-    { enlace: "/HTML/TUDNUSA.html" }
-  ],
-  "PSV Vs Union SG - Uefa Champions League": [
-    { enlace: "/HTML/ESPNARGENTINA2.html" }
-  ],
-  "Real Madrid Vs Olympique de Marsella - Uefa Champions League": [
-    { enlace: "/HTML/ESPNARGENTINA1.html" }
-  ],
-  "Juventus Vs Borussia Dortmund - Uefa Champions League": [
-    { enlace: "/HTML/ESPNARGENTINA2.html" }
-  ],
-  "Tottenham Vs Villarreal - Uefa Champions League": [
-    { enlace: "/HTML/Fox2Arg.html" }
-  ],
-  "Benfica Vs FK Qarabag - Uefa Champions League": [
-    { enlace: "/HTML/ESPNARGENTINA3.html" }
-  ],
-  "Vélez Vs Racing - Copa Libertadores 2025": [
-    { enlace: "/HTML/Disneyplus5.html" },
-    { enlace: "/HTML/Fox1Arg.html" },
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Lanús Vs Fluminense - Copa Sudamericana 2025": [
-    { enlace: "/HTML/Dsports.html" },
-    { enlace: "/HTML/beinespañol.html" }
-  ],
-  "América Vs Bucaramanga - Liga BetPlay 2025": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Inter Miami CF Vs Seattle Sounders - MLS 2025": [
-    { enlace: "/HTML/destacada5.html" }
-  ],
-  "Millonarios Vs Envigado - Copa BetPlay 2025": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Slavia Prague Vs Bodø/Glimt - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+  "Slavia Praga Vs Bodø/Glimt - Uefa Champions League": [
+    { enlace: "/HTML/ESPNARGENTINA3.html" },
+    { enlace: "/HTML/ESPN3.html" }
   ],
   "Olympiakos Vs Pafos - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPNARGENTINA2.html" }
   ],
   "Bayern Múnich Vs Chelsea - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPNARGENTINA1.html" },
+    { enlace: "/HTML/destacada7.html" }
   ],
   "Liverpool Vs Atlético - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/destacada4.html" }
   ],
   "PSG Vs Atalanta - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/Fox2Arg.html" },
+    { enlace: "/HTML/TUDNUSA.html" }
   ],
   "Ajax Vs Inter Milán - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPNARGENTINA2.html" }
   ],
   "River Plate Vs Palmeiras - Copa Libertadores 2025": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/Fox1Arg.html" },
+    { enlace: "/HTML/Telefe.html" },
+    { enlace: "/HTML/ESPN2.html" },
+    { enlace: "/HTML/beinespañol.html" }
   ],
   "Bolívar Vs Atlético MG - Copa Sudamericana 2025": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/beinespañol.html" },
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/ESPNBRASIL.html" }
   ],
   "Independiente del Valle Vs Once Caldas - Copa Sudamericana 2025": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPNARGENTINA2.html" }
   ],
   "Guadalajara Vs Tigres - Liga BBVA Bancomer MX 2025": [
-    { enlace: "/HTML/TUDNUSA.html" }
+    { enlace: "/HTML/destacada.html" }
   ],
   "Botafogo Vs Mirassol - Brasileirão 2025": [
     { enlace: "/HTML/PremiereBR.html" }
@@ -338,14 +308,14 @@ function mostrarEventosHoy() {
           "CanalLuchaLibre.html": "Canal Lucha Libre",
           "UnivisionUSA.html": "Univisión USA",
           "GolTV.html": "GolTV",
-          "destacada.html": "Canal 1",
+          "destacada.html": "Canal Eventos 1",
           "destacada2.html": "Canal WWE",
-          "destacada3.html": "Canal 3",
-          "destacada4.html": "Canal 4",
-          "destacada5.html": "Canal 5",
-          "destacada6.html": "Canal 6",
-          "destacada7.html": "Canal 7",
-          "destacada8.html": "Canal 8"
+          "destacada3.html": "Canal Eventos 3",
+          "destacada4.html": "Canal Eventos 4",
+          "destacada5.html": "Canal Eventos 5",
+          "destacada6.html": "Canal Eventos 6",
+          "destacada7.html": "Canal Eventos 7",
+          "destacada8.html": "Canal Eventos 8"
         };
 
         listaOpciones.forEach(opcion => {

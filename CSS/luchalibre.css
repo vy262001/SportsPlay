@@ -457,8 +457,8 @@ header nav ul.nav li a:hover {
 
   /* Botones más grandes que antes pero aún móviles */
   .btn-programacion {
-    padding: 6px 12px;       /* un poco más de padding */
-    font-size: 0.75rem;      /* fuente más grande */
+    padding: 6px 12px;
+    font-size: 0.75rem;
     border-radius: 8px;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
   }

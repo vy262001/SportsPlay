@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { nombre: "DAZN LaLiga 2", enlace: "DAZNLALIGA.html", img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIGRBYLvfkf4Pr-1VsNjRQvZRT4RaaPHIX3XP731X1qRKA33IuTp4FJ0DNYiaRBfX1rGQ&usqp=CAU" },
     { nombre: "DSports", enlace: "Dsports.html", img: "https://pelotalibre.io/wp-content/uploads/2025/07/DSports.webp" },
     { nombre: "DSports 2", enlace: "Dsports2.html", img: "https://librepelota.com/img/logo-canal/dsports_2.webp" },
-    { nombre: "DSports+", enlace: "Dsportsplus.html", img: "https://i.ibb.co/wF3tH66p/image-removebg-preview.png" },
+    { nombre: "DSports +", enlace: "Dsportsplus.html", img: "https://i.ibb.co/wF3tH66p/image-removebg-preview.png" },
     { nombre: "ECDF (El Canal del Fútbol)", enlace: "ECDF.html", img: "https://img.utdstc.com/icon/e7b/1ff/e7b1ff52f3b668c5ad37bfaed6d7ca27d06765fda4078d8e0154bb72ae036368:200" },
     { nombre: "ESPN", enlace: "ESPN.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/ESPN_logos.png/640px-ESPN_logos.png" },
     { nombre: "ESPN 2", enlace: "ESPN2.html", img: "https://deporte-libre.click/img/espn2.webp" },

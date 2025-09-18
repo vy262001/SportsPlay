@@ -28,6 +28,7 @@
     { "source": "/espnpremium", "destination": "/HTML/ESPNPremium.html" },
     { "source": "/espndeportesusa", "destination": "/HTML/espndeportesusa.html" },
     { "source": "/espnsur", "destination": "/HTML/ESPNSUR.html" },
+    { "source": "/espnsur2", "destination": "/HTML/ESPNSUR2.html" },
 
     { "source": "/foxmx", "destination": "/HTML/FoxMX.html" },
     { "source": "/foxmx2", "destination": "/HTML/FoxMX2.html" },
@@ -85,6 +86,13 @@
     { "source": "/dazn2", "destination": "/HTML/DAZN2.html" },
     { "source": "/dazn3", "destination": "/HTML/DAZN3.html" },
     { "source": "/dazn4", "destination": "/HTML/DAZN4.html" },
+
+    { "source": "/telemundousa", "destination": "/HTML/TelemundoUSA.html" },
+
+    { "source": "/paramountplus", "destination": "/HTML/Paramountplus.html" },
+    { "source": "/paramountplus2", "destination": "/HTML/Paramountplus2.html" },
+    { "source": "/paramountplus3", "destination": "/HTML/Paramountplus3.html" },
+    { "source": "/paramountplus4", "destination": "/HTML/Paramountplus4.html" },
 
     { "source": "/premierebr", "destination": "/HTML/PremiereBR.html" },
     { "source": "/ecdf", "destination": "/HTML/ECDF.html" },

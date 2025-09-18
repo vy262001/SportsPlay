@@ -45,73 +45,47 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Slavia Praga Vs Bodø/Glimt - Uefa Champions League": [
-    { enlace: "/HTML/ESPNARGENTINA3.html" },
-    { enlace: "/HTML/ESPN3.html" }
-  ],
-  "Olympiakos Vs Pafos - Uefa Champions League": [
+  "Brujas Vs Monaco - Uefa Champions League": [
+    { enlace: "/HTML/Paramountplus.html" },
     { enlace: "/HTML/ESPNARGENTINA2.html" }
   ],
-  "Bayern Múnich Vs Chelsea - Uefa Champions League": [
-    { enlace: "/HTML/ESPNARGENTINA1.html" },
-    { enlace: "/HTML/destacada7.html" }
-  ],
-  "Liverpool Vs Atlético - Uefa Champions League": [
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "PSG Vs Atalanta - Uefa Champions League": [
-    { enlace: "/HTML/Fox2Arg.html" },
+  "Copenhague Vs Leverkusen - Uefa Champions League": [
+    { enlace: "/HTML/Fox1Arg.html" },
     { enlace: "/HTML/TUDNUSA.html" }
   ],
-  "Ajax Vs Inter Milán - Uefa Champions League": [
-    { enlace: "/HTML/ESPNARGENTINA2.html" }
-  ],
-  "River Plate Vs Palmeiras - Copa Libertadores 2025": [
-    { enlace: "/HTML/Fox1Arg.html" },
-    { enlace: "/HTML/Telefe.html" },
-    { enlace: "/HTML/ESPN2.html" },
-    { enlace: "/HTML/beinespañol.html" }
-  ],
-  "Bolívar Vs Atlético MG - Copa Sudamericana 2025": [
-    { enlace: "/HTML/beinespañol.html" },
-    { enlace: "/HTML/Dsports.html" },
-    { enlace: "/HTML/ESPNBRASIL.html" }
-  ],
-  "Independiente del Valle Vs Once Caldas - Copa Sudamericana 2025": [
-    { enlace: "/HTML/ESPNARGENTINA2.html" }
-  ],
-  "Guadalajara Vs Tigres - Liga BBVA Bancomer MX 2025": [
-    { enlace: "/HTML/destacada.html" }
-  ],
-  "Botafogo Vs Mirassol - Brasileirão 2025": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Brujas Vs Monaco - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Copenhague Vs Bayer Leverkusen - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Sporting Portugal Vs Kairat Almaty - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+  "Sporting Vs Kairat Almaty - Uefa Champions League": [
+    { enlace: "/HTML/Paramountplus2.html" },
+    { enlace: "/HTML/ESPNARGENTINA3.html" },
+    { enlace: "/HTML/destacada4.html" }
   ],
   "Manchester City Vs Nápoles - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPNARGENTINA1.html" },
+    { enlace: "/HTML/Paramountplus3.html" }
   ],
   "Newcastle Vs Barcelona - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/Paramountplus4.html" },
+    { enlace: "/HTML/TUDNUSA.html" },
+    { enlace: "/HTML/Fox1Arg.html" },
+    { enlace: "/HTML/destacada.html" }
   ],
-  "Eintracht Frankfurt Vs Galatasaray - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+  "Frankfurt Vs Galatasaray - Uefa Champions League": [
+    { enlace: "/HTML/ESPNARGENTINA2.html" }
   ],
   "LDU Quito Vs São Paulo - Conmebol Libertadores": [
-    { enlace: "/HTML/FoxSports.html" }
+    { enlace: "/HTML/Fox1Arg.html" },
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/beinesp.html" }
   ],
   "Flamengo Vs Estudiantes - Conmebol Libertadores": [
-    { enlace: "/HTML/FoxSports.html" }
+    { enlace: "/HTML/Fox1Arg.html" },
+    { enlace: "/HTML/ESPN.html" }
   ],
-  "Alianza Lima Vs Universidad de Chile - Conmebol Sudamericana": [
-    { enlace: "/HTML/ESPN2.html" }
+  "Alianza Lima Vs U de Chile - Conmebol Sudamericana": [
+    { enlace: "/HTML/ESPNARGENTINA2.html" },
+    { enlace: "/HTML/Fox1Arg.html" },
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/beinesp.html" }
   ]
 });
 
@@ -232,7 +206,6 @@ function mostrarEventosHoy() {
         const nombreBonito = {
           "espndeportesusa.html": "ESPN Deportes USA",
           "beinesp.html": "Bein Sports",
-          "beinespañol.html": "Bein Sports Español",
           "Winplus.html": "Win Sports+",
           "ESPNPremium.html": "ESPN Premium",
           "ESPNARGENTINA1.html": "ESPN Argentina",
@@ -290,6 +263,10 @@ function mostrarEventosHoy() {
           "DAZN4.html": "DAZN 4",
           "MovistarLaLiga.html": "Movistar LaLiga",
           "MovistarLaLiga2.html": "Movistar LaLiga 2",
+          "Paramountplus.html": "Paramount +",
+          "Paramountplus2.html": "Paramount +",
+          "Paramountplus3.html": "Paramount +",          
+          "Paramountplus4.html": "Paramount +",
           "PremiereBR.html": "Premiere Brasil",
           "TNTUSA.html": "TNT USA",
           "TelemundoUSA.html": "Telemundo USA",
@@ -299,6 +276,7 @@ function mostrarEventosHoy() {
           "SporTV2.html": "SporTV 2",
           "ECDF.html": "El Canal del Fútbol (ECDF)",
           "ESPNSUR.html": "ESPN Suramerica",
+          "ESPNSUR2.html": "ESPN Suramerica",
           "Movistarplus.html": "Movistar Plus",
           "MovistarDeportes.html": "Movistar Deportes",
           "MEGAChile.html": "MEGA Chile",

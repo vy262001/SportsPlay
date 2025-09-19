@@ -45,47 +45,40 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Brujas Vs Monaco - Uefa Champions League": [
-    { enlace: "/HTML/Paramountplus.html" },
-    { enlace: "/HTML/ESPNARGENTINA2.html" }
+  "Betis Vs Real Sociedad - LaLiga EA Sports": [
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/espndeportesusa.html" },
+    { enlace: "/HTML/ESPNplus.html" }
   ],
-  "Copenhague Vs Leverkusen - Uefa Champions League": [
-    { enlace: "/HTML/Fox1Arg.html" },
+  "Bucaramanga Vs Deportes Tolima - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "América de Cali Vs Once Caldas - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Riestra Vs Gimnasia - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
+  ],
+  "Huracán Vs Racing - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "San Martín SJ Vs Vélez - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
+  ],
+  "Lanús Vs Platense - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Necaxa Vs Puebla - Liga BBVA Bancomer MX": [
     { enlace: "/HTML/TUDNUSA.html" }
   ],
-  "Sporting Vs Kairat Almaty - Uefa Champions League": [
-    { enlace: "/HTML/Paramountplus2.html" },
-    { enlace: "/HTML/ESPNARGENTINA3.html" },
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "Manchester City Vs Nápoles - Uefa Champions League": [
-    { enlace: "/HTML/ESPNARGENTINA1.html" },
-    { enlace: "/HTML/Paramountplus3.html" }
-  ],
-  "Newcastle Vs Barcelona - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" },
-    { enlace: "/HTML/Paramountplus4.html" },
-    { enlace: "/HTML/TUDNUSA.html" },
-    { enlace: "/HTML/Fox1Arg.html" },
+  "Cruz Azul Vs Juárez - Liga BBVA Bancomer MX": [
     { enlace: "/HTML/destacada.html" }
   ],
-  "Frankfurt Vs Galatasaray - Uefa Champions League": [
-    { enlace: "/HTML/ESPNARGENTINA2.html" }
+  "Mazatlán Vs Atlas - Liga BBVA Bancomer MX": [
+    { enlace: "/HTML/azteca7.html" }
   ],
-  "LDU Quito Vs São Paulo - Conmebol Libertadores": [
-    { enlace: "/HTML/Fox1Arg.html" },
-    { enlace: "/HTML/Dsports.html" },
-    { enlace: "/HTML/beinesp.html" }
-  ],
-  "Flamengo Vs Estudiantes - Conmebol Libertadores": [
-    { enlace: "/HTML/Fox1Arg.html" },
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Alianza Lima Vs U de Chile - Conmebol Sudamericana": [
-    { enlace: "/HTML/ESPNARGENTINA2.html" },
-    { enlace: "/HTML/Fox1Arg.html" },
-    { enlace: "/HTML/Dsports.html" },
-    { enlace: "/HTML/beinesp.html" }
+  "Tijuana Vs León - Liga BBVA Bancomer MX": [
+    { enlace: "/HTML/TUDNUSA.html" }
   ]
 });
 

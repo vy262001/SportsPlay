@@ -45,10 +45,9 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Betis Vs Real Sociedad - LaLiga EA Sports": [
-    { enlace: "/HTML/Dsports.html" },
-    { enlace: "/HTML/espndeportesusa.html" },
-    { enlace: "/HTML/ESPNplus.html" }
+  "TSG Hoffenheim Vs Bayern Múnich - Bundesliga": [
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/Disneyplus11.html" }
   ],
   "Bucaramanga Vs Deportes Tolima - Liga BetPlay": [
     { enlace: "/HTML/Winplus.html" }

@@ -1,5 +1,17 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE SmackDown 19 de Septiembre 2025 Repetición",
+    evento: "SMACKDOWN",
+    imagen: "https://assets.ejecentral.com.mx/dims4/default/136932e/2147483647/strip/false/crop/1200x675+0+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Fk3-prod-ejecentral.s3.us-west-2.amazonaws.com%2Fbrightspot%2Ffc%2F6c%2F68951b2f4dcf801d516e420f1a82%2Fsmackdown-hoy-viernes-19-de-septiembre-2025-en-vivo.jpg",
+    url: "//ok.ru/videoembed/9479545096859?nochat=1"
+  },
+  {
+    titulo: "AEW Dynamite 17 de Septiembre 2025 Repetición",
+    evento: "DYNAMITE",
+    imagen: "https://static.wixstatic.com/media/815952_c789500d84ce45c68dd4a2e0d0f17bbd~mv2.jpg/v1/fill/w_568,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/815952_c789500d84ce45c68dd4a2e0d0f17bbd~mv2.jpg",
+    url: "//ok.ru/videoembed/9471973788315?nochat=1"
+  },
+  {
     titulo: "WWE NXT 16 de Septiembre 2025 Repetición",
     evento: "NXT",
     imagen: "https://411mania.com/wp-content/uploads/2025/09/WWE-NXT-Homecoming-Ethan-Page-vs-Tyler-Breeze-e1758026125516-645x370.jpeg",

@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
+  titulo: "WWE SmackDown 19 de septiembre de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/weJGqadjHCc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAAzKHkrjrRubudLJS2rDNNOM4g0g",
+  videoId: "pK4_8SbORuo",
+  categoria: "WWE"
+},
+{
   titulo: "WWE Monday Night Raw 15 de septiembre de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/U8UOJ-uDqlg/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAeRakv_pQPBQtsaJSOUQw8O1B0Xg",
   videoId: "7x0QxK15JpU",

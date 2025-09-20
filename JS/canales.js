@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { nombre: "Univisión USA", enlace: "UnivisionUSA.html", img: "https://upload.wikimedia.org/wikipedia/commons/9/9d/Univision_logo.svg" },
     { nombre: "Canal WWE", enlace: "destacada2.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/WWE_Logo.svg/2243px-WWE_Logo.svg.png" },
     { nombre: "Win Sports", enlace: "Winsports.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Win_Sports_nuevo_logo.svg/1200px-Win_Sports_nuevo_logo.svg.png" },
-    { nombre: "Win Sports+", enlace: "Winplus.html", img: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Win%2B_F%C3%BAtbol_logo.svg" }
+    { nombre: "Win Sports +", enlace: "Winplus.html", img: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Win%2B_F%C3%BAtbol_logo.svg" }
   ];
 
   const contenedor = document.getElementById("canalesRow");

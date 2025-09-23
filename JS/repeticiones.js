@@ -1,8 +1,26 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE RAW 22 de Septiembre 2025 Repetición",
+    evento: "RAW",
+    imagen: "https://img.solowrestling.com/images/144/tablet144362-wwe-raw.jpg",
+    url: "//ok.ru/videoembed/9491052432027?nochat=1"
+  },
+  {
+    titulo: "WWE Wrestlepalooza 2025 Repetición",
+    evento: "WWE",
+    imagen: "https://images2.minutemediacdn.com/image/upload/c_crop,w_1599,h_899,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/wrestling_on_fannation/01k5jd1ygqvbaayh25p8.jpg",
+    url: "//ok.ru/videoembed/9483382819483?nochat=1"
+  },
+  {
+    titulo: "AEW All Out Toronto 2025 Repetición",
+    evento: "AEW",
+    imagen: "https://i0.wp.com/fightsatw.com/wp-content/uploads/2025/09/AEW-All-Out-Toronto-2025-x3.jpg?fit=1024%2C576&ssl=1",
+    url: "//ok.ru/videoembed/9485867551387?nochat=1"
+  },
+  {
     titulo: "WWE SmackDown 19 de Septiembre 2025 Repetición",
     evento: "SMACKDOWN",
-    imagen: "https://assets.ejecentral.com.mx/dims4/default/136932e/2147483647/strip/false/crop/1200x675+0+0/resize/1200x675!/quality/90/?url=https%3A%2F%2Fk3-prod-ejecentral.s3.us-west-2.amazonaws.com%2Fbrightspot%2Ffc%2F6c%2F68951b2f4dcf801d516e420f1a82%2Fsmackdown-hoy-viernes-19-de-septiembre-2025-en-vivo.jpg",
+    imagen: "https://portalciudad.com.ar/wp-content/uploads/2025/09/tablet144277-wwe-smackdown.jpg",
     url: "//ok.ru/videoembed/9479545096859?nochat=1"
   },
   {

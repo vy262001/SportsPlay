@@ -1,6 +1,24 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
+  titulo: "WWE Monday Night Raw 22 de septiembre de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/wudcjvbLOJc/maxresdefault.jpg",
+  videoId: "j24EUXRDX7A",
+  categoria: "WWE"
+},
+{
+  titulo: "El futbolista Ousmane Dembélé gana el Balón de Oro 2025",
+  miniatura: "https://images.ecestaticos.com/vReLExvJOlgYTzzUhHh8J2T4rcE=/0x0:2272x1277/1338x752/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fa25%2F25a%2Fbf8%2Fa2525abf86dacd87b620b512affe2159.jpg",
+  videoId: "bvkRYccGZ2E",
+  categoria: "FIFA"
+},
+{
+  titulo: "WWE Wrestlepalooza 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/Bb0rV0SNgQ8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBE-yWXjL3Yug6tuPYq14-VeEplwA",
+  videoId: "x77p91L6KIw",
+  categoria: "WWE"
+},
+{
   titulo: "WWE SmackDown 19 de septiembre de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/weJGqadjHCc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAAzKHkrjrRubudLJS2rDNNOM4g0g",
   videoId: "pK4_8SbORuo",

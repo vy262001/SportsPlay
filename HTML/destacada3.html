@@ -129,36 +129,6 @@
   <footer>
     <p>SportsPlay - Todos los eventos en un solo lugar</p>
   </footer>
-  
-    <script>
-    // Lista de URLs por opción
-    const opciones = {
-      1: "https://miztv.top/total/stream-338.php",
-      2: "https://deporte-libre.link/en-vivo-online/fox-sports-premium/embed2.php",
-      3: "https://deporte-libre.link/en-vivo-online/fox-sports-premium/embed3.php",
-      4: "https://embed.ksdjugfsddeports.fun/embed2/foxsportspremium.html"
-    };
-
-    // Obtener el parámetro 'opcion' de la URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const opcion = urlParams.get("opcion") || "1"; // Por defecto Opción 1
-
-    // Cambiar el src del iframe al cargar la página
-    window.onload = function() {
-      const iframe = document.getElementById("embedIframe");
-      if (iframe && opciones[opcion]) {
-        iframe.src = opciones[opcion];
-      }
-    };
-
-    // Cambiar fuente del iframe manualmente al hacer clic
-    function cambiarOpcion(elemento, url) {
-      const iframe = document.getElementById("embedIframe");
-      if (iframe) {
-        iframe.src = url;
-      }
-    }
-  </script>
 
   <script src="../JS/eventos.js"></script>
   <script src="../JS/scripts.js"></script>

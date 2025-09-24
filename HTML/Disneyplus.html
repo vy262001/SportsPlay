@@ -142,6 +142,48 @@
   <footer>
     <p>SportsPlay - Todos los eventos en un solo lugar</p>
   </footer>
+
+  <script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const opcion = urlParams.get("opcion");
+
+    if (opcion) {
+      // Lista de enlaces en orden
+      const enlaces = {
+        1: "https://streamtp11.com/global1.php?stream=disney1",
+        2: "https://streamtp11.com/global1.php?stream=disney2",
+        3: "https://streamtp11.com/global1.php?stream=disney3",
+        4: "https://streamtp11.com/global1.php?stream=disney4",
+        5: "https://streamtp11.com/global1.php?stream=disney5",
+        6: "https://streamtp11.com/global1.php?stream=disney6",
+        7: "https://streamtp11.com/global1.php?stream=disney7",
+        8: "https://streamtp22.com/global1.php?stream=disney8",
+        9: "https://streamtp11.com/global1.php?stream=disney9",
+        10: "https://streamtp11.com/global1.php?stream=disney10",
+        11: "https://streamtp11.com/global1.php?stream=disney11",
+        12: "https://streamtp22.com/global1.php?stream=disney12",
+        13: "https://streamtp22.com/global1.php?stream=disney13",
+        14: "https://streamtp11.com/global1.php?stream=disney14",
+        15: "https://streamtp22.com/global1.php?stream=disney15",
+        16: "https://streamtp22.com/global1.php?stream=disney16",
+        17: "https://streamtp22.com/global1.php?stream=disney17",
+        18: "https://streamtp22.com/global1.php?stream=disney18",
+        19: "https://streamtp22.com/global1.php?stream=disney19",
+        20: "https://streamtp22.com/global1.php?stream=disney20"
+      };
+
+      const enlaceSeleccionado = enlaces[opcion];
+
+      if (enlaceSeleccionado) {
+        document.getElementById("embedIframe").src = enlaceSeleccionado;
+      }
+    }
+  });
+  </script>
+
+
+
   <script src="../JS/eventos.js"></script>
   <script src="../JS/scripts.js"></script>
 

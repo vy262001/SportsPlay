@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE NXT 23 de Septiembre 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://i0.wp.com/www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/09/20250916_NXT_Match_CandiceLainey_16x9_Tonight.jpg?resize=740%2C416&ssl=1",
+    url: "//ok.ru/videoembed/9495142730395?nochat=1"
+  },
+  {
     titulo: "WWE RAW 22 de Septiembre 2025 Repetición",
     evento: "RAW",
     imagen: "https://img.solowrestling.com/images/144/tablet144362-wwe-raw.jpg",

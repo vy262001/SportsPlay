@@ -45,59 +45,124 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-    "Athletic vs Girona - LaLiga EA Sports": [
-        { enlace: "/HTML/espndeportesusa.html" },
-        { enlace: "/HTML/Dsports2.html" },
-        { enlace: "/HTML/DAZNLALIGA.html" },
-        { enlace: "/HTML/ESPNplus.html" }
-    ],
-    "Espanyol vs Valencia - LaLiga EA Sports": [
-        { enlace: "/HTML/Disneyplus1.html" },
-        { enlace: "/HTML/ESPN2.html" },
-        { enlace: "/HTML/ESPNARGENTINA2.html" },
-        { enlace: "/HTML/MovistarLaLiga.html" }
-    ],
-    "Benfica vs Rio Ave - Primeira Liga": [
-        { enlace: "/HTML/GolTV.html" }
-    ],
-    "Sevilla vs Villarreal - LaLiga EA Sports": [
-        { enlace: "/HTML/Dsports2.html" },
-        { enlace: "/HTML/DAZNLALIGA.html" },
-        { enlace: "/HTML/DAZNLALIGA2.html" }
-    ],
-    "Levante vs Real Madrid - LaLiga EA Sports": [
-        { enlace: "/HTML/ESPN.html" },
-        { enlace: "/HTML/espndeportesusa.html" },
-        { enlace: "/HTML/ESPNARGENTINA1.html" },
-        { enlace: "/HTML/MovistarLaLiga.html" }
-    ],
-    "Racing Vs Vélez - Copa Libertadores 2025": [
-        { enlace: "/HTML/Disneyplus7.html" },
-        { enlace: "/HTML/ESPN.html" },
-        { enlace: "/HTML/Fox1Arg.html" },
-        { enlace: "/HTML/beinesp.html" }
-    ],
-    "Fluminense Vs Lanús - Copa Sudamericana 2025": [
-        { enlace: "/HTML/ESPNARGENTINA1.html" },
-        { enlace: "/HTML/ESPN.html" },
-        { enlace: "/HTML/Disneyplus13" },
-        { enlace: "/HTML/beinesp.html" },
-        { enlace: "/HTML/ESPNSUR.html" }
-    ],
-    "Puebla Vs Pachuca - Liga MX": [
-        { enlace: "/HTML/TUDNUSA.html" }
-    ],
-    "Guadalajara Vs Necaxa - Liga MX": [
-        { enlace: "/HTML/destacada4.html" }
-    ],
-    "Juárez Vs Pumas UNAM - Liga MX": [
-        { enlace: "/HTML/azteca7.html" },
-        { enlace: "/HTML/destacada4.html" }
-    ],
-    "Club León Vs Mazatlán - Liga MX": [
-        { enlace: "/HTML/Winsports.html" },
-        { enlace: "/HTML/TUDNUSA.html" }
-    ]
+  "Huddersfield vs Manchester City - Carabao Cup": [
+    { enlace: "HTML/Disneyplus7.html" }
+  ],
+  "Newcastle vs Bradford - Carabao Cup": [
+    { enlace: "HTML/Disneyplus8.html" }
+  ],
+  "Tottenham vs Doncaster Rovers - Carabao Cup": [
+    { enlace: "HTML/Disneyplus6.html" }
+  ],
+  "Port Vale vs Arsenal - Carabao Cup": [
+    { enlace: "HTML/Disneyplus9.html" }
+  ],
+  "Midtjylland Vs Sturm Graz - Europa League 2025": [
+    { enlace: "HTML/Disneyplus2.html" },
+    { enlace: "ESPN.html" }
+  ],
+  "PAOK Vs Maccabi Tel Aviv - Europa League 2025": [
+    { enlace: "HTML/Disneyplus1.html" },
+    { enlace: "ESPN2.html" }
+  ],
+  "Getafe vs Alavés - LaLiga EA Sports": [
+    { enlace: "HTML/Disneyplus3.html" },
+    { enlace: "ESPN4.html" },
+    { enlace: "espndeportesusa.html" },
+    { enlace: "DAZNLALIGA.html" }
+  ],
+  "SC Freiburg Vs Basel - Europa League 2025": [
+    { enlace: "HTML/Disneyplus.html?opcion=17" }
+  ],
+  "Malmö Vs Ludogorets - Europa League 2025": [
+    { enlace: "HTML/Disneyplus12.html" }
+  ],
+  "Betis Vs Nott'm Forest - Europa League 2025": [
+    { enlace: "HTML/Disneyplus14.html" },
+    { enlace: "ESPN.html" }
+  ],
+  "Estrella Roja Vs Celtic - Europa League 2025": [
+    { enlace: "HTML/Disneyplus10.html" }
+  ],
+  "Niza Vs Roma - Europa League 2025": [
+    { enlace: "HTML/Disneyplus15.html" },
+    { enlace: "ESPN2.html" },
+    { enlace: "TUDNUSA.html" }
+  ],
+  "Zagreb Vs Fenerbahçe - Europa League 2025": [
+    { enlace: "HTML/Disneyplus13.html" },
+    { enlace: "ESPN5.html" }
+  ],
+  "Braga Vs Feyenoord - Europa League 2025": [
+    { enlace: "HTML/Disneyplus16.html" }
+  ],
+  "Real Sociedad vs Mallorca - LaLiga EA Sports": [
+    { enlace: "HTML/ESPN4.html" },
+    { enlace: "DAZNLALIGA2.html" },
+    { enlace: "Disneyplus.html?opcion=18" }
+  ],
+  "Atlético vs Rayo - LaLiga EA Sports": [
+    { enlace: "HTML/Dsports.html" }
+  ],
+  "Atlético MG Vs Bolívar - Copa Sudamericana 2025": [
+    { enlace: "HTML/Dsports.html" }
+  ],
+  "Vasco da Gama Vs Bahia - Brasileirão": [
+    { enlace: "HTML/destacada8.html" }
+  ],
+  "Grêmio Vs Botafogo - Brasileirão": [
+    { enlace: "HTML/PremiereBR.html" }
+  ],
+  "Medellín Vs Santa Fe - Copa BetPlay 2025": [
+    { enlace: "HTML/Winplus.html" }
+  ],
+  "New York City Vs Inter Miami CF - MLS 2025": [
+    { enlace: "HTML/destacada5.html" }
+  ],
+  "Cruz Azul Vs Querétaro - Liga MX": [
+    { enlace: "HTML/TUDNUSA.html" }
+  ],
+  "Palmeiras Vs River - Copa Libertadores 2025": [
+    { enlace: "HTML/ESPN.html" },
+    { enlace: "Disneyplus4.html" },
+    { enlace: "Telefe.html" },
+    { enlace: "Fox1Arg.html" },
+    { enlace: "beinesp.html" }
+  ],
+  "Once Caldas Vs I del Valle - Copa Sudamericana 2025": [
+    { enlace: "HTML/Disneyplus3.html" },
+    { enlace: "ESPNARGENTINA2.html" }
+  ],
+  "Deportivo Pasto Vs América de Cali - Liga BetPlay": [
+    { enlace: "HTML/Winplus.html" }
+  ],
+  "Club Tigres Vs Atlas - Liga MX": [
+    { enlace: "HTML/azteca7.html" }
+  ],
+  "Toluca Vs Monterrey - Liga MX": [
+    { enlace: "HTML/TUDNUSA.html" }
+  ],
+  "Vancouver Vs Portland - MLS 2025": [
+    { enlace: "HTML/destacada.html" }
+  ],
+  "Santos Laguna Vs Tijuana - Liga MX": [
+    { enlace: "HTML/destacada4.html" }
+  ],
+  "Atlético San Luis Vs América - Liga MX": [
+    { enlace: "HTML/ESPNMX.html" },
+    { enlace: "Disneyplus7.html" }
+  ],
+  "Parma vs Spezia - Copa Italia": [
+    { enlace: "HTML/Winsports.html" },
+    { enlace: "Dsports2.html" }
+  ],
+  "Hellas Verona vs Venezia - Copa Italia": [
+    { enlace: "HTML/Winplus.html" }
+  ],
+  "Como vs Sassuolo - Copa Italia": [
+    { enlace: "HTML/Winsports.html" },
+    { enlace: "Dsportsplus.html" }
+  ]
 });
 
 Object.assign(opcionesEventos, {
@@ -297,7 +362,7 @@ function mostrarEventosHoy() {
 
         listaOpciones.forEach(opcion => {
           const archivo = opcion.enlaceProgramacion || opcion.enlace;
-          const nombre = archivo?.split("/").pop();
+          const nombre = archivo?.split("/").pop().split("?")[0].split("#")[0];
 
           let texto = nombreBonito[nombre] || "Transmisión disponible";
 

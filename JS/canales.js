@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const canales = [
     { nombre: "Azteca 7", enlace: "azteca7.html", img: "https://upload.wikimedia.org/wikipedia/commons/2/23/Logo_Azteca_7_2011.svg" },
     { nombre: "Azteca Deportes", enlace: "Aztecadeportes.html", img: "https://upload.wikimedia.org/wikipedia/commons/c/ca/Azteca_logo.png" },
-    { nombre: "Bein Sports Español", enlace: "beinespañol.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/BeIN-Sports-Logo.svg/473px-BeIN-Sports-Logo.svg.png" },
+    { nombre: "Bein Sports Español", enlace: "beinesp.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/BeIN-Sports-Logo.svg/473px-BeIN-Sports-Logo.svg.png" },
     { nombre: "Caracol", enlace: "Caracoltv.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Caracol_Televisi%C3%B3n_logo.svg/2048px-Caracol_Televisi%C3%B3n_logo.svg.png" },
     { nombre: "DAZN 1", enlace: "DAZN1.html", img: "https://upload.wikimedia.org/wikipedia/commons/e/e3/Tv-channel-%E2%94%82-dazn-1.png" },
     { nombre: "DAZN 2", enlace: "DAZN2.html", img: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Tv-channel-%E2%94%82-dazn-2.png/960px-Tv-channel-%E2%94%82-dazn-2.png" },

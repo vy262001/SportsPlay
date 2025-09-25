@@ -45,6 +45,7 @@
     { "source": "/tudnusa", "destination": "/HTML/TUDNUSA.html" },
 
     { "source": "/disneyplus", "destination": "/HTML/Disneyplus.html" },
+    { "source": "/disneyplus1", "destination": "/HTML/Disneyplus1.html" },
     { "source": "/disneyplus2", "destination": "/HTML/Disneyplus2.html" },
     { "source": "/disneyplus3", "destination": "/HTML/Disneyplus3.html" },
     { "source": "/disneyplus4", "destination": "/HTML/Disneyplus4.html" },
@@ -60,8 +61,7 @@
     { "source": "/disneyplus14", "destination": "/HTML/Disneyplus14.html" },
     { "source": "/disneyplus15", "destination": "/HTML/Disneyplus15.html" },
     { "source": "/disneyplus16", "destination": "/HTML/Disneyplus16.html" },
-
-    { "source": "/beinespanol", "destination": "/HTML/beinespañol.html" },
+    
     { "source": "/beinesp", "destination": "/HTML/beinesp.html" },
 
     { "source": "/azteca7", "destination": "/HTML/azteca7.html" },

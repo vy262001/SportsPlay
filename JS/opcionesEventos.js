@@ -22,7 +22,7 @@ const showsSemanales = [
   { base: "WWE Monday Night Raw", dia: 1, enlace: "/HTML/destacada2.html" },
   { base: "WWE NXT", dia: 2, enlace: "/HTML/destacada2.html" },
   { base: "AEW Dynamite", dia: 3, enlace: "/HTML/FoxSportsPremium.html" },
-  { base: "TNA iMPACT!", dia: 4, enlace: "https://www.youtube.com/watch?v=rr_4EFkQrww" },
+  { base: "TNA iMPACT!", dia: 4, enlace: "https://www.youtube.com/watch?v=j4MYT-_iZaQ" },
   { base: "WWE SmackDown", dia: 5, enlace: "/HTML/destacada2.html" },
   { base: "AEW Collision", dia: 6, enlace: "/HTML/TNTUSA.html" }
 ];
@@ -45,129 +45,107 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Huddersfield vs Manchester City - Carabao Cup": [
-    { enlace: "HTML/Disneyplus7.html" }
+  "Genoa vs Empoli - Copa Italia": [
+    { enlace: "/HTML/Winplus.html" }
   ],
-  "Newcastle vs Bradford - Carabao Cup": [
-    { enlace: "HTML/Disneyplus8.html" }
+  "Torino vs Pisa - Copa Italia": [
+    { enlace: "/HTML/Winsports.html" }
   ],
-  "Tottenham vs Doncaster Rovers - Carabao Cup": [
-    { enlace: "HTML/Disneyplus6.html" }
+  "Lille vs Brann - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus2.html" },
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/TUDNUSA.html" }
   ],
-  "Port Vale vs Arsenal - Carabao Cup": [
-    { enlace: "HTML/Disneyplus9.html" }
+  "GA Eagles vs Steaua - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus1.html" },
+    { enlace: "/HTML/ESPN2.html" }
   ],
-  "Midtjylland Vs Sturm Graz - Europa League 2025": [
-    { enlace: "HTML/Disneyplus2.html" },
-    { enlace: "ESPN.html" }
+  "Osasuna vs Elche - LaLiga EA Sports": [
+    { enlace: "/HTML/Disneyplus3.html" },
+    { enlace: "/HTML/ESPN4.html" },
+    { enlace: "/HTML/espndeportesusa.html" }
   ],
-  "PAOK Vs Maccabi Tel Aviv - Europa League 2025": [
-    { enlace: "HTML/Disneyplus1.html" },
-    { enlace: "ESPN2.html" }
+  "VfB Stuttgart vs Celta - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus4.html" },
+    { enlace: "/HTML/ESPN3.html" },
+    { enlace: "/HTML/TUDNUSA.html" }
   ],
-  "Getafe vs Alavés - LaLiga EA Sports": [
-    { enlace: "HTML/Disneyplus3.html" },
-    { enlace: "ESPN4.html" },
-    { enlace: "espndeportesusa.html" },
-    { enlace: "DAZNLALIGA.html" }
+  "Aston Villa vs Bolonia - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus10.html" },
+    { enlace: "/HTML/ESPN.html" }
   ],
-  "SC Freiburg Vs Basel - Europa League 2025": [
-    { enlace: "HTML/Disneyplus.html?opcion=17" }
+  "Rangers vs KRC Genk - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus7.html" }
   ],
-  "Malmö Vs Ludogorets - Europa League 2025": [
-    { enlace: "HTML/Disneyplus12.html" }
+  "Ferencvárosi TC vs Plzen - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus8.html" }
   ],
-  "Betis Vs Nott'm Forest - Europa League 2025": [
-    { enlace: "HTML/Disneyplus14.html" },
-    { enlace: "ESPN.html" }
+  "Utrecht vs O. Lyon - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus5.html" }
   ],
-  "Estrella Roja Vs Celtic - Europa League 2025": [
-    { enlace: "HTML/Disneyplus10.html" }
+  "Y Boys vs Panathinaikos - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus9.html" }
   ],
-  "Niza Vs Roma - Europa League 2025": [
-    { enlace: "HTML/Disneyplus15.html" },
-    { enlace: "ESPN2.html" },
-    { enlace: "TUDNUSA.html" }
+  "Salzburgo vs Porto - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus11.html" }
   ],
-  "Zagreb Vs Fenerbahçe - Europa League 2025": [
-    { enlace: "HTML/Disneyplus13.html" },
-    { enlace: "ESPN5.html" }
+  "Real Oviedo vs Barcelona - LaLiga EA Sports": [
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/espndeportesusa.html" },
+    { enlace: "/HTML/DAZNLALIGA.html" },
+    { enlace: "/HTML/DAZNLALIGA2.html" }
   ],
-  "Braga Vs Feyenoord - Europa League 2025": [
-    { enlace: "HTML/Disneyplus16.html" }
+  "São Paulo Vs LDU Quito - Copa Libertadores 2025": [
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/Disneyplus12.html" },
+    { enlace: "/HTML/Fox1Arg.html" }
   ],
-  "Real Sociedad vs Mallorca - LaLiga EA Sports": [
-    { enlace: "HTML/ESPN4.html" },
-    { enlace: "DAZNLALIGA2.html" },
-    { enlace: "Disneyplus.html?opcion=18" }
+  "Estudiantes Vs Flamengo - Copa Libertadores 2025": [
+    { enlace: "/HTML/ESPN2.html" },
+    { enlace: "/HTML/Disneyplus15.html" },
+    { enlace: "/HTML/Fox1Arg.html" }
   ],
-  "Atlético vs Rayo - LaLiga EA Sports": [
-    { enlace: "HTML/Dsports.html" }
-  ],
-  "Atlético MG Vs Bolívar - Copa Sudamericana 2025": [
-    { enlace: "HTML/Dsports.html" }
-  ],
-  "Vasco da Gama Vs Bahia - Brasileirão": [
-    { enlace: "HTML/destacada8.html" }
-  ],
-  "Grêmio Vs Botafogo - Brasileirão": [
-    { enlace: "HTML/PremiereBR.html" }
-  ],
-  "Medellín Vs Santa Fe - Copa BetPlay 2025": [
-    { enlace: "HTML/Winplus.html" }
-  ],
-  "New York City Vs Inter Miami CF - MLS 2025": [
-    { enlace: "HTML/destacada5.html" }
-  ],
-  "Cruz Azul Vs Querétaro - Liga MX": [
-    { enlace: "HTML/TUDNUSA.html" }
-  ],
-  "Palmeiras Vs River - Copa Libertadores 2025": [
-    { enlace: "HTML/ESPN.html" },
-    { enlace: "Disneyplus4.html" },
-    { enlace: "Telefe.html" },
-    { enlace: "Fox1Arg.html" },
-    { enlace: "beinesp.html" }
-  ],
-  "Once Caldas Vs I del Valle - Copa Sudamericana 2025": [
-    { enlace: "HTML/Disneyplus3.html" },
-    { enlace: "ESPNARGENTINA2.html" }
-  ],
-  "Deportivo Pasto Vs América de Cali - Liga BetPlay": [
-    { enlace: "HTML/Winplus.html" }
-  ],
-  "Club Tigres Vs Atlas - Liga MX": [
-    { enlace: "HTML/azteca7.html" }
-  ],
-  "Toluca Vs Monterrey - Liga MX": [
-    { enlace: "HTML/TUDNUSA.html" }
-  ],
-  "Vancouver Vs Portland - MLS 2025": [
-    { enlace: "HTML/destacada.html" }
-  ],
-  "Santos Laguna Vs Tijuana - Liga MX": [
-    { enlace: "HTML/destacada4.html" }
-  ],
-  "Atlético San Luis Vs América - Liga MX": [
-    { enlace: "HTML/ESPNMX.html" },
-    { enlace: "Disneyplus7.html" }
-  ],
-  "Parma vs Spezia - Copa Italia": [
-    { enlace: "HTML/Winsports.html" },
-    { enlace: "Dsports2.html" }
-  ],
-  "Hellas Verona vs Venezia - Copa Italia": [
-    { enlace: "HTML/Winplus.html" }
-  ],
-  "Como vs Sassuolo - Copa Italia": [
-    { enlace: "HTML/Winsports.html" },
-    { enlace: "Dsportsplus.html" }
+  "U de Chile Vs Alianza Lima - Copa Sudamericana 2025": [
+    { enlace: "/HTML/beinesp.html" }
   ]
 });
 
 Object.assign(opcionesEventos, {
   "WWE Crown Jewel - 11 octubre 2025": [
     { enlace: "/HTML/destacada2.html" },
+  ],
+  "TNA iMPACT! 25 de septiembre de 2025": [
+    { enlace: "https://www.youtube.com/watch?v=j4MYT-_iZaQ" },
+    { enlace: "/HTML/CanalLuchaLibre.html" }
+  ],
+  "TNA Victory Road 26 de septiembre de 2025": [
+    { enlace: "https://www.youtube.com/watch?v=e_a1kZT9G9Y" },
+    { enlace: "/HTML/CanalLuchaLibre.html" }
+  ],
+  "NXT No Mercy 27 de septiembre de 2025": [
+    { enlace: "/HTML/destacada2.html" }
+  ],
+  "Alianzas AAA 27 de septiembre de 2025": [
+    { enlace: "/HTML/destacada2.html" }
+  ],
+  "TNA Bound for Glory 12 de octubre de 2025": [
+    { enlace: "https://tnawrestling.com/events/tna-wrestling-bound-for-glory-lowell-october-12-2025" },
+    { enlace: "/HTML/CanalLuchaLibre.html" }
+  ],
+  "AEW WrestleDream 18 de octubre de 2025": [
+    { enlace: "/HTML/FoxSportsPremium.html" }
+  ],
+  "WWE Saturday Night's Main Event 1 de noviembre de 2025": [
+    { enlace: "/HTML/destacada2.html" }
+  ],
+  "AEW Full Gear 22 de noviembre de 2025": [
+    { enlace: "/HTML/FoxSportsPremium.html" }
+  ],
+  "WWE Survivor Series - 29 noviembre 2025": [
+    { enlace: "/HTML/destacada2.html" }
+  ],
+  "AEW Worlds End 27 de diciembre de 2025": [
+    { enlace: "/HTML/FoxSportsPremium.html" }
   ],
 });
 

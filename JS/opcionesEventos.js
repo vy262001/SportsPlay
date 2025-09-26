@@ -45,78 +45,226 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Genoa vs Empoli - Copa Italia": [
+  "Bayern Múnich Vs SV Werder - Bundesliga": [
+    { enlace: "/HTML/Disneyplus5.html" },
+    { enlace: "/HTML/destacada4.html" },
+    { enlace: "/HTML/espndeportesusa.html" },
+    { enlace: "/HTML/ESPNplus.html" }
+  ],
+  "Strasbourg vs Marseille - Ligue 1": [
+    { enlace: "/HTML/beinesp.html" },
+    { enlace: "/HTML/Disneyplus7.html" },
+    { enlace: "/HTML/ESPN3.html" }
+  ],
+  "Girona vs Espanyol - LaLiga EA Sports": [
+    { enlace: "/HTML/Dsports.html" }
+  ],
+  "Benfica vs Gil Vicente - Primeira Liga": [
+    { enlace: "/HTML/GolTV.html" }
+  ],
+  "Banfield Vs Unión - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
+  ],
+  "Platense Vs San Martín SJ - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Once Caldas Vs Boyacá Chicó - Liga BetPlay": [
     { enlace: "/HTML/Winplus.html" }
   ],
-  "Torino vs Pisa - Copa Italia": [
-    { enlace: "/HTML/Winsports.html" }
+  "Central Córdoba Vs Tigre - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" },
+    { enlace: "/HTML/Disneyplus12.html" }
   ],
-  "Lille vs Brann - Europa League 2025": [
-    { enlace: "/HTML/Disneyplus2.html" },
-    { enlace: "/HTML/ESPN.html" },
+  "Juárez Vs León - Liga MX": [
+    { enlace: "/HTML/destacada.html" }
+  ],
+  "Fortaleza CEIF Vs Bucaramanga - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Puebla Vs Guadalajara - Liga MX": [
     { enlace: "/HTML/TUDNUSA.html" }
   ],
-  "GA Eagles vs Steaua - Europa League 2025": [
-    { enlace: "/HTML/Disneyplus1.html" },
-    { enlace: "/HTML/ESPN2.html" }
+  "Brentford Vs Manchester United - Premier League": [
+    { enlace: "/HTML/DAZN1.html" }
   ],
-  "Osasuna vs Elche - LaLiga EA Sports": [
-    { enlace: "/HTML/Disneyplus3.html" },
-    { enlace: "/HTML/ESPN4.html" },
-    { enlace: "/HTML/espndeportesusa.html" }
-  ],
-  "VfB Stuttgart vs Celta - Europa League 2025": [
-    { enlace: "/HTML/Disneyplus4.html" },
-    { enlace: "/HTML/ESPN3.html" },
-    { enlace: "/HTML/TUDNUSA.html" }
-  ],
-  "Aston Villa vs Bolonia - Europa League 2025": [
-    { enlace: "/HTML/Disneyplus10.html" },
+  "Getafe vs Levante - LaLiga EA Sports": [
+    { enlace: "/HTML/DAZNLALIGA.html" },
+    { enlace: "/HTML/DAZNLALIGA2.html" },
+    { enlace: "/HTML/destacada4.html" },
     { enlace: "/HTML/ESPN.html" }
   ],
-  "Rangers vs KRC Genk - Europa League 2025": [
-    { enlace: "/HTML/Disneyplus7.html" }
+  "Calcio Como 1907 Vs Cremonese - Serie A": [
+    { enlace: "/HTML/Disneyplus.html" }
   ],
-  "Ferencvárosi TC vs Plzen - Europa League 2025": [
-    { enlace: "/HTML/Disneyplus8.html" }
+  "Heidenheim Vs Augsburg - Bundesliga": [
+    { enlace: "/HTML/Disneyplus.html" }
   ],
-  "Utrecht vs O. Lyon - Europa League 2025": [
-    { enlace: "/HTML/Disneyplus5.html" }
+  "St. Pauli Vs Bayer Leverkusen - Bundesliga": [
+    { enlace: "/HTML/Disneyplus.html" }
   ],
-  "Y Boys vs Panathinaikos - Europa League 2025": [
-    { enlace: "/HTML/Disneyplus9.html" }
+  "Wolfsburg Vs RB Leipzig - Bundesliga": [
+    { enlace: "/HTML/Disneyplus.html" }
   ],
-  "Salzburgo vs Porto - Europa League 2025": [
-    { enlace: "/HTML/Disneyplus11.html" }
+  "Mainz 05 Vs Borussia Dortmund - Bundesliga": [
+    { enlace: "/HTML/Disneyplus.html" }
   ],
-  "Real Oviedo vs Barcelona - LaLiga EA Sports": [
+  "Crystal Palace Vs Liverpool - Premier League": [
+    { enlace: "/HTML/DAZN1.html" }
+  ],
+  "Leeds Vs Bournemouth - Premier League": [
+    { enlace: "/HTML/DAZN4.html" }
+  ],
+  "Manchester City Vs Burnley - Premier League": [
+    { enlace: "/HTML/DAZN2.html" }
+  ],
+  "Atlético De Madrid vs Real Madrid - LaLiga EA Sports": [
     { enlace: "/HTML/Dsports.html" },
-    { enlace: "/HTML/espndeportesusa.html" },
     { enlace: "/HTML/DAZNLALIGA.html" },
     { enlace: "/HTML/DAZNLALIGA2.html" }
   ],
-  "São Paulo Vs LDU Quito - Copa Libertadores 2025": [
-    { enlace: "/HTML/ESPN.html" },
-    { enlace: "/HTML/Disneyplus12.html" },
-    { enlace: "/HTML/Fox1Arg.html" }
+  "Lorient vs AS Monaco - Ligue 1": [
+    { enlace: "/HTML/Disneyplus.html" }
   ],
-  "Estudiantes Vs Flamengo - Copa Libertadores 2025": [
-    { enlace: "/HTML/ESPN2.html" },
-    { enlace: "/HTML/Disneyplus15.html" },
-    { enlace: "/HTML/Fox1Arg.html" }
+  "Juventus Vs Atalanta - Serie A": [
+    { enlace: "/HTML/Disneyplus.html" }
   ],
-  "U de Chile Vs Alianza Lima - Copa Sudamericana 2025": [
-    { enlace: "/HTML/beinesp.html" }
+  "Mallorca vs Alavés - LaLiga EA Sports": [
+    { enlace: "/HTML/MovistarLaLiga.html" }
+  ],
+  "Chelsea Vs Brighton - Premier League": [
+    { enlace: "/HTML/DAZN3.html" }
+  ],
+  "Borussia M'gladbach Vs Frankfurt - Bundesliga": [
+    { enlace: "/HTML/Disneyplus.html" }
+  ],
+  "Toulouse vs Nantes - Ligue 1": [
+    { enlace: "/HTML/Disneyplus.html" }
+  ],
+  "Gimnasia Vs Rosario Central - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Aldosivi Vs Argentinos Juniors - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Cagliari Calcio Vs Inter - Serie A": [
+    { enlace: "/HTML/Disneyplus.html" }
+  ],
+  "Villarreal vs Athletic - LaLiga EA Sports": [
+    { enlace: "/HTML/DAZN.html" }
+  ],
+  "Deportivo Pereira Vs Unión Magdalena - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Nottingham Forest Vs Sunderland - Premier League": [
+    { enlace: "/HTML/DAZN2.html" }
+  ],
+  "Tottenham Vs Wolves - Premier League": [
+    { enlace: "/HTML/DAZN1.html" }
+  ],
+  "San Lorenzo Vs Godoy Cruz - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Paris Saint-Germain vs Auxerre - Ligue 1": [
+    { enlace: "/HTML/Disneyplus.html" }
+  ],
+  "Alianza Petrolera Vs Llaneros - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Defensa y Justicia Vs Boca Juniors - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Toronto FC Vs Inter Miami CF - MLS 2025": [
+    { enlace: "/HTML/destacada5.html" }
+  ],
+  "Deportes Tolima Vs Medellín - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Talleres Vs Sarmiento - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Nacional Vs Millonarios - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Pachuca Vs Atlético San Luis - Liga MX": [
+    { enlace: "/HTML/destacada.html" }
+  ],
+  "Atlas FC Vs Necaxa - Liga MX": [
+    { enlace: "/HTML/destacada.html" }
+  ],
+  "Toluca Vs Mazatlán - Liga MX": [
+    { enlace: "/HTML/destacada.html" }
+  ],
+  "Monterrey Vs Santos Laguna - Liga MX": [
+    { enlace: "/HTML/destacada.html" }
+  ],
+  "América Vs Pumas UNAM - Liga MX": [
+    { enlace: "/HTML/destacada.html" }
+  ],
+  "Rayo Vallecano vs Sevilla - LaLiga EA Sports": [
+    { enlace: "/HTML/DAZNLALIGA.html" }
+  ],
+  "Aston Villa Vs Fulham - Premier League": [
+    { enlace: "/HTML/DAZN1.html" }
+  ],
+  "SC Freiburg Vs TSG Hoffenheim - Bundesliga": [
+    { enlace: "/HTML/Disneyplus.html" }
+  ],
+  "Elche vs Celta - LaLiga EA Sports": [
+    { enlace: "/HTML/DAZNLALIGA.html" }
+  ],
+  "Newcastle Vs Arsenal - Premier League": [
+    { enlace: "/HTML/DAZN1.html" }
+  ],
+  "1. FC Köln Vs VfB Stuttgart - Bundesliga": [
+    { enlace: "/HTML/Disneyplus.html" }
+  ],
+  "FC Barcelona vs Real Sociedad - LaLiga EA Sports": [
+    { enlace: "/HTML/ESPN.html" }
+  ],
+  "Union Berlin Vs Hamburger SV - Bundesliga": [
+    { enlace: "/HTML/Disneyplus.html" }
+  ],
+  "Racing Vs Independiente - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "AC Milan Vs Nápoles - Serie A": [
+    { enlace: "/HTML/Disneyplus.html" }
+  ],
+  "Betis vs Osasuna - LaLiga EA Sports": [
+    { enlace: "/HTML/MovistarLaLiga.html" }
+  ],
+  "América de Cali Vs Envigado - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "River Plate Vs Deportivo Riestra - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Rionegro Águilas Vs Cali - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Independiente Rivadavia Vs Huracán - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Querétaro Vs Tigres - Liga MX": [
+    { enlace: "/HTML/destacada.html" }
+  ],
+  "Instituto Vs Lanús - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Independiente Santa Fe Vs La Equidad - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Junior Vs Deportivo Pasto - Liga BetPlay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Tijuana Vs Cruz Azul - Liga MX": [
+    { enlace: "/HTML/destacada.html" }
   ]
 });
 
 Object.assign(opcionesEventos, {
   "WWE Crown Jewel - 11 octubre 2025": [
     { enlace: "/HTML/destacada2.html" },
-  ],
-  "TNA iMPACT! 25 de septiembre de 2025": [
-    { enlace: "https://www.youtube.com/watch?v=j4MYT-_iZaQ" },
-    { enlace: "/HTML/CanalLuchaLibre.html" }
   ],
   "TNA Victory Road 26 de septiembre de 2025": [
     { enlace: "https://www.youtube.com/watch?v=e_a1kZT9G9Y" },

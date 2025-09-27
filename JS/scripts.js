@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
+  titulo: "WWE SmackDown 26 de septiembre de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/yU6v-3X8m0s/maxresdefault.jpg",
+  videoId: "_JfZDej2oBI",
+  categoria: "WWE"
+},
+{
   titulo: "WWE Monday Night Raw 22 de septiembre de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/wudcjvbLOJc/maxresdefault.jpg",
   videoId: "j24EUXRDX7A",

@@ -1,5 +1,17 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE SmackDown 26 de Septiembre 2025 Repetición",
+    evento: "SMACKDOWN",
+    imagen: "https://i0.wp.com/www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/09/20250919_SD_Match_WomensTriple_TITLE_16x9_Friday.jpg?resize=740%2C416&ssl=1",
+    url: "//ok.ru/videoembed/9506743061147?nochat=1"
+  },
+  {
+    titulo: "AEW Dynamite 24 de Septiembre 2025 Repetición",
+    evento: "DYNAMITE",
+    imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/G1jy5-bWIAAp8Xr.jpg",
+    url: "//ok.ru/videoembed/9498784107163?nochat=1"
+  },
+  {
     titulo: "WWE NXT 23 de Septiembre 2025 Repetición",
     evento: "NXT",
     imagen: "https://i0.wp.com/www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/09/20250916_NXT_Match_CandiceLainey_16x9_Tonight.jpg?resize=740%2C416&ssl=1",

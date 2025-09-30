@@ -1,5 +1,29 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE RAW 29 de Septiembre 2025 Repetición",
+    evento: "RAW",
+    imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/20250922_RAW_Netflix_Match_DomRusev_16x9_Monday-1024x576.jpg",
+    url: "//ok.ru/videoembed/9518273333915?nochat=1"
+  },
+  {
+    titulo: "Lucha Libre AAA Alianzas 27 de Septiembre 2025 Repetición",
+    evento: "AAA",
+    imagen: "https://cdn2.mediotiempo.com/uploads/media/2025/09/02/alianzas-lucha-libre-aaa-nl.jpg",
+    url: "//ok.ru/videoembed/9513210874523?nochat=1"
+  },
+  {
+    titulo: "WWE NXT No Mercy 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://www.wwe.com/f/styles/wwe_16_9_xl/public/2025/09/20250912_Match_NXT_NoMarcy_JacyLola_16x9_date.jpg",
+    url: "//ok.ru/videoembed/9510679939739?nochat=1"
+  },
+  {
+    titulo: "AEW Collision 27 de Septiembre 2025 Repetición",
+    evento: "COLLISION",
+    imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/G1z1v1HWIAAzNLZ-1024x576.jpg",
+    url: "//ok.ru/videoembed/9510680005275?nochat=1"
+  },
+  {
     titulo: "WWE SmackDown 26 de Septiembre 2025 Repetición",
     evento: "SMACKDOWN",
     imagen: "https://i0.wp.com/www.wwe.com/f/styles/wwe_16_9_xl_r/public/2025/09/20250919_SD_Match_WomensTriple_TITLE_16x9_Friday.jpg?resize=740%2C416&ssl=1",

@@ -59,7 +59,6 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   const contenedor = document.getElementById("canalesRow");
-
   canales.forEach(canal => {
     const col = document.createElement("div");
     col.className = "col-6 col-md-4 col-lg-2";

@@ -45,94 +45,65 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "Kairat Almaty Vs Real Madrid - Champions League": [
-    { enlace: "/HTML/destacada.html" },
-    { enlace: "/HTML/ESPN.html" },
-    { enlace: "/HTML/Paramountplus.html" },
-    { enlace: "/HTML/TUDNUSA.html" },
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "Atalanta Vs Brujas - Champions League": [
-    { enlace: "/HTML/Disneyplus4.html" },
-    { enlace: "/HTML/Fox1Arg.html" }
-  ],
-  "Atlético Vs Eintracht - Champions League": [
-    { enlace: "/HTML/Disneyplus6.html" },
-    { enlace: "/HTML/Disneyplus4.html" },
-    { enlace: "/HTML/Paramountplus3.html" },
-    { enlace: "/HTML/ESPNARGENTINA1.html" }
-  ],
-  "Chelsea Vs Benfica - Champions League": [
-    { enlace: "/HTML/Disneyplus8.html" },
-    { enlace: "/HTML/Fox1Arg.html" },
-    { enlace: "/HTML/ESPNSUR.html" },
-    { enlace: "/HTML/TUDNUSA.html" }
-  ],
-  "Galatasaray Vs Liverpool - Champions League": [
-    { enlace: "/HTML/Disneyplus12.html" }
-  ],
-  "Marseille Vs Ajax - Champions League": [
-    { enlace: "/HTML/Disneyplus7.html" }
-  ],
-  "Pafos Vs Bayern Múnich - Champions League": [
-    { enlace: "/HTML/destacada.html" },
-    { enlace: "/HTML/ESPN.html" },
-    { enlace: "/HTML/Paramountplus.html" },
-    { enlace: "/HTML/Disneyplus11.html" }
-  ],
-  "Inter Milán Vs Slavia Prague - Champions League": [
-    { enlace: "/HTML/Disneyplus9.html" }
-  ],
-  "Bodø/Glimt Vs Tottenham - Champions League": [
-    { enlace: "/HTML/Disneyplus10.html" }
-  ],
-  "Panamá Sub-20 Vs Ucrania Sub-20 - Mundial Sub-20": [
-    { enlace: "/HTML/Dsportsplus.html" }
-  ],
-  "Egipto Sub-20 Vs Nueva Zld Sub-20 - Mundial Sub-20": [
-    { enlace: "/HTML/Dsports2.html" }
-  ],
-  "Chile Sub-20 Vs Japón Sub-20 - Mundial Sub-20": [
-    { enlace: "/HTML/Dsports.html" }
-  ],
-  "Corea del Sur Vs Paraguay - Mundial Sub-20": [
-    { enlace: "/HTML/Dsportsplus.html" }
-  ],
-  "Inter Miami CF Vs Chicago Fire - MLS 2025": [
-    { enlace: "/HTML/destacada5.html" }
-  ],
   "FK Qarabag Vs Copenhague - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/Disneyplus4.html" },
+    { enlace: "/HTML/ESPNARGENTINA2.html" },
+    { enlace: "/HTML/ESPN2.html" }
   ],
   "Union SG Vs Newcastle - Uefa Champions League": [
+    { enlace: "/HTML/TUDNUSA.html" },
+    { enlace: "/HTML/Disneyplus5.html" },
     { enlace: "/HTML/ESPN2.html" }
   ],
   "Monaco Vs M. City - Uefa Champions League": [
-    { enlace: "/HTML/ESPN3.html" }
+    { enlace: "/HTML/TUDNUSA.html" },
+    { enlace: "/HTML/Disneyplus11.html" },
+    { enlace: "/HTML/ESPN2.html" },
+    { enlace: "/HTML/ESPNARGENTINA1.html" }
   ],
   "Villarreal Vs Juventus - Uefa Champions League": [
-    { enlace: "/HTML/ESPN4.html" }
+    { enlace: "/HTML/Disneyplus8.html" },
+    { enlace: "/HTML/ESPN3.html" }
   ],
   "Arsenal Vs Olympiakos - Uefa Champions League": [
+    { enlace: "/HTML/Disneyplus13.html" },
     { enlace: "/HTML/ESPN5.html" }
   ],
-  "Nápoles Vs Sp. Portugal - Uefa Champions League": [
-    { enlace: "/HTML/ESPN6.html" }
+  "Napoli vs Sporting CP - Uefa Champions League": [
+    { enlace: "/HTML/Disneyplus10.html" },
+    { enlace: "/HTML/ESPN4.html" }
   ],
   "Bayer Leverkusen Vs PSV - Uefa Champions League": [
-    { enlace: "/HTML/ESPN7.html" }
+    { enlace: "/HTML/destacada4.html" }
   ],
-  "Borussia Dortmund Vs Athletic - Uefa Champions League": [
-    { enlace: "/HTML/ESPN8.html" }
+  "Dortmund Vs Athletic - Uefa Champions League": [
+    { enlace: "/HTML/destacada8.html" }
   ],
   "Barcelona Vs PSG - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" }
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/destacada.html" },
+    { enlace: "/HTML/Paramountplus.html" },
+    { enlace: "/HTML/Movistarplus.html" },
+    { enlace: "/HTML/Fox1Arg.html" },
+    { enlace: "/HTML/ESPNARGENTINA2.html" }
   ],
-  "Once Caldas Vs Pasto - Copa Águila 2025": [
+  "Once Caldas Vs Pasto - Copa Betplay 2025": [
+    { enlace: "https://www.youtube.com/watch?v=Gqm2kP-tPq8" }
+  ],
+  "Santa Fe Vs Medellín - Copa Betplay 2025": [
     { enlace: "/HTML/Winplus.html" }
   ],
-  "Santa Fe Vs Medellín - Copa Águila 2025": [
-    { enlace: "/HTML/Winplus.html" }
+  "España Vs México - Mundial Sub-20": [
+    { enlace: "/HTML/Dsportsplus.html" }
+  ],
+  "Italia Vs Cuba - Mundial Sub-20": [
+    { enlace: "/HTML/Dsports2.html" }
+  ],
+  "Brasil Vs Marruecos - Mundial Sub-20": [
+    { enlace: "/HTML/Dsportsplus.html" }
+  ],
+  "Argentina Vs Australia - Mundial Sub-20": [
+    { enlace: "/HTML/Dsports.html" }
   ]
 });
 

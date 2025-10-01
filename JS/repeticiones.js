@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE NXT 30 de Septiembre 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://img.solowrestling.com/images/144/144545-wwe-nxt.jpg",
+    url: "//ok.ru/videoembed/9522304125595?nochat=1"
+  },
+  {
     titulo: "WWE RAW 29 de Septiembre 2025 Repetición",
     evento: "RAW",
     imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/09/20250922_RAW_Netflix_Match_DomRusev_16x9_Monday-1024x576.jpg",

@@ -22,7 +22,7 @@ const showsSemanales = [
   { base: "WWE Monday Night Raw", dia: 1, enlace: "/HTML/destacada2.html" },
   { base: "WWE NXT", dia: 2, enlace: "/HTML/destacada2.html" },
   { base: "AEW Dynamite", dia: 3, enlace: "/HTML/FoxSportsPremium.html" },
-  { base: "TNA iMPACT!", dia: 4, enlace: "https://www.youtube.com/watch?v=j4MYT-_iZaQ" },
+  { base: "TNA iMPACT!", dia: 4, enlace: "https://www.youtube.com/watch?v=O7PxNoqL-8Y" },
   { base: "WWE SmackDown", dia: 5, enlace: "/HTML/destacada2.html" },
   { base: "AEW Collision", dia: 6, enlace: "/HTML/TNTUSA.html" }
 ];
@@ -45,65 +45,134 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  "FK Qarabag Vs Copenhague - Uefa Champions League": [
-    { enlace: "/HTML/Disneyplus4.html" },
-    { enlace: "/HTML/ESPNARGENTINA2.html" },
-    { enlace: "/HTML/ESPN2.html" }
-  ],
-  "Union SG Vs Newcastle - Uefa Champions League": [
-    { enlace: "/HTML/TUDNUSA.html" },
-    { enlace: "/HTML/Disneyplus5.html" },
-    { enlace: "/HTML/ESPN2.html" }
-  ],
-  "Monaco Vs M. City - Uefa Champions League": [
-    { enlace: "/HTML/TUDNUSA.html" },
-    { enlace: "/HTML/Disneyplus11.html" },
-    { enlace: "/HTML/ESPN2.html" },
-    { enlace: "/HTML/ESPNARGENTINA1.html" }
-  ],
-  "Villarreal Vs Juventus - Uefa Champions League": [
-    { enlace: "/HTML/Disneyplus8.html" },
-    { enlace: "/HTML/ESPN3.html" }
-  ],
-  "Arsenal Vs Olympiakos - Uefa Champions League": [
-    { enlace: "/HTML/Disneyplus13.html" },
-    { enlace: "/HTML/ESPN5.html" }
-  ],
-  "Napoli vs Sporting CP - Uefa Champions League": [
-    { enlace: "/HTML/Disneyplus10.html" },
-    { enlace: "/HTML/ESPN4.html" }
-  ],
-  "Bayer Leverkusen Vs PSV - Uefa Champions League": [
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "Dortmund Vs Athletic - Uefa Champions League": [
-    { enlace: "/HTML/destacada8.html" }
-  ],
-  "Barcelona Vs PSG - Uefa Champions League": [
-    { enlace: "/HTML/ESPN.html" },
-    { enlace: "/HTML/destacada.html" },
-    { enlace: "/HTML/Paramountplus.html" },
-    { enlace: "/HTML/Movistarplus.html" },
-    { enlace: "/HTML/Fox1Arg.html" },
-    { enlace: "/HTML/ESPNARGENTINA2.html" }
-  ],
-  "Once Caldas Vs Pasto - Copa Betplay 2025": [
-    { enlace: "https://www.youtube.com/watch?v=Gqm2kP-tPq8" }
-  ],
-  "Santa Fe Vs Medellín - Copa Betplay 2025": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "España Vs México - Mundial Sub-20": [
+  "Estados Unidos Vs Francia - Mundial Sub-20": [
     { enlace: "/HTML/Dsportsplus.html" }
   ],
-  "Italia Vs Cuba - Mundial Sub-20": [
+  "Colombia Vs Noruega - Mundial Sub-20": [
+    { enlace: "/HTML/Dsports.html" }
+  ],
+  "Sudáfrica Vs Nueva Caledonia - Mundial Sub-20": [
     { enlace: "/HTML/Dsports2.html" }
   ],
-  "Brasil Vs Marruecos - Mundial Sub-20": [
+  "Nigeria Vs Arabia Saudita - Mundial Sub-20": [
     { enlace: "/HTML/Dsportsplus.html" }
   ],
-  "Argentina Vs Australia - Mundial Sub-20": [
-    { enlace: "/HTML/Dsports.html" }
+  "Bolonia Vs SC Freiburg - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus3.html" },
+    { enlace: "/HTML/ESPN4.html" }
+  ],
+  "Panathinaikos Vs GA Eagles - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus1.html" }
+  ],
+  "Roma Vs Lille - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus8.html" },
+    { enlace: "/HTML/ESPN2.html" },
+    { enlace: "/HTML/TUDNUSA.html" }
+  ],
+  "Fenerbahçe Vs Niza - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus4.html" }
+  ],
+  "Plzen Vs Malmö - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus7.html" }
+  ],
+  "Brann Vs Utrecht - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus5.html" }
+  ],
+  "Celtic Vs Braga - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus9.html" },
+    { enlace: "/HTML/ESPN3.html" }
+  ],
+  "Ludogorets Vs Betis - Europa League 2025": [
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/Disneyplus2.html" }
+  ],
+  "Steaua Bucarest Vs Young Boys - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus6.html" }
+  ],
+  "Sturm Graz Vs Rangers - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus.html?opcion=19" }
+  ],
+  "Celta Vs PAOK Salonica - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus1.html" }
+  ],
+  "Aviv Vs Dinamo Zagreb - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus3.html" }
+  ],
+  "O. Lyon Vs Salzburgo - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus4.html" }
+  ],
+  "Porto Vs Estrella Roja - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus7.html" }
+  ],
+  "Basel Vs VfB Stuttgart - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus6.html" }
+  ],
+  "Forest Vs Midtjylland - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus2.html" }
+  ],
+  "KRC Genk Vs Ferencvárosi TC - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus5.html" }
+  ],
+  "Feyenoord Vs A Villa - Europa League 2025": [
+    { enlace: "/HTML/Disneyplus.html?opcion=20" },
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/TUDNUSA.html" },
+    { enlace: "/HTML/ESPNARGENTINA1.html" }
+  ],
+  "Junior Vs América de Cali - Copa Betplay 2025": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Tigre Vs Defensa y Justicia - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Argentinos Vs Central Córdoba - Liga Argentina": [
+    { enlace: "/HTML/ESPNPremium.html" }
+  ],
+  "Unión Vs Aldosivi - Liga Argentina": [
+    { enlace: "/HTML/tntsportsa.html" }
+  ],
+  "Deportivo Cali Vs Pereira - Liga Betplay": [
+    { enlace: "/HTML/Winplus.html" }
+  ],
+  "Necaxa Vs Pachuca - Liga MX": [
+    { enlace: "/HTML/azteca7.html" },
+    { enlace: "/HTML/TUDNUSA.html" }
+  ],
+  "Mazatlán Vs Atlético San Luis - Liga MX": [
+    { enlace: "/HTML/TUDNUSA.html" }
+  ],
+  "Atlas FC Vs FC Juárez - Liga MX": [
+    { enlace: "/HTML/UnivisionUSA.html" }
+  ]
+});
+
+Object.assign(opcionesEventos, {
+  "WWE Crown Jewel - 11 octubre 2025": [
+    { enlace: "/HTML/destacada2.html" },
+  ],
+  "TNA iMPACT! 2 de octubre de 2025": [
+    { enlace: "/HTML/https://www.youtube.com/watch?v=O7PxNoqL-8Y" },
+    { enlace: "/HTML/CanalLuchaLibre.html" }
+  ],
+  "AEW WrestleDream 18 de octubre de 2025": [
+    { enlace: "HTML/FoxSportsPremium.html" },
+    { enlace: "/HTML/CanalLuchaLibre.html" }
+  ],
+  "AEW Full Gear 22 de noviembre de 2025": [
+    { enlace: "HTML/FoxSportsPremium.html" },
+    { enlace: "/HTML/CanalLuchaLibre.html" }
+  ],
+  "AEW Worlds End 27 de diciembre de 2025": [
+    { enlace: "HTML/FoxSportsPremium.html" },
+    { enlace: "/HTML/CanalLuchaLibre.html" }
+  ],
+  "WWE Saturday Night's Main Event 1 de noviembre de 2025": [
+    { enlace: "HTML/destacada2.html" },
+    { enlace: "/HTML/CanalLuchaLibre.html" }
+  ],
+  "WWE Survivor Series - 29 noviembre 2025": [
+    { enlace: "HTML/destacada2.html" },
+    { enlace: "/HTML/CanalLuchaLibre.html" }
   ]
 });
 

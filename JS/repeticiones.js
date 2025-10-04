@@ -1,5 +1,17 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE SmackDown 3 de Octubre 2025 Repetición",
+    evento: "SMACKDOWN",
+    imagen: "https://img.solowrestling.com/images/144/144610-smackdown.jpg",
+    url: "//ok.ru/videoembed/9534961552027?nochat=1"
+  },
+  {
+    titulo: "AEW Dynamite 1 de Octubre 2025 Repetición",
+    evento: "DYNAMITE",
+    imagen: "https://img.solowrestling.com/images/144/144585-aew-trios.jpg",
+    url: "//ok.ru/videoembed/9530493176475?nochat=1"
+  },
+  {
     titulo: "WWE NXT 30 de Septiembre 2025 Repetición",
     evento: "NXT",
     imagen: "https://img.solowrestling.com/images/144/144545-wwe-nxt.jpg",

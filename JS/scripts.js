@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
 {
   titulo: "WWE SmackDown 3 de Octubre de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/6TRSvZpapxM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAGFWK43vxc6P9tdobhdiheFemlPg",
-  videoId: "9PmigNfJTuc",
+  videoId: "91Cu76k0SF8",
   categoria: "WWE"
 },
 {

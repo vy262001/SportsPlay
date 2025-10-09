@@ -1,5 +1,23 @@
 const eventosRepeticiones = [
   {
+    titulo: "AEW Dynamite 7 de Octubre 2025 Repetición",
+    evento: "DYNAMITE",
+    imagen: "https://img.solowrestling.com/images/144/144706-aew-dynamite.jpg",
+    url: "//ok.ru/videoembed/9551339260571?nochat=1"
+  },
+  {
+    titulo: "WWE NXT 7 de Octubre 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://i2.wp.com/mundolucha.com/wp-content/uploads/2025/10/previa-wwe-nxt-7-de-octubre-de-2025-showdown-mundolucha.jpg",
+    url: "//ok.ru/videoembed/9551306754715?nochat=1"
+  },
+  {
+    titulo: "WWE RAW 6 de Octubre 2025 Repetición",
+    evento: "RAW",
+    imagen: "https://www.wwe.com/f/styles/wwe_16_9_m/public/2025/10/20250929_RAW_Netflix_Match_BeckyMaxxine_16x9_tonight.jpg",
+    url: "//ok.ru/videoembed/9547135322779?nochat=1"
+  },
+  {
     titulo: "WWE SmackDown 3 de Octubre 2025 Repetición",
     evento: "SMACKDOWN",
     imagen: "https://img.solowrestling.com/images/144/144610-smackdown.jpg",

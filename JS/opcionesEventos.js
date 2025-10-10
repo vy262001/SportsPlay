@@ -45,99 +45,47 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  // Eventos 09/10/2025
-  "Finlandia Vs Lituania - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus1.html" },
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Rumanía Vs Moldavia - Amistoso": [
-    { enlace: "/HTML/Disneyplus2.html" }
-  ],
-  "Bielorrusia Vs Dinamarca - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus7.html" }
-  ],
-  "Chipre Vs Bosnia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus5.html" }
-  ],
-  "Islas Feroe Vs Montenegro - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus6.html" }
-  ],
-  "Escocia Vs Grecia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus3.html" }
-  ],
-  "Rep Checa Vs Croacia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus9.html" }
-  ],
-  "Austria Vs San Marino - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
-  ],
-  "Malta Vs Países Bajos - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus8.html" },
-    { enlace: "/HTML/ESPN.html" }
-  ],
-  "Polonia Vs Nueva Zelanda - Amistoso": [
-    { enlace: "/HTML/Disneyplus11.html" }
-  ],
-  "Inglaterra Vs Gales - Amistoso": [
-    { enlace: "/HTML/Disneyplus10.html" }
-  ],
-  "Marruecos Vs Bahréin - Amistoso": [
-    { enlace: "/HTML/destacada4.html" }
-  ],
-  "Estados Unidos Vs Italia - Mundial Sub-20": [
-    { enlace: "/HTML/destacada8.html" },
-    { enlace: "/HTML/Dsports2.html" },
-    { enlace: "/HTML/Dsportsplus.html" }
-  ],
-  "Marruecos Vs Corea del Sur - Mundial Sub-20": [
-    { enlace: "/HTML/Dsports.html" },
-    { enlace: "/HTML/Dsports2.html" },
-    { enlace: "/HTML/Dsportsplus.html" }
-  ],
-  "Once Caldas Vs Nacional - Copa BetPlay 2025": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Japón Vs Paraguay - Amistoso": [
-    { enlace: "/HTML/destacada.html" }
-  ],
-  "Corea del Sur Vs Brasil - Amistoso": [
-    { enlace: "/HTML/destacada.html" }
-  ],
+  // Eventos 10/10/2025
   "Uruguay Vs República Dominicana - Amistoso": [
     { enlace: "/HTML/destacada.html" }
   ],
   "Kazajistán Vs Liechtenstein - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
+    { enlace: "/HTML/ESPN4.html" }
   ],
   "Bolivia Vs Jordania - Amistoso": [
-    { enlace: "/HTML/destacada.html" }
+    { enlace: "/HTML/destacada3.html?opcion=1" }
+  ],
+  "Atlético Madrid Vs Inter - Amistoso": [
+    { enlace: "/HTML/destacada4.html" },
+    { enlace: "https://www.youtube.com/watch?v=tIp6mK7BSxM" }
   ],
   "Rusia Vs Irán - Amistoso Internacional": [
-    { enlace: "/HTML/destacada.html" }
+    { enlace: "/HTML/destacada3.html?opcion=3" }
   ],
   "San Lorenzo Vs San Martín SJ - Liga Argentina": [
     { enlace: "/HTML/tntsportsa.html" }
   ],
   "Kosovo Vs Eslovenia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
+    { enlace: "/HTML/Disneyplus7.html" }
   ],
   "Islandia Vs Ucrania - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
+    { enlace: "/HTML/Disneyplus5.html" }
   ],
   "Irl del Norte Vs Eslovaquia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
+    { enlace: "/HTML/Disneyplus8.html" }
   ],
   "Suecia Vs Suiza - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
+    { enlace: "/HTML/Disneyplus6.html" }
   ],
   "Bélgica Vs Macedonia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
+    { enlace: "/HTML/Disneyplus4.html" }
   ],
   "Francia Vs Azerbaiyán - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
+    { enlace: "/HTML/Disneyplus2.html" }
   ],
   "Alemania Vs Luxemburgo - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus.html" }
+    { enlace: "/HTML/ESPN.html" },
+    { enlace: "/HTML/Disneyplus3.html" }
   ],
   "Defensa y Justicia Vs Argentinos - Liga Argentina": [
     { enlace: "/HTML/ESPNPremium.html" }
@@ -148,14 +96,21 @@ Object.assign(opcionesEventos, {
   "Newell's Vs Tigre - Liga Argentina": [
     { enlace: "/HTML/ESPNPremium.html" }
   ],
-  "Canadá Vs Australia - Amistoso": [
-    { enlace: "/HTML/destacada.html" }
+  "Chile Vs Perú - Amistoso de Selecciones": [
+    { enlace: "/HTML/destacada3.html?opcion=2" }
+  ],
+  "Canadá Vs Australia - Amistoso de Selecciones": [
+    { enlace: "/HTML/destacada7.html" }
   ],
   "Argentina Vs Venezuela - Amistoso": [
-    { enlace: "/HTML/destacada.html" }
+    { enlace: "/HTML/tycsports.html" },
+    { enlace: "/HTML/Telefe.html" },
+    { enlace: "/HTML/beinesp.html" }
   ],
   "Estados Unidos Vs Ecuador - Amistoso": [
-    { enlace: "/HTML/destacada.html" }
+    { enlace: "/HTML/destacada8.html" },
+    { enlace: "/HTML/ECDF.html" },
+    { enlace: "/HTML/TNTUSA.html" }
   ],
   "Letonia Vs Andorra - Clasificación Mundial UEFA": [
     { enlace: "/HTML/Starplus.html" }

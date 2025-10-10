@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "TNA iMPACT! 9 de Octubre 2025 Repeticion",
+    evento: "TNA",
+    imagen: "https://tnawrestling.com/media/summernote/0b15ee5d68a929497d42be521c3d4eb8-2.jpg",
+    url: "https://ok.ru/videoembed/9847539239524?nochat=1"
+  },
+  {
     titulo: "AEW Dynamite 7 de Octubre 2025 Repetición",
     evento: "DYNAMITE",
     imagen: "https://img.solowrestling.com/images/144/144706-aew-dynamite.jpg",

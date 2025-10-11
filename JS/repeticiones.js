@@ -1,5 +1,17 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE Crown Jewel 2025 Repetición",
+    evento: "WWE",
+    imagen: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202510/cody-rhodes--seth-rollins-103010617-16x9_0.jpg?VersionId=nEBMpD4hmi_863MFaHFvXa22zF6kzABY&size=690:388",
+    url: "//ok.ru/videoembed/9566818011803?nochat=1"
+  },
+  {
+    titulo: "WWE SmackDown 10 de Octubre 2025 Repetición",
+    evento: "SMACKDOWN",
+    imagen: "https://img.solowrestling.com/images/144/tablet144758-smackdown.jpg",
+    url: "//ok.ru/videoembed/9562753796763?nochat=1"
+  },
+  {
     titulo: "TNA iMPACT! 9 de Octubre 2025 Repeticion",
     evento: "TNA",
     imagen: "https://tnawrestling.com/media/summernote/0b15ee5d68a929497d42be521c3d4eb8-2.jpg",

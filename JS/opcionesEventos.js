@@ -45,117 +45,67 @@ showsSemanales.forEach(show => {
 // Eventos especiales fijos
 // ================================
 Object.assign(opcionesEventos, {
-  // Eventos 10/10/2025
-  "Uruguay Vs República Dominicana - Amistoso": [
-    { enlace: "/HTML/destacada.html" }
-  ],
-  "Kazajistán Vs Liechtenstein - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/ESPN4.html" }
-  ],
-  "Bolivia Vs Jordania - Amistoso": [
-    { enlace: "/HTML/destacada3.html?opcion=1" }
-  ],
-  "Atlético Madrid Vs Inter - Amistoso": [
-    { enlace: "/HTML/destacada4.html" },
-    { enlace: "https://www.youtube.com/watch?v=tIp6mK7BSxM" }
-  ],
-  "Rusia Vs Irán - Amistoso Internacional": [
-    { enlace: "/HTML/destacada3.html?opcion=3" }
-  ],
-  "San Lorenzo Vs San Martín SJ - Liga Argentina": [
-    { enlace: "/HTML/tntsportsa.html" }
-  ],
-  "Kosovo Vs Eslovenia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus7.html" }
-  ],
-  "Islandia Vs Ucrania - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus5.html" }
-  ],
-  "Irl del Norte Vs Eslovaquia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus8.html" }
-  ],
-  "Suecia Vs Suiza - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus6.html" }
-  ],
-  "Bélgica Vs Macedonia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus4.html" }
-  ],
-  "Francia Vs Azerbaiyán - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Disneyplus2.html" }
-  ],
-  "Alemania Vs Luxemburgo - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/ESPN.html" },
-    { enlace: "/HTML/Disneyplus3.html" }
-  ],
-  "Defensa y Justicia Vs Argentinos - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Central Córdoba Vs Unión - Liga Argentina": [
-    { enlace: "/HTML/tntsportsa.html" }
-  ],
-  "Newell's Vs Tigre - Liga Argentina": [
-    { enlace: "/HTML/ESPNPremium.html" }
-  ],
-  "Chile Vs Perú - Amistoso de Selecciones": [
-    { enlace: "/HTML/destacada3.html?opcion=2" }
-  ],
-  "Canadá Vs Australia - Amistoso de Selecciones": [
-    { enlace: "/HTML/destacada7.html" }
-  ],
-  "Argentina Vs Venezuela - Amistoso": [
-    { enlace: "/HTML/tycsports.html" },
-    { enlace: "/HTML/Telefe.html" },
-    { enlace: "/HTML/beinesp.html" }
-  ],
-  "Estados Unidos Vs Ecuador - Amistoso": [
-    { enlace: "/HTML/destacada8.html" },
-    { enlace: "/HTML/ECDF.html" },
-    { enlace: "/HTML/TNTUSA.html" }
-  ],
+  // Eventos 11/10/2025
   "Letonia Vs Andorra - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Starplus.html" }
+    { enlace: "/HTML/ESPNARGENTINA2.html" },
+    { enlace: "/HTML/ESPN2.html" }
   ],
   "Hungría Vs Armenia - Clasificación Mundial UEFA": [
     { enlace: "/HTML/Disneyplus.html" }
   ],
   "Noruega Vs Israel - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Starplus.html" }
+    { enlace: "/HTML/Disneyplus.html" }
   ],
   "Estonia Vs Italia - Clasificación Mundial UEFA": [
     { enlace: "/HTML/Disneyplus.html" }
   ],
   "España Vs Georgia - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/La1.html" }
+    { enlace: "/HTML/ESPNARGENTINA2.html" },
+    { enlace: "/HTML/ESPN2.html" }
   ],
   "Serbia Vs Albania - Clasificación Mundial UEFA": [
-    { enlace: "/HTML/Starplus.html" }
+    { enlace: "/HTML/Disneyplus.html" }
   ],
   "Bulgaria Vs Turquía - Clasificación Mundial UEFA": [
     { enlace: "/HTML/Disneyplus.html" }
   ],
   "Portugal Vs Irlanda - Clasificación Mundial UEFA": [
+    { enlace: "/HTML/ESPN.html" },
     { enlace: "/HTML/Disneyplus.html" }
   ],
   "Gimnasia Vs Talleres - Liga Argentina": [
     { enlace: "/HTML/ESPNPremium.html" }
   ],
   "España Vs Colombia - Mundial Sub-20": [
-    { enlace: "/HTML/Dsports.html" }
+    { enlace: "/HTML/Caracoltv.html" },
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/RCN.html" },
+    { enlace: "/HTML/TelemundoUSA.html" }
   ],
   "Palmeiras Vs Juventude - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
+    { enlace: "/HTML/destacada4.html" }
   ],
   "Banfield Vs Racing - Liga Argentina": [
     { enlace: "/HTML/tntsportsa.html" }
   ],
   "México Vs Argentina - Mundial Sub-20": [
-    { enlace: "/HTML/Dsports2.html" }
+    { enlace: "/HTML/Dsports.html" },
+    { enlace: "/HTML/TelemundoUSA.html" },
+    { enlace: "/HTML/TUDNMX.html" },
+    { enlace: "/HTML/Telefe.html" },
+    { enlace: "/HTML/TUDNUSA.html" }
   ],
   "Belgrano Vs Estudiantes - Liga Argentina": [
     { enlace: "/HTML/tntsportsa.html" }
   ],
   "México Vs Colombia - Amistoso": [
-    { enlace: "/HTML/destacada.html" }
+    { enlace: "/HTML/destacada.html" },
+    { enlace: "/HTML/Caracoltv.html" },
+    { enlace: "/HTML/azteca7.html" },
+    { enlace: "/HTML/TUDNUSA.html" },
+    { enlace: "/HTML/RCN.html" },
+    { enlace: "/HTML/TUDNMX.html" },
+    { enlace: "/HTML/UnivisionUSA.html" }
   ],
   "Vélez Vs Rosario Central - Liga Argentina": [
     { enlace: "/HTML/ESPNPremium.html" }
@@ -196,7 +146,7 @@ Object.assign(opcionesEventos, {
   "Independiente Santa Fe Vs Llaneros - Liga BetPlay": [
     { enlace: "/HTML/Winplus.html" }
   ],
-  "Por definirse Vs Por definirse - Mundial Sub-20": [
+  "Estados Unidos Vs Marruecos - Mundial Sub-20": [
     { enlace: "/HTML/Dsports.html" }
   ],
   "Instituto Vs Atl. Tucumán - Liga Argentina": [
@@ -205,7 +155,7 @@ Object.assign(opcionesEventos, {
   "Rivadavia Vs Godoy Cruz - Liga Argentina": [
     { enlace: "/HTML/ESPNPremium.html" }
   ],
-  "Alianza Petrolera Vs Junior - Liga BetPlay": [
+  "Alianza Vs Junior - Liga BetPlay": [
     { enlace: "/HTML/Winplus.html" }
   ],
   "River Vs Sarmiento - Liga Argentina": [
@@ -324,66 +274,12 @@ Object.assign(opcionesEventos, {
   ],
   "México Vs Ecuador - Amistoso": [
     { enlace: "/HTML/destacada.html" }
-  ],
-  "Palmeiras Vs Bragantino - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Botafogo Vs Flamengo - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Mirassol Vs Internacional - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Sport Club do Recife Vs Ceará - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Deportivo Pereira Vs Millonarios - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Santos Vs Corinthians - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Fortaleza EC Vs Vasco da Gama - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Atlético MG Vs Cruzeiro - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "América de Cali Vs Junior - Copa BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Grêmio Vs São Paulo - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Vitória Vs Esporte Clube Bahia - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Fluminense Vs Juventude - Brasileirão": [
-    { enlace: "/HTML/PremiereBR.html" }
-  ],
-  "Union Berlin Vs Borussia M'gladbach - Bundesliga": [
-    { enlace: "/HTML/DAZN3.html" }
-  ],
-  "Paris Saint-Germain Vs Strasbourg - Ligue 1": [
-    { enlace: "/HTML/Disneyplus16.html" }
-  ],
-  "Oviedo Vs Espanyol - LaLiga EA Sports": [
-    { enlace: "/HTML/DAZNLALIGA.html" }
-  ],
-  "Medellín Vs Fortaleza CEIF - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
-  ],
-  "Unión Magdalena Vs Envigado - Liga BetPlay": [
-    { enlace: "/HTML/Winplus.html" }
   ]
 });
 
 Object.assign(opcionesEventos, {
-  "WWE Crown Jewel - 11 octubre 2025": [
-    { enlace: "/HTML/destacada2.html" },
-  ],
-  "TNA iMPACT! 9 de octubre de 2025": [
-    { enlace: "/HTML/https://www.youtube.com/watch?v=Msc7_63JoCk" },
+    "WWE Saturday Night's Main Event 1 de noviembre de 2025": [
+    { enlace: "HTML/destacada2.html" },
     { enlace: "/HTML/CanalLuchaLibre.html" }
   ],
   "AEW WrestleDream 18 de octubre de 2025": [

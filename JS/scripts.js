@@ -1,6 +1,12 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
+  titulo: "WWE SmackDown 10 de Octubre de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/7SF9IqKX99Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBp8VOiu9a50skxHDkKxnKsfj6m9g",
+  videoId: "wdPE9fidahI",
+  categoria: "WWE"
+},
+{
   titulo: "WWE Monday Night Raw 6 de octubre de 2025 Resumen",
   miniatura: "https://www.wwe.com/f/styles/og_image/public/video/thumb/2025/10/dchiraw1689_14_ntwk.jpg",
   videoId: "5hE5jYVC7eQ",

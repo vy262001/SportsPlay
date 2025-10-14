@@ -1,6 +1,18 @@
 document.addEventListener("DOMContentLoaded", function () {
   const videos = [
 {
+  titulo: "WWE Monday Night Raw 13 de octubre de 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/qwZL9ZrEZB0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDoR8wyoDUo35-QYk9MeIuwWAASxQ",
+  videoId: "MxCi-Ot646Q",
+  categoria: "WWE"
+},
+{
+  titulo: "WWE Crown Jewel 2025 Resumen",
+  miniatura: "https://i.ytimg.com/vi/73I8DzuzQXs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAnlP5VoBZ9RQKS4Len04i5HSySxw",
+  videoId: "TVxlqkmGf4w",
+  categoria: "WWE"
+},
+{
   titulo: "WWE SmackDown 10 de Octubre de 2025 Resumen",
   miniatura: "https://i.ytimg.com/vi/7SF9IqKX99Q/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBp8VOiu9a50skxHDkKxnKsfj6m9g",
   videoId: "wdPE9fidahI",

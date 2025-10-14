@@ -1,5 +1,17 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE RAW 13 de Octubre 2025 Repetición",
+    evento: "RAW",
+    imagen: "https://img.solowrestling.com/images/144/144847-wwe-raw.jpg",
+    url: "//ok.ru/videoembed/9574810716827?nochat=1"
+  },
+  {
+    titulo: "AEW Collision 11 de Octubre 2025 Repetición",
+    evento: "COLLISION",
+    imagen: "https://img.solowrestling.com/images/144/144814-collision-11.jpg",
+    url: "//ok.ru/videoembed/9568264260251?nochat=1"
+  },
+  {
     titulo: "WWE Crown Jewel 2025 Repetición",
     evento: "WWE",
     imagen: "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202510/cody-rhodes--seth-rollins-103010617-16x9_0.jpg?VersionId=nEBMpD4hmi_863MFaHFvXa22zF6kzABY&size=690:388",

@@ -1,5 +1,11 @@
 const eventosRepeticiones = [
   {
+    titulo: "WWE NXT 14 de Octubre 2025 Repetición",
+    evento: "NXT",
+    imagen: "https://turnheelwrestling.com/wp-content/uploads/2025/10/G3Km5B_bQAEBYPX-1024x576.jpg",
+    url: "//ok.ru/videoembed/9580494785179?nochat=1"
+  },
+  {
     titulo: "WWE RAW 13 de Octubre 2025 Repetición",
     evento: "RAW",
     imagen: "https://img.solowrestling.com/images/144/144847-wwe-raw.jpg",
